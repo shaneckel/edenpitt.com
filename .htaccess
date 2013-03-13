@@ -1,2 +1,7 @@
 
 AddHandler php-legacy .php
+<Directory .git>
+	order allow,deny
+	deny from all
+</Directory>
+
