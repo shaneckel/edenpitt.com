@@ -1,5 +1,3 @@
 #git ignore
-._STAGING
 /staging
-
-
+.htaccess
