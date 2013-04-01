@@ -9,10 +9,11 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   	<title>Eden | Fresh. Local. Smart. | 735 Copeland St. - Pittsburgh, Pa</title>
- 	<meta name="description" content="">
+ 		<meta name="description" content="">
+
 
   	<meta name="viewport" content="width=device-width,initial-scale=1">
-
+	<script>//code healthy</script>
 	<!-- Include Head Files -->
 	<?php 
 		$head = 'inc/head-files.php';
@@ -21,7 +22,6 @@
 </head>
 
 <body onload="setupZoom()">
-	Bing bong hello.
 	<div id="container" class="easy-clearing">
 	
 		<!-- Include Masthead -->
