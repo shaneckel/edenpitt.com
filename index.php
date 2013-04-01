@@ -21,7 +21,8 @@
 </head>
 
 <body onload="setupZoom()">
-	Bing bong hello.
+
+
 	<div id="container" class="easy-clearing">
 	
 		<!-- Include Masthead -->
