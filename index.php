@@ -12,7 +12,7 @@
  	<meta name="description" content="">
 
   	<meta name="viewport" content="width=device-width,initial-scale=1">
-
+	<script>//code healthy</script>
 	<!-- Include Head Files -->
 	<?php 
 		$head = 'inc/head-files.php';
