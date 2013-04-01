@@ -8,7 +8,7 @@
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  	<title>Fall | Eden</title>
+  	<title>Spring | Eden</title>
  	<meta name="description" content="">
   	<meta name="author" content="">
 
@@ -48,7 +48,7 @@
 		
 		<section id="main" role="main">
 		
-			<header><h1 id="winter"><span>Winter</span></h1></header>
+			<header><h1 id="spring"><span>Spring</span></h1></header>
 			
 			<p id="dinner-intro">
 				Eden is a BYOB establishment.
@@ -74,27 +74,21 @@
 				</header>				
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">ACORN SQUASH SOUP <div>[<mark>&#36;</mark><span class="padding-left-10">5]</span></div>
-							<aside>A chilled, blended soup with ginger, lemon, and orange 
-and a drizzle of raw local honey</aside></header>
+						<header class="featured-item">BEET CARPACCIO <div>[<mark>&#36;</mark><span class="padding-left-10">10]</span></div>
+							<aside>Macadamia nut cheese, arugula and a whole grain mustard vinaigrette.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">VEGETABLE NORI ROLL <div>[<mark>&#36;</mark><span class="padding-left-10">7]</span></div>
-							<aside>Cucumber, avocado, and carrot, zucchini, sesame, rice, 
-rolled up in raw nori sheets. Served with lemon sesame cream.</aside></header>
+						<header class="featured-item">CURRIED CASHEW SOUP <div>[<mark>&#36;</mark><span class="padding-left-10">6]</span></div>
+							<aside>Beet and orange.</aside></header>
 				</ul>
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">CASHEW CHEESE PLATE <div>[<mark>&#36;</mark><span class="padding-left-10">8]</span></div>
-							<aside>A Brie-like cheese made completely of cashews. Served 
-with kumquat marmalade, carrot ﬂax crackers and 
-cucumber</aside></header>
+						<header class="featured-item">VEGETABLE CHIPS <div>[<mark>&#36;</mark><span class="padding-left-10">7]</span></div>
+							<aside>Dehydrated vegetables with sauce of the day.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">COCONUT NOODLES w/ MISO <div>[<mark>&#36;</mark><span class="padding-left-10">6.5]</span></div>
-							<aside>Shaved coconut, zucchini and parsnip served over a 
-bowl of chilled honeydew and miso soup, spiked with 
-ginger and Thai chili.</aside></header>
+						<header class="featured-item">SHIITAKE CEVICHE <div>[<mark>&#36;</mark><span class="padding-left-10">8.5]</span></div>
+							<aside>With jicama, fresh chiles, cilantro and lime. Served with dehydrated vegetable chips.</aside></header>
 					</li>
 				</ul>			
 			</article>					
@@ -107,25 +101,21 @@ ginger and Thai chili.</aside></header>
 				</header>				
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">STUFFED COLLARD GREENS <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
-							<aside>Smokey sprouted lentil hummus, carWith curried oat groats, sweet pumpkin seed butter, carrot, zucchini, rice, and chunks of 
-cashew cheese. Served with smoked paprika dipping sauce.</aside></header>
+						<header class="featured-item">MUSHROOM BURGER <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
+							<aside>Carrot and zucchini bread, cashew cheese, avocado, pickled red onion and arugula. Served with fresh greens.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">PORTOBELLO STEAK <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
-							<aside>Marinated portobello steaks sliced and served over a bed of spinach and mounds of riced 
-cauliﬂower and broccoli in an avocado and sunﬂower cream.</aside></header>
+						<header class="featured-item">AMARANTH AND QUINOA GNOCCHI <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
+							<aside>With spinach, butter beans, sun dried marinara and cashew parmesan.</aside></header>
 				</ul>
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">FENNEL, SHIITAKE, AND ASPARAGUS STEW   <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
-							<aside>Brazil nut, coconut and carrot puree with marinated fennel, shiitake mushrooms, asparagus 
-and parsnip. </aside></header>
+						<header class="featured-item">SPICY CABBAGE NOODLES <div>[<mark>&#36;</mark><span class="padding-left-10">13.5]</span></div>
+							<aside>With green peas, red peppers, carrots, sliced almonds, ginger, sesame and a creamy, spiced almond sauce.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">SEA PIZZA <div>[<mark>&#36;</mark><span class="padding-left-10">13.5]</span></div>
-							<aside>Carrot and ﬂax crust with green pea and sunﬂower cream, wakame seaweed, and cucumber.
-</aside></header>
+						<header class="featured-item">STUFFED PORTOBELLO <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
+							<aside>Marinated portobello mushrooms stuffed with riced cauliflower and chopped kale, topped with coconut ricotta and a smokey sunfower sauce.</aside></header>
 					</li>
 				</ul>					
 								
@@ -137,85 +127,72 @@ and parsnip. </aside></header>
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-						RED CURRIED STEW
-						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">12]</span>
-						</div>
-						<aside>
-							Red curry, coconut milk, potatoes, green peas, and cauliﬂower. 
-Served with brown rice.
-							<aside class="sub-caption">Get it with organic tofu, organic tempeh, or natural local chicken for an additional $2. 
-</aside>
-						</aside>
+							BLACK TRUFFLE RICE NOODLES
+							<div>
+								[<mark>&#36;</mark><span class="padding-left-10">13]</span>
+							</div>
+							<aside>Shiitake mushrooms, red peppers, carrots and leeks with a coconut, black truffle and miso broth.
+								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
+							</aside>
 						</header>
-					</li>					
+					</li>	
+
 					<li>
 						<header class="featured-item">
-						PEANUT KALE
-						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">12]</span>
-						</div>
-						<aside>
-						Kale, peanuts and butternut squash in a maple peanut sauce. 
-Served with brown rice.
-							<aside class="sub-caption">Get it with organic tofu, organic tempeh, or natural local chicken for an additional $2.
-</aside>
-						</aside>
+							PEANUT LENTIL CURRY
+							<div>
+								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
+							</div>
+							<aside>Steamed mixed vegetables in a Moroccan spice blend. Served with brown rice. This dish contains no oil.
+								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
+							</aside>
 						</header>
 					</li>
+
 					<li class="last">
 						<header class="featured-item">
-						MEXICAN BURRITO BOWL	
- 						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">11]</span>
-						</div>
-						<aside>
-			 Peppers, black beans, red onion and zucchini sauteed with a cumin chili 
-			and cacao sauce. Served with brown rice, avocado and pepitas.							
-			<aside class="sub-caption">Get it with organic tempeh, organic tofu, or local natural chicken for an additional $2.		<aside>
-
+							MOROCCAN SPICED VEGETABLES	
+	 						<div>
+								[<mark>&#36;</mark><span class="padding-left-10">11]</span>
+							</div>
+							<aside>Steamed mixed vegetables in a Moroccan spice blend. Served with brown rice. This dish contains no oil.
+								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
+							</aside>
 						</header>
 					</li>
 				</ul>				
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-						WINTER STEW
-						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">12]</span>
-						</div>
-						<aside>
-							Butternut squash, beets, carrots, potatoes, and broccoli,  in a zesty tomato, 
-basil stew
-							<aside class="sub-caption">Get it with organic tofu, organic tempeh, or local natural chicken for and additional $2.
-</aside>
-						</aside>
+							SPICY CAULIFLOWER AND POTATOES W/KALE
+							<div>
+								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
+							</div>
+							<aside>Cauliflower, kale and potatoes with a spicy chipotle and ancho chile sauce.
+								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
+							</aside>
 						</header>
 					</li>					
 					<li>
 						<header class="featured-item">
-						SEA GREEN SALAD 
-						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">11]</span>
-						</div>
-						<aside>
-							Wakame seaweed, kale, and sesame tossed in a house made ginger dressing.
-							<aside class="sub-caption">Get it with organic tempeh, organic tofu, or local natural chicken  for an additional $2.
-</aside>
-						</aside>
+							WILD RICE SALAD
+							<div>
+								[<mark>&#36;</mark><span class="padding-left-10">11]</span>
+							</div>
+							<aside>Edamame, almonds, kale, goji berries and wild rice in a lemon, apple cider vinegar and extra virgin oil dressing.
+								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
+							</aside>
 						</header>
 					</li>
 					<li class="last">
-						<header class="featured-item">HUGE GARDEN SALAD  
- 						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">10]</span>
-						</div>
-						<aside>
- 						Baby greens, kale, spinach, tomatoes, carrots, cucumber, red pepper and 
-sunﬂower seeds with a house made balsamic dressing.
-						<aside class="sub-caption">Get it with organic tofu, organic tempeh, or local natural chicken for and additional $2.
-</aside>
-						</aside>
+						<header class="featured-item">
+							HUGE GARDEN SALAD  
+	 						<div>
+								[<mark>&#36;</mark><span class="padding-left-10">10]</span>
+							</div>
+							<aside>Mixed organic greens, carrots, cucumber, tomato, red pepper, and sunflower seeds.
+								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
+							</aside>
 						</header>
 					</li>
 				</ul>				
@@ -230,37 +207,29 @@ sunﬂower seeds with a house made balsamic dressing.
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-						AVOCADO ICE CREAM CAKE
-						<div>
-							[<mark>&#36;</mark><span class="padding-left-10">7.5]</span>
-						</div>
-						<aside>
-							Avocado, lime and ginger ice cream with a sunﬂower and 
-cacao crust and a cacao and ginger sauce.
-						</aside>
+							CARDAMOM AND STRAWBERRY CAKE
+							<div>
+								[<mark>&#36;</mark><span class="padding-left-10">8.5]</span>
+							</div>
+							<aside>With brazil nut cream, strawberry puree and salted brazil nut crumble.</aside>
 						</header>
 					</li>					
 					<li>
 						<header class="featured-item">
-						CHOCOLATE PECAN PIE 
-						<div>
-								</br>[<mark>&#36;</mark><span class="padding-left-10">8]</span>
-						</div>
-						<aside>
-							Rich cacao ganache with a salty pecan crust and a vanilla 
-walnut cream.
-						</aside>
+							CACAO AND COFFEE 
+							<div>
+									</br>[<mark>&#36;</mark><span class="padding-left-10">9.5]</span>
+							</div>
+							<aside>Cacao cake with cashew latte cream, cacao truffle and espresso sauce.</aside>
 						</header>
 					</li>
 					<li class="last">
-						<header class="featured-item">LAVENDER AND ALMOND CAKE  
- 					<div>
-							[<mark>&#36;</mark><span class="padding-left-10">7]</span>
-						</div>
-						<aside>
- 						Almond and lavender cake with a lemon cream and 
-mango puree
-						</aside>
+						<header class="featured-item">
+							COCONUT PUDDING
+		 					<div>
+								[<mark>&#36;</mark><span class="padding-left-10">7]</span>
+							</div>
+							<aside>With banana squares, pineapple pumpkin seed cake and black currant sauce.</aside>
 						</header>
 					</li>
 				</ul>				
