@@ -143,7 +143,7 @@
 							<div>
 								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
 							</div>
-							<aside>Steamed mixed vegetables in a Moroccan spice blend. Served with brown rice. This dish contains no oil.
+							<aside>Tomato, green cabbage, peanuts and onion. 
 								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
 							</aside>
 						</header>
