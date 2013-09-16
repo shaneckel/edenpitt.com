@@ -122,8 +122,8 @@
 						<li class="last easy-clearing">
 							<div id="hp-date-define" class="float-left">Brunch</div> 
 							<div id="hp-date-list">
-								<p>Saturday<span class="footer-mark">10AM - 3PM</span></p>
-								<p>Sunday<span class="footer-mark">10AM - 3PM</span></p>
+								<p>Saturday<span class="footer-mark">10AM - 2PM</span></p>
+								<p>Sunday<span class="footer-mark">10AM - 2PM</span></p>
 							</div>
 						</li>
 					</ul>
