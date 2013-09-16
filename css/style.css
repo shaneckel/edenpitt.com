@@ -148,6 +148,7 @@ h1#winter {
 	height: 45px;
 	background: url(../img/winter-header.png);
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 h1#spring {
 	display: block;
@@ -155,6 +156,7 @@ h1#spring {
 	height: 54px;
 	background: url(../img/spring_header.png);
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 h1#summer {
 	display: block;
@@ -162,6 +164,7 @@ h1#summer {
 	height: 31px;
 	background: url(../img/summer_header.png);
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 h1#winter span {display: none;}
 h1#spring span {display: none;}
