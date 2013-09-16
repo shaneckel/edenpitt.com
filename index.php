@@ -22,7 +22,6 @@
 </head>
 
 <body onload="setupZoom()">
-	<h1>NEW FEATURE!</h1>
 	<div id="container" class="easy-clearing">
 	
 		<!-- Include Masthead -->
