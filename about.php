@@ -100,7 +100,7 @@
 				</header>
 				
 				<p class="about-last">					
-					Eden is open Monday, Wednesday - Saturday 5PM - 10PM for dinner and Saturday and Sunday from 10AM - 3PM for brunch. Eden is closed on Tuesdays. 
+					Eden is open Monday, Wednesday - Saturday 5PM - 10PM for dinner and Saturday and Sunday from 10AM - 2PM for brunch. Eden is closed on Tuesdays. 
 				</p>
 
 			</article>	

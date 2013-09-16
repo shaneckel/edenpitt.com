@@ -8,7 +8,7 @@
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  	<title>Spring | Eden</title>
+  	<title>Summer | Eden</title>
  	<meta name="description" content="">
   	<meta name="author" content="">
 
@@ -48,23 +48,11 @@
 		
 		<section id="main" role="main">
 		
-			<header><h1 id="spring"><span>Spring</span></h1></header>
+			<header><h1 id="summer"><span>Summer</span></h1></header>
 			
 			<p id="dinner-intro">
 				Eden is a BYOB establishment.
 			</p>
-			
-			<section id="grand-opening" class="easy-clearing">
-				<div class="float-left"><img src="img/three-course-badge.png" alt="Three Course Sample Dinner Special" title="Three Course Sample Dinner Special" /></div>
-				<div id="three-course-tension-bg" class="float-left easy-clearing">					
-					<div id="three-course-text" class="float-left">
-						<h3 id="three-course">Try samples of every item on our winter menu (excluding drinks)</h3>
-					</div>
-					<div id="twenty-five">
-						<img src="img/fifteen.png" alt="$15" title="$15" />
-					</div>
-				</div>
-			</section>				
 
 			<article>
 			
@@ -74,21 +62,21 @@
 				</header>				
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">BEET CARPACCIO <div>[<mark>&#36;</mark><span class="padding-left-10">10]</span></div>
-							<aside>Macadamia nut cheese, arugula and a whole grain mustard vinaigrette.</aside></header>
+						<header class="featured-item">TOMATO SALAD <div>[<mark>&#36;</mark><span class="padding-left-10">9]</span></div>
+							<aside>With macadamia and cashew nut cheese and fresh basil sauce.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">CURRIED CASHEW SOUP <div>[<mark>&#36;</mark><span class="padding-left-10">6]</span></div>
-							<aside>Beet and orange.</aside></header>
+						<header class="featured-item">BANANA BREAD <div>[<mark>&#36;</mark><span class="padding-left-10">7.5]</span></div>
+							<aside>With walnut and cinnamon butter.</aside></header>
 				</ul>
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">VEGETABLE CHIPS <div>[<mark>&#36;</mark><span class="padding-left-10">7]</span></div>
-							<aside>Dehydrated vegetables with sauce of the day.</aside></header>
+						<header class="featured-item">SUNFLOWER TABBOULEH <div>[<mark>&#36;</mark><span class="padding-left-10">8]</span></div>
+							<aside>With mint, parsley, onion, garlic and zucchini. Served with flax crackers and cucumber.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">SHIITAKE CEVICHE <div>[<mark>&#36;</mark><span class="padding-left-10">8.5]</span></div>
-							<aside>With jicama, fresh chiles, cilantro and lime. Served with dehydrated vegetable chips.</aside></header>
+						<header class="featured-item">STUFFED GREENS <div>[<mark>&#36;</mark><span class="padding-left-10">9]</span></div>
+							<aside>Fig, pumpkin seed, Jamaican allspice, and cabbage stuffed summer greens with whole grain mustard and orange dipping sauce.</aside></header>
 					</li>
 				</ul>			
 			</article>					
@@ -101,21 +89,21 @@
 				</header>				
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">MUSHROOM BURGER <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
-							<aside>Carrot and zucchini bread, cashew cheese, avocado, pickled red onion and arugula. Served with fresh greens.</aside></header>
+						<header class="featured-item">SEA GREEN BOWL <div>[<mark>&#36;</mark><span class="padding-left-10">13]</span></div>
+							<aside>Wakame, kelp noodles, kale and spinach with sesame and ginger.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">AMARANTH AND QUINOA GNOCCHI <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
-							<aside>With spinach, butter beans, sun dried marinara and cashew parmesan.</aside></header>
+						<header class="featured-item">WALNUT CARROT AND SUMAC FRITTERS <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
+							<aside>With garlic, sunflower hummus, cucumber salad, summer greens and a sesame cream.</aside></header>
 				</ul>
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">SPICY CABBAGE NOODLES <div>[<mark>&#36;</mark><span class="padding-left-10">13.5]</span></div>
-							<aside>With green peas, red peppers, carrots, sliced almonds, ginger, sesame and a creamy, spiced almond sauce.</aside></header>
+						<header class="featured-item">ZUCCHINI AND CABBAGE ANGEL HAIR W/ SPICY SAFFRON CREAM <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
+							<aside>With carrot, coconut, fresh citrus and avocado.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">STUFFED PORTOBELLO <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
-							<aside>Marinated portobello mushrooms stuffed with riced cauliflower and chopped kale, topped with coconut ricotta and a smokey sunfower sauce.</aside></header>
+						<header class="featured-item">MUSHROOM TACOS <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
+							<aside>Zucchini and flax tortillas, seasoned mushrooms, avocado and arugula. With cashew sour cream, spicy red sauce and a citrus, green sauce.</aside></header>
 					</li>
 				</ul>					
 								
@@ -127,11 +115,11 @@
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-							BLACK TRUFFLE RICE NOODLES
+							GARAM MASALA AND POMEGRANATE STEW
 							<div>
 								[<mark>&#36;</mark><span class="padding-left-10">13]</span>
 							</div>
-							<aside>Shiitake mushrooms, red peppers, carrots and leeks with a coconut, black truffle and miso broth.
+							<aside>With lentils, cashews, cauliflower, and broccoli. Comes with brown rice.
 								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
 							</aside>
 						</header>
@@ -139,11 +127,11 @@
 
 					<li>
 						<header class="featured-item">
-							PEANUT LENTIL CURRY
+							BROWN RICE PENNE WITH COCONUT ALFREDO SAUCE
 							<div>
 								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
 							</div>
-							<aside>Steamed mixed vegetables in a Moroccan spice blend. Served with brown rice. This dish contains no oil.
+							<aside>With zucchini, tomato and fresh basil.
 								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
 							</aside>
 						</header>
@@ -151,11 +139,11 @@
 
 					<li class="last">
 						<header class="featured-item">
-							MOROCCAN SPICED VEGETABLES	
+							SUMMER VEGETABLE RED QUINOA AND BLACK RICE
 	 						<div>
-								[<mark>&#36;</mark><span class="padding-left-10">11]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
 							</div>
-							<aside>Steamed mixed vegetables in a Moroccan spice blend. Served with brown rice. This dish contains no oil.
+							<aside>Cumin seed, summer greens, peppers, onion and broccoli. With a smokey mustard and sesame sauce.
 								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
 							</aside>
 						</header>
@@ -164,22 +152,22 @@
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-							SPICY CAULIFLOWER AND POTATOES W/KALE
+							TURMERIC AND ALMOND BUTTER VEGETABLES
 							<div>
-								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">13]</span>
 							</div>
-							<aside>Cauliflower, kale and potatoes with a spicy chipotle and ancho chile sauce.
+							<aside>With broccoli, zucchini, cauliflower, onion and kale. Comes with brown rice.
 								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
 							</aside>
 						</header>
 					</li>					
 					<li>
 						<header class="featured-item">
-							WILD RICE SALAD
+							VIETNAMESE SALAD
 							<div>
-								[<mark>&#36;</mark><span class="padding-left-10">11]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
 							</div>
-							<aside>Edamame, almonds, kale, goji berries and wild rice in a lemon, apple cider vinegar and extra virgin oil dressing.
+							<aside>Cabbage, carrots, onion and cucumber, with mint and basil. Comes tossed in a sesame ginger dressing.
 								<aside class="sub-caption">with organic tofu, organic tempeh or organic chicken for an extra $2.</aside>
 							</aside>
 						</header>
@@ -204,32 +192,44 @@
 				<header class="featured-item-header easy-clearing">
 					<h2 class="float-left">End</h2>
 				</header>				
-				<ul class="featured-items-triple-list easy-clearing">
+				<ul class="featured-items-double-list easy-clearing">
 					<li>
 						<header class="featured-item">
-							CARDAMOM AND STRAWBERRY CAKE
+							ICE CREAM CAKE
 							<div>
 								[<mark>&#36;</mark><span class="padding-left-10">8.5]</span>
 							</div>
-							<aside>With brazil nut cream, strawberry puree and salted brazil nut crumble.</aside>
+							<aside>Fresh mint and cacao.</aside>
 						</header>
 					</li>					
-					<li>
-						<header class="featured-item">
-							CACAO AND COFFEE 
+					<li class="last">
+						<header class="last featured-item">
+							PUMPKIN SEED SPICE CAKE
 							<div>
-									</br>[<mark>&#36;</mark><span class="padding-left-10">9.5]</span>
+									</br>[<mark>&#36;</mark><span class="padding-left-10">8.5]</span>
 							</div>
-							<aside>Cacao cake with cashew latte cream, cacao truffle and espresso sauce.</aside>
+							<aside>With mango and fig chutney and goji berry and orange sauce.</aside>
 						</header>
 					</li>
+
+				<ul class="featured-items-double-list easy-clearing">
+
+					<li >
+						<header class="featured-item">
+							ORANGE AND VANILLA CHEESE CAKE
+		 					<div>
+								[<mark>&#36;</mark><span class="padding-left-10">9]</span>
+							</div>
+							<aside>With black berry sauce.</aside>
+						</header>
+					</li>					
 					<li class="last">
 						<header class="featured-item">
-							COCONUT PUDDING
+							SUMMER BERRY AND CARROT SOUP
 		 					<div>
 								[<mark>&#36;</mark><span class="padding-left-10">7]</span>
 							</div>
-							<aside>With banana squares, pineapple pumpkin seed cake and black currant sauce.</aside>
+							<aside>Topped with cashew sour cream and local bee boy honey.</aside>
 						</header>
 					</li>
 				</ul>				

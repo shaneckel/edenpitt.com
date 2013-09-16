@@ -39,7 +39,7 @@
 						<div class="float-left margin-left-35">
 							<div>Sunday</div>
 							<div>
-								10AM - 5PM <span class="footer-mark">[brunch]</span>
+								10AM - 2PM <span class="footer-mark">[brunch]</span>
 							</div>
 						</div>
 					</div>	
