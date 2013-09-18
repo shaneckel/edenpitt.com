@@ -3,3 +3,7 @@
 /staging
 
 .htaccess
+
+/thefall/sass
+/thefall/.sass-cache
+/thefall/config.rb
