@@ -23,7 +23,6 @@
 
 <body onload="setupZoom()">
 	<div id="container" class="easy-clearing">
-		NEW FEATURE
 		<!-- Include Masthead -->
 		<?php 		
 			$masthead = 'inc/masthead.php';
