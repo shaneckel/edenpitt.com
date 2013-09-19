@@ -2,10 +2,10 @@
 Syntax error: Invalid CSS after "        &": expected "{", was "span.or{"
               
               "span.or" may only be used at the beginning of a compound selector.
-        on line 92 of /cygdrive/d/project/edenpitt.com/html/thefall/sass/main.scss
+        on line 94 of /cygdrive/d/project/edenpitt.com/html/thefall/sass/main.scss
 
 Backtrace:
-/cygdrive/d/project/edenpitt.com/html/thefall/sass/main.scss:92
+/cygdrive/d/project/edenpitt.com/html/thefall/sass/main.scss:94
 /usr/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1148:in `expected'
 /usr/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
 /usr/lib/ruby/gems/1.9.1/gems/sass-3.2.9/lib/sass/scss/parser.rb:692:in `block in simple_selector_sequence'
@@ -99,4 +99,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"        &\": expected \"{\", was \"span.or{\"\A               \A               \"span.or\" may only be used at the beginning of a compound selector.\A         on line 92 of /cygdrive/d/project/edenpitt.com/html/thefall/sass/main.scss"; }
+  content: "Syntax error: Invalid CSS after \"        &\": expected \"{\", was \"span.or{\"\A               \A               \"span.or\" may only be used at the beginning of a compound selector.\A         on line 94 of /cygdrive/d/project/edenpitt.com/html/thefall/sass/main.scss"; }
