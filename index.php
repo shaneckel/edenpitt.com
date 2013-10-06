@@ -11,7 +11,7 @@
   	<title>Eden | Fresh. Local. Smart. | 735 Copeland St. - Pittsburgh, Pa</title>
  		<meta name="description" content="">
 
-
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6038632/802882/css/fonts.css" />
   	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<script>//code healthy</script>
 	<!-- Include Head Files -->
