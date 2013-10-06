@@ -63,30 +63,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 5, ../sass/main.scss */
+/* line 4, ../sass/main.scss */
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* line 8, ../sass/main.scss */
+body > header, main.container {
+  padding: 6%;
+}
 /* line 10, ../sass/main.scss */
+body > header nav, main.container nav {
+  font-size: 1.8em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+/* line 18, ../sass/main.scss */
+body > header nav a, main.container nav a {
+  -webkit-flex: 1 auto;
+  -moz-flex: 1 auto;
+  flex: 1 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 28, ../sass/main.scss */
 .fade-enter-setup, .fade-leave-setup {
-  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-  padding-top: 20px;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  padding-top: 6%;
   position: absolute;
 }
 
-/* line 16, ../sass/main.scss */
-.fade-enter-setup,
+/* line 33, ../sass/main.scss */
 .fade-leave-setup.fade-leave-start {
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   opacity: 0;
-  padding-top: 20px;
+  padding-top: 6%;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .fade-leave-setup,
 .fade-enter-setup.fade-enter-start {
   opacity: 1;
-  padding-top: 0px;
+  padding-top: 0%;
 }
