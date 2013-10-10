@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Eden | Fresh. Local. Smart. | 735 Copeland St. - Pittsburgh, Pa</title>
     <meta charset="utf-8">
@@ -11,20 +12,23 @@
     
   <body ng-app="ngEden">
   
-    <header>
+    <header class="top" scroll ng-class="{min:scrollpast}">
       <nav>
-        <a ui-sref="home">home</a>
-        <a ui-sref="menu">menu</a>
-        <a ui-sref="contact">contact</a>
-        <a ui-sref="about">about</a>
+        <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
+        <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
+        <a ui-sref="home" class="logo">
+          <img ng-src="/img/edenlogo.svg">
+        </a>
+        <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
+        <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
       </nav>
     </header>
 
-    <main ui-view class="container" ng-animate="{enter:'fade-enter',leave: 'fade-leave'}"></main>
+    <article ui-view class="main" ng-animate="{enter:'fade-enter'}"></article>
 
     <script src="js/util/angular.js"></script>
     <script src="js/util/angular-ui-router.js"></script>
     <script src="js/eden.js"></script>
-
   </body>
 </html>
+

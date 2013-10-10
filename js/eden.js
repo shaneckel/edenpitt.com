@@ -1,5 +1,11 @@
 var ngEden = angular.module("ngEden",  ['ui.router' ]) 
- 
+
+ngEden.run(['$rootScope', '$state', '$stateParams',
+  function ($rootScope,   $state,   $stateParams) {
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
+  }]);
+
 ngEden.config(function($urlRouterProvider, $stateProvider){
   
   $urlRouterProvider
@@ -11,8 +17,8 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
       templateUrl: 'template/home.html'
     })
 
-    .state("menu", {
-      url: "/menu",
+    .state("dinner", {
+      url: "/dinner",
       templateUrl: 'template/menu.html',
       resolve: {
         menu: ['menu', function(menu){
@@ -27,12 +33,17 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
 
     .state("contact", {
       url: "/contact",
-      template: '<h1>contact</h1>'
+      template: '<section class="contact"><h1>contact</h1></section>'
+    })     
+
+    .state("brunch", {
+      url: "/brunch",
+      template: '<section class="brunch"><h1>brunch</h1></section>'
     }) 
 
     .state("about", {
       url: "/about",
-      template: '<h1>about</h1>'
+      template: '<section class="about"><h1>about</h1></section>'
     });
 
 });
@@ -78,4 +89,15 @@ ngEden.factory('utils', function () {
   };
 });
 
- 
+ngEden.directive("scroll", function ($window) {
+  return function(scope, element, attrs) {
+    angular.element($window).bind("scroll", function() {
+      if(this.pageYOffset >= 100) {
+        scope.scrollpast = true;
+      } else {
+        scope.scrollpast = false;
+      }
+      scope.$apply();
+    });
+  };
+});

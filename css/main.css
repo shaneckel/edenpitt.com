@@ -63,53 +63,326 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 4, ../sass/main.scss */
+/* line 4, ../sass/_home.scss */
+.entry {
+  background: url(../img/eden-main-large-drinks.png) no-repeat center center;
+  background-size: 100% auto;
+  background-size: cover;
+}
+/* line 10, ../sass/_home.scss */
+.entry h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 1.4em;
+  text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+}
+/* line 16, ../sass/_home.scss */
+.entry h2 {
+  color: white;
+  font-size: 2em;
+  line-height: 1.6em;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: normal;
+  text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+}
+
+/* line 27, ../sass/_home.scss */
+.location {
+  background: url(../img/maps-image.png) no-repeat center center;
+  background-size: 100% auto;
+  background-size: cover;
+}
+/* line 32, ../sass/_home.scss */
+.location h2 {
+  color: white;
+  font-size: 1.8em;
+  line-height: 1.6em;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: normal;
+  text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+}
+
+/* line 11, ../sass/_header.scss */
+header.top {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 25;
+  height: 6.5em;
+}
+/* line 19, ../sass/_header.scss */
+header.top nav {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 5.8em;
+  font-size: 1.5em;
+  width: 100%;
+  align-items: center;
+  width: 100%;
+}
+/* line 29, ../sass/_header.scss */
+header.top nav a {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  text-shadow: 0 0 1px rgba(51, 51, 51, 0.4);
+  top: 0px;
+}
+/* line 41, ../sass/_header.scss */
+header.top nav a.logo img {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  position: relative;
+  width: 3.8em;
+  top: -.2em;
+}
+/* line 48, ../sass/_header.scss */
+header.top nav a.logo:after {
+  background: url(../img/shade.png) no-repeat;
+  content: "";
+  width: 100%;
+  height: 7em;
+  position: absolute;
+  top: -1.5em;
+  left: 0;
+  display: inline-block;
+  background-position: center center;
+  background-size: 100% 100%;
+  z-index: -5;
+  opacity: 1;
+}
+/* line 62, ../sass/_header.scss */
+header.top nav a.logo:before {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  background: black;
+  content: "";
+  width: 0em;
+  height: 0em;
+  position: absolute;
+  display: inline-block;
+  border-radius: 3em;
+  z-index: -5;
+  opacity: .3;
+  top: 1.6em;
+  left: -webkit-calc(50% -  .5em);
+  left: -moz-calc(50% -  .5em);
+  left: calc(50% -  .5em);
+}
+/* line 79, ../sass/_header.scss */
+header.top nav a:after {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  content: "";
+  width: 80%;
+  opacity: 0;
+  height: 1px;
+  background: #ed1c24;
+  position: absolute;
+  top: -.95em;
+  left: 10%;
+  z-index: -1;
+}
+/* line 92, ../sass/_header.scss */
+header.top nav a:before {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  content: "";
+  width: 80%;
+  opacity: 0;
+  height: 1px;
+  background: #ed1c24;
+  position: absolute;
+  top: 1.8em;
+  left: 10%;
+  z-index: -1;
+}
+/* line 106, ../sass/_header.scss */
+header.top:before {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  opacity: 1;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .2;
+  z-index: -10;
+  width: 100%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  height: 4.2em;
+  margin-top: 2.2em;
+}
+/* line 123, ../sass/_header.scss */
+header.top:after {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  display: inline-block;
+  content: "";
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  z-index: -10;
+  width: 100%;
+  height: 4em;
+  margin-top: 2.3em;
+}
+
+/* line 139, ../sass/_header.scss */
+header.top nav a {
+  position: relative;
+}
+/* line 141, ../sass/_header.scss */
+header.top nav a.active {
+  font-style: italic;
+}
+/* line 143, ../sass/_header.scss */
+header.top nav a.active:after {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  content: "";
+  width: 60%;
+  opacity: .7;
+  height: 1px;
+  background: #ed1c24;
+  position: absolute;
+  top: -.95em;
+  left: 20%;
+  z-index: -1;
+}
+/* line 155, ../sass/_header.scss */
+header.top nav a.active:before {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  content: "";
+  width: 60%;
+  opacity: .7;
+  height: 1px;
+  background: #ed1c24;
+  position: absolute;
+  top: 1.8em;
+  left: 20%;
+  z-index: -1;
+}
+
+/* line 170, ../sass/_header.scss */
+header.top.min {
+  height: 2.6em;
+}
+/* line 172, ../sass/_header.scss */
+header.top.min nav {
+  height: 2.1em;
+}
+/* line 174, ../sass/_header.scss */
+header.top.min nav a.active {
+  font-style: italic;
+}
+/* line 176, ../sass/_header.scss */
+header.top.min nav a.active:after {
+  opacity: 0;
+  top: -.6em;
+}
+/* line 180, ../sass/_header.scss */
+header.top.min nav a.active:before {
+  opacity: 0;
+}
+/* line 184, ../sass/_header.scss */
+header.top.min nav a.logo img {
+  width: 2.1em;
+  top: .1em;
+}
+/* line 188, ../sass/_header.scss */
+header.top.min nav a.logo:after {
+  height: 6em;
+  opacity: 0;
+}
+/* line 192, ../sass/_header.scss */
+header.top.min nav a.logo:before {
+  opacity: 1;
+  background: #ed1c24;
+  top: -.3em;
+  width: 3em;
+  height: 3em;
+  left: -webkit-calc(50% - 1.5em);
+  left: -moz-calc(50% - 1.5em);
+  left: calc(50% - 1.5em);
+}
+/* line 204, ../sass/_header.scss */
+header.top.min:before {
+  opacity: 0;
+  margin-top: 0;
+  height: 3em;
+}
+/* line 209, ../sass/_header.scss */
+header.top.min:after {
+  opacity: 1;
+  background: #ed1c24;
+  margin-top: 0;
+  height: 3em;
+}
+
+/* line 4, ../sass/_animations.scss */
+.fade-enter-setup, .fade-leave-setup {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  opacity: 0;
+  padding-top: 20%;
+}
+
+/* line 9, ../sass/_animations.scss */
+.fade-leave-setup.fade-leave-start {
+  opacity: 0;
+  padding-top: 20%;
+}
+
+/* line 13, ../sass/_animations.scss */
+.fade-leave-setup, .fade-enter-setup.fade-enter-start {
+  opacity: 1;
+  padding-top: 15%;
+}
+
+/* line 16, ../sass/main.scss */
+body {
+  overflow-y: scroll;
+}
+
+/* line 20, ../sass/main.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 8, ../sass/main.scss */
-body > header, main.container {
-  padding: 6%;
-}
-/* line 10, ../sass/main.scss */
-body > header nav, main.container nav {
-  font-size: 1.8em;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -moz-flex-flow: row wrap;
-  flex-flow: row wrap;
-}
-/* line 18, ../sass/main.scss */
-body > header nav a, main.container nav a {
-  -webkit-flex: 1 auto;
-  -moz-flex: 1 auto;
-  flex: 1 auto;
-  text-align: center;
-  font-weight: bold;
+/* line 24, ../sass/main.scss */
+body {
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 600;
+  font-style: normal;
 }
 
-/* line 28, ../sass/main.scss */
-.fade-enter-setup, .fade-leave-setup {
-  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-  padding-top: 6%;
-  position: absolute;
-}
-
-/* line 33, ../sass/main.scss */
-.fade-leave-setup.fade-leave-start {
-  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-  opacity: 0;
-  padding-top: 6%;
-}
-
-/* line 40, ../sass/main.scss */
-.fade-leave-setup,
-.fade-enter-setup.fade-enter-start {
-  opacity: 1;
-  padding-top: 0%;
+/* line 30, ../sass/main.scss */
+article > section, article > header {
+  padding: 10%;
+  padding-top: 15%;
 }
