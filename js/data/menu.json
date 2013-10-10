@@ -1,0 +1,92 @@
+{
+  "menu" : {
+    "meta" : { 
+      "header" : "menu",
+      "title" : "this is the menu page"
+    },
+    "config" : {
+      "season" : "fall",
+      "descript" : "fall season kicks ass and you can go fuck yourself if you don't like it"
+    },
+    "menulist": [
+      {
+        "title" : "hot", 
+        "items" : [
+          {
+            "title" : "beets ravioli",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          },
+          {
+            "title" : "beets ravioli2",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          },                  
+          {
+            "title" : "beets ravioli3",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          }
+        ]
+      },         
+      {
+        "title" : "app", 
+        "items" : [
+          {
+            "title" : "beets ravioli",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          },
+          {
+            "title" : "beets ravioli2",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          },                  
+          {
+            "title" : "beets ravioli3",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          }
+        ]
+      },         
+      {
+        "title" : "raw", 
+        "items" : [
+          {
+            "title" : "beets ravioli",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          },
+          {
+            "title" : "beets ravioli2",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          },                  
+          {
+            "title" : "beets ravioli3",
+            "descript" : "it's fucking beets homie",
+            "price" : "$14.99",
+            "gf" : true,
+            "vegan" : false
+          }
+        ]
+      }   
+    ]
+  }
+}
