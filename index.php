@@ -29,7 +29,8 @@ if(isset($_POST['username'])) {
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6038632/802882/css/fonts.css" />
   </head>
-
+  <?php if($_SESSION['username']): ?>
+ 
   <body ng-app="ngEden">
   
     <header class="top" scroll ng-class="{min:scrollpast}">
@@ -37,7 +38,7 @@ if(isset($_POST['username'])) {
         <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
         <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
         <a ui-sref="home" class="logo">
-          <img ng-src="/img/edenlogo.svg">
+          <img ng-src="./img/edenlogo.svg">
         </a>
         <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
         <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
@@ -49,10 +50,8 @@ if(isset($_POST['username'])) {
     <script src="js/util/angular.js"></script>
     <script src="js/util/angular-ui-router.js"></script>
     <script src="js/eden.js"></script>
-
   <?php else: ?>
-   
-   <form name="login" action="" method="post">
+    <form name="login" action="" method="post">
         Username:  <input type="text" name="username" value="" /><br />
         Password:  <input type="password" name="password" value="" /><br />
         <input type="submit" name="submit" value="Submit" />
