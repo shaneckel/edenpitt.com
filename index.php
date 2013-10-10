@@ -29,9 +29,7 @@ if(isset($_POST['username'])) {
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6038632/802882/css/fonts.css" />
   </head>
-  <?php if($_SESSION['username']): ?>
-      <p>You are logged in as <?=$_SESSION['username']?></p>
-      <p><a href="?logout=1">Logout</a></p>
+
   <body ng-app="ngEden">
   
     <header class="top" scroll ng-class="{min:scrollpast}">
@@ -51,8 +49,10 @@ if(isset($_POST['username'])) {
     <script src="js/util/angular.js"></script>
     <script src="js/util/angular-ui-router.js"></script>
     <script src="js/eden.js"></script>
+
   <?php else: ?>
-    <form name="login" action="" method="post">
+   
+   <form name="login" action="" method="post">
         Username:  <input type="text" name="username" value="" /><br />
         Password:  <input type="password" name="password" value="" /><br />
         <input type="submit" name="submit" value="Submit" />
