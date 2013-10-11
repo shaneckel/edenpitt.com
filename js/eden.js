@@ -5,7 +5,7 @@ ngEden.run(['$rootScope', '$state', '$stateParams',
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
   }]);
-
+ 
 ngEden.config(function($urlRouterProvider, $stateProvider){
   
   $urlRouterProvider

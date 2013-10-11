@@ -189,11 +189,9 @@ header.top nav a.logo:before {
   z-index: -5;
   opacity: .3;
   top: 1.6em;
-  left: -webkit-calc(50% -  .5em);
-  left: -moz-calc(50% -  .5em);
-  left: calc(50% -  .5em);
+  left: 50%;
 }
-/* line 79, ../sass/_header.scss */
+/* line 77, ../sass/_header.scss */
 header.top nav a:after {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   content: "";
@@ -206,7 +204,7 @@ header.top nav a:after {
   left: 10%;
   z-index: -1;
 }
-/* line 92, ../sass/_header.scss */
+/* line 90, ../sass/_header.scss */
 header.top nav a:before {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   content: "";
@@ -219,7 +217,7 @@ header.top nav a:before {
   left: 10%;
   z-index: -1;
 }
-/* line 106, ../sass/_header.scss */
+/* line 104, ../sass/_header.scss */
 header.top:before {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   opacity: 1;
@@ -236,7 +234,7 @@ header.top:before {
   height: 4.2em;
   margin-top: 2.2em;
 }
-/* line 123, ../sass/_header.scss */
+/* line 121, ../sass/_header.scss */
 header.top:after {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   display: inline-block;
@@ -252,15 +250,15 @@ header.top:after {
   margin-top: 2.3em;
 }
 
-/* line 139, ../sass/_header.scss */
+/* line 137, ../sass/_header.scss */
 header.top nav a {
   position: relative;
 }
-/* line 141, ../sass/_header.scss */
+/* line 139, ../sass/_header.scss */
 header.top nav a.active {
   font-style: italic;
 }
-/* line 143, ../sass/_header.scss */
+/* line 141, ../sass/_header.scss */
 header.top nav a.active:after {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   content: "";
@@ -273,7 +271,7 @@ header.top nav a.active:after {
   left: 20%;
   z-index: -1;
 }
-/* line 155, ../sass/_header.scss */
+/* line 153, ../sass/_header.scss */
 header.top nav a.active:before {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   content: "";
@@ -287,38 +285,38 @@ header.top nav a.active:before {
   z-index: -1;
 }
 
-/* line 170, ../sass/_header.scss */
+/* line 168, ../sass/_header.scss */
 header.top.min {
   height: 2.6em;
 }
-/* line 172, ../sass/_header.scss */
+/* line 170, ../sass/_header.scss */
 header.top.min nav {
   height: 2.1em;
 }
-/* line 174, ../sass/_header.scss */
+/* line 172, ../sass/_header.scss */
 header.top.min nav a.active {
   font-style: italic;
 }
-/* line 176, ../sass/_header.scss */
+/* line 174, ../sass/_header.scss */
 header.top.min nav a.active:after {
   opacity: 0;
   top: -.6em;
 }
-/* line 180, ../sass/_header.scss */
+/* line 178, ../sass/_header.scss */
 header.top.min nav a.active:before {
   opacity: 0;
 }
-/* line 184, ../sass/_header.scss */
+/* line 182, ../sass/_header.scss */
 header.top.min nav a.logo img {
   width: 2.1em;
   top: .1em;
 }
-/* line 188, ../sass/_header.scss */
+/* line 186, ../sass/_header.scss */
 header.top.min nav a.logo:after {
   height: 6em;
   opacity: 0;
 }
-/* line 192, ../sass/_header.scss */
+/* line 190, ../sass/_header.scss */
 header.top.min nav a.logo:before {
   opacity: 1;
   background: #ed1c24;
@@ -329,18 +327,18 @@ header.top.min nav a.logo:before {
   left: -moz-calc(50% - 1.5em);
   left: calc(50% - 1.5em);
 }
-/* line 204, ../sass/_header.scss */
+/* line 202, ../sass/_header.scss */
 header.top.min:before {
   opacity: 0;
   margin-top: 0;
   height: 3em;
 }
-/* line 209, ../sass/_header.scss */
+/* line 207, ../sass/_header.scss */
 header.top.min:after {
   opacity: 1;
   background: #ed1c24;
-  margin-top: 0;
-  height: 3em;
+  margin-top: -.2em;
+  height: 3.1em;
 }
 
 /* line 4, ../sass/_animations.scss */
