@@ -1,89 +1,126 @@
 {
   "menu" : {
     "meta" : { 
-      "header" : "menu",
-      "title" : "this is the menu page"
+      "header" : " Dinner Menu.",
+      "title" : "Fall Season 2013"
     },
     "config" : {
-      "season" : "fall",
-      "descript" : "fall season kicks ass and you can go fuck yourself if you don't like it"
+      "season" : "Fall 2013",
+      "descript" : ""
     },
     "menulist": [
       {
-        "title" : "hot", 
-        "items" : [
+        "title" : "start", 
+        "class" : "start", 
+        "descript" : "our raw starters", 
+         "items" : [
           {
-            "title" : "beets ravioli",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "cheese plate",
+            "descript" : "cashew and brazil nut, sage cheeses, coconut walnuts, apricot jam, beet and sunflower cake and local bee boy honey.",
+            "price" : "12"
           },
           {
-            "title" : "beets ravioli2",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "carrot bread",
+            "descript" : "with apple coconut butter.",
+            "price" : "7.5"
           },                  
           {
-            "title" : "beets ravioli3",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "apple and fennel salad",
+            "descript" : "arsley, celery, green onion, lemon, evoo.",
+            "price" : "7"
+           },                  
+           {
+            "title" : "stuffed mushroom",
+            "descript" : "sage, sunflower, carrot, rosemary, orange and lemon.",
+            "price" : "8"
+            }
+        ]
+      }, 
+      {
+        "title" : "raw main", 
+        "class" : "raw_main", 
+        "items" : [
+          {
+            "title" : "curried broccoli",
+            "descript" : "flax and beet wrap, ginger, avocado and arugula w/ a cucumber and mint salad.",
+            "price" : "15"
+          },
+          {
+            "title" : "kobocha squash pad thai",
+            "descript" : "kelp noodles, tamarind, basil, garlic, green onion, carrot, mint and almond.",
+            "price" : "14"
+          },                
+          {
+            "title" : "nachos",
+            "descript" : "flax and sweet potato chips, beet, walnut, avocado, cashew sour cream, red onion, shaved cabbage and red pepper.",
+            "price" : "15"
+          },                  
+          {
+            "title" : "stuffed collard greens",
+            "descript" : "portobello, pumpkin seeds, celery, garlic, pickled onions, spicy ginger cream.",
+            "price" : "13"
           }
+        ]
+      },        
+      {
+        "title" : "hot main",
+        "class" : "hot_main", 
+        "items" : [
+          {
+            "title" : "black truffle mac and cheese",
+            "descript" : "w/ brown rice pasta, coconut and cashew sauce, broccoli, sun dried tomatoes and spinach.",
+            "price" : "13"
+           },         
+           {
+            "title" : "peanut butter kale and butter nut squash",
+            "descript" : "w/ maple syrup, red onion, garlic, and crushed peanuts.",
+            "price" : "12"
+           },
+           {
+            "title" : "mushroom noodle bowl",
+            "descript" : "w/ rice vermicelli, miso and mushroom broth, peppers, greens, onion, ginger, garlic, mint and basil.",
+            "price" : "12"
+           },
+           {
+            "title" : "pumpkin curry",
+            "descript" : "w/ sweet potato, red potato, yellow curry, garlic, onion, chick peas, and coconut milk.",
+            "price" : "13"
+           },
+           {
+            "title" : "bbq tofu salad",
+            "descript" : "mixed organic greens, carrot, tomato cucumber, kale, chick peas and a roasted tomato dressing.",
+            "price" : "12"
+           },
+           {
+            "title" : "huge gardan salad",
+            "descript" : "mixed organic greens, carrots, kale, cucumber, tomato, red pepper, and sunflower seeds.",
+            "price" : "10"
+           }
         ]
       },         
       {
-        "title" : "app", 
+        "title" : "end", 
+        "class" : "end", 
         "items" : [
           {
-            "title" : "beets ravioli",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "pumpkin pie",
+            "descript" : "almond, date, coconut, vanilla cashew cream.",
+            "price" : "9"
           },
           {
-            "title" : "beets ravioli2",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
-          },                  
-          {
-            "title" : "beets ravioli3",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
-          }
-        ]
-      },         
-      {
-        "title" : "raw", 
-        "items" : [
-          {
-            "title" : "beets ravioli",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "apple cheese cake",
+            "descript" : "sunflower seed, pumpkin seed, chai tea.",
+            "price" : "8.5"
           },
           {
-            "title" : "beets ravioli2",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "chocolate avocado fudge",
+            "descript" : "w/ caramel macaroons, raspberry sauce.",
+            "price" : "9"
           },                  
           {
-            "title" : "beets ravioli3",
-            "descript" : "it's fucking beets homie",
-            "price" : "$14.99",
-            "gf" : true,
-            "vegan" : false
+            "title" : "seasonal granita",
+            "descript" : "ask your server for the flavor.",
+            "price" : "3"
           }
         ]
       }   

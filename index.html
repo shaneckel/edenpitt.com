@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <link type="text/css" rel="stylesheet" href="css/main.css">
-    <link type="text/css" rel="stylesheet" href="css/loading-bar.css">
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6038632/802882/css/fonts.css" />
   </head>
     
-  <body ng-app="ngEden">
-  
+  <body ng-app="ngEden" breakpoint="{767:'phonebreak', 768:'deskbreak'}">
+ 
     <header class="top" scroll ng-class="{min:scrollpast}">
       <nav>
         <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
@@ -25,11 +24,25 @@
       </nav>
     </header>
 
-    <article ui-view class="main" ng-animate="{enter:'fade-enter'}"></article>
+    <main ui-view class="main"></main>
+
+    <footer class="bot" >
+      <nav>
+        <a ng-class="{ active: $state.includes('home') }" ui-sref="dinner">home</a>
+        <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
+        <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
+        <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
+        <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
+      </nav>
+    </footer>
 
     <script src="js/util/angular.js"></script>
+    <script src="js/util/angular-breakpoint.js"></script>
     <script src="js/util/angular-ui-router.js"></script>
+    <script src="js/util/angular-animate.js"></script>
+ 
     <script src="js/eden.js"></script>
+
   </body>
 </html>
 

@@ -1,25 +1,23 @@
 
    
-  <header>
+  <header class="hero dinner">
     <h1>{{menu.meta.header}}</h1>
     <h2>{{menu.meta.title}}</h2>
-    <aside>
-      <h3>{{menu.config.season}}</h3>
-      <p>{{menu.config.descript}}</p>
-    </aside>
   </header>
 
-  <section> 
-    <div ng-repeat="section in menu.menulist">
+ 
+
+  <article class="menu"> 
+    <section ng-repeat="section in menu.menulist" class="{{section.class}}">
       <h2>{{section.title}}</h2>
       <ul>
         <li ng-repeat="item in section.items">
-          <p>{{item.title}}</p>
-          <em>{{item.descript}}</em>
-          <b>{{item.title}}</b>
-        </li>
+          <h3>{{item.title}}</h3>
+          <span class="price">${{item.price}}</span>
+          <p>{{item.descript}}</p>
+         </li>
       </ul>
-    </div>
+    </section>
   </section>
  
  

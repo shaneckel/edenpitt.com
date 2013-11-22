@@ -1,4 +1,4 @@
-var ngEden = angular.module("ngEden",  ['ui.router' ]) 
+var ngEden = angular.module("ngEden",  ['ui.router', 'ngAnimate', 'breakpointApp' ]) 
 
 ngEden.run(['$rootScope', '$state', '$stateParams',
   function ($rootScope,   $state,   $stateParams) {
@@ -12,6 +12,7 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
     .otherwise('/');
 
   $stateProvider
+
     .state("home", {
       url: "/",
       templateUrl: 'template/home.html'
@@ -33,23 +34,51 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
 
     .state("contact", {
       url: "/contact",
-      template: '<section class="contact"><h1>contact</h1></section>'
+      templateUrl: 'template/contact.html',
     })     
 
     .state("brunch", {
       url: "/brunch",
-      template: '<section class="brunch"><h1>brunch</h1></section>'
+      templateUrl: 'template/brunch.html',
+      resolve: {
+        brunch: ['brunch', function(brunch){
+          return brunch.all();
+        }]
+      },
+      controller: ['$scope', '$state', 'brunch', 'utils',
+        function (  $scope,   $state,   brunch,   utils) {
+          $scope.brunch = brunch; 
+      }]    
     }) 
 
     .state("about", {
       url: "/about",
-      template: '<section class="about"><h1>about</h1></section>'
+      templateUrl: 'template/about.html',
     });
 
 });
 
 ngEden.factory('menu', ['$http', function ($http, utils) {
   var path = 'js/data/menu.json';
+  var menu = $http.get(path).then(function (resp) {
+    return resp.data.menu;
+  });
+
+  var factory = {};
+  factory.all = function () {
+    return menu;
+  };
+  // factory.get = function (id) {
+  //   //A way to parse out the menu
+  //   return contacts.then(function(){
+  //     return utils.findById(contacts, id);
+  //   })
+  // };
+  return factory;
+}])
+
+ngEden.factory('brunch', ['$http', function ($http, utils) {
+  var path = 'js/data/brunch.json';
   var menu = $http.get(path).then(function (resp) {
     return resp.data.menu;
   });
@@ -101,3 +130,9 @@ ngEden.directive("scroll", function ($window) {
     });
   };
 });
+ 
+// $scope.$on('breakpointChange', function(event, breakpoint, oldClass) { 
+//   console.log('Entering:' + breakpoint.class); 
+//   console.log('Leaving:' + oldClass); 
+//   console.log('windowSize' + breakpoint.windowSize); 
+// });

@@ -1,0 +1,31 @@
+
+   
+  <header class="hero brunch">
+    <h1>{{brunch.meta.header}}</h1>
+     <h2>{{brunch.meta.title}}</h2>
+  </header>
+
+  <section>
+    <aside>
+      <h3></h3>
+      <p>{{brunch.config.descript}}</p>
+    </aside>
+  </header>
+
+  <section> 
+    <div ng-repeat="section in brunch.menulist">
+      <h2>{{section.title}}</h2>
+      <h2>{{section.description}}</h2>
+      <ul>
+        <li ng-repeat="item in section.items">
+          <p>{{item.title}}</p>
+          <p>{{item.descript}}</p>
+          <b>{{item.price}}</b>
+        </li>
+      </ul>
+    </div>
+  </section>
+ 
+ 
+<!-- Our unnamed main ui-view for this template 
+<div ui-view class="span9" ng-animate="{enter:'fade-enter'}"></div>-->
