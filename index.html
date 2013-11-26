@@ -12,8 +12,8 @@
     
   <body ng-app="ngEden" breakpoint="{767:'phonebreak', 768:'deskbreak'}">
  
-    <header class="top" scroll ng-class="{min:scrollpast}">
-      <nav>
+    <header class="top" scroll ng-class="{min:scrollpast, disabled:disabled}" ng-init="disabled=false">
+      <nav ng-class="{disabled:disabled}" class="expose-animation">
         <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
         <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
         <a ui-sref="home" class="logo">
@@ -22,7 +22,12 @@
         <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
         <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
       </nav>
+
+      <div class="togglebutton-animation" ng-class="{disabled:disabled}" ng-click="disabled=!disabled" >+</div>
+ 
     </header>
+
+
 
     <main ui-view class="main"></main>
 
