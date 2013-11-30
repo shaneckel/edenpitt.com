@@ -758,14 +758,35 @@ header.hero.brunch {
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
+/* line 31, ../sass/_animations.scss */
+.togglebutton-animation:after {
+  display: block;
+  content: "navigation";
+  font-size: .3em;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 300;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: -1.6em;
+  top: -3em;
+  opacity: 1;
+}
 
-/* line 33, ../sass/_animations.scss */
+/* line 45, ../sass/_animations.scss */
 .togglebutton-animation.disabled {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+/* line 47, ../sass/_animations.scss */
+.togglebutton-animation.disabled:after {
+  opacity: 0;
 }
 
 /* line 18, ../sass/main.scss */
