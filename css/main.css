@@ -730,25 +730,18 @@ header.hero.brunch {
   opacity: 0;
 }
 
-/* line 14, ../sass/_animations.scss */
+/* line 10, ../sass/_animations.scss */
 .main.ng-enter-active {
   opacity: 1;
 }
 
-/* line 18, ../sass/_animations.scss */
-main.main > section, main.main > header {
-  padding: 15% 10%;
-  padding-top: 15%;
-  padding-bottom: 15%;
-}
-
-/* line 33, ../sass/_animations.scss */
+/* line 14, ../sass/_animations.scss */
 .home.ng-enter {
   padding-top: 15%;
   transition: padding-top 4.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3;
 }
 
-/* line 38, ../sass/_animations.scss */
+/* line 19, ../sass/_animations.scss */
 .togglebutton-animation {
   transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   position: absolute;
@@ -766,7 +759,7 @@ main.main > section, main.main > header {
   transform: rotate(-90deg);
 }
 
-/* line 52, ../sass/_animations.scss */
+/* line 33, ../sass/_animations.scss */
 .togglebutton-animation.disabled {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -795,13 +788,28 @@ body {
 }
 
 /* line 32, ../sass/main.scss */
+main.main > section, main.main > header {
+  padding: 15% 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+@media only screen and (max-width: 767px) {
+  /* line 32, ../sass/main.scss */
+  main.main > section, main.main > header {
+    padding: 5%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+  }
+}
+
+/* line 43, ../sass/main.scss */
 .hero {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% auto;
   background-size: cover;
 }
-/* line 37, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .hero h1 {
   font-size: 5em;
   color: white;
@@ -809,12 +817,14 @@ body {
   text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
 }
 @media only screen and (max-width: 767px) {
-  /* line 37, ../sass/main.scss */
+  /* line 48, ../sass/main.scss */
   .hero h1 {
-    font-size: 2.8em;
+    font-size: 2.5em;
+    line-height: 1.6em;
+    padding-bottom: .5em;
   }
 }
-/* line 46, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .hero h2 {
   color: white;
   font-size: 2em;
@@ -823,4 +833,12 @@ body {
   font-weight: 300;
   font-style: normal;
   text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+}
+@media only screen and (max-width: 767px) {
+  /* line 59, ../sass/main.scss */
+  .hero h2 {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    font-weight: 300;
+  }
 }
