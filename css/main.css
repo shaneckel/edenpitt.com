@@ -673,53 +673,53 @@ header.hero.brunch {
 
 @media only screen and (max-width: 767px) {
   /* line 107, ../sass/_menu.scss */
-  .menu section.start, .menu section.hot_main, .menu section.raw_main, .menu section.end {
+  .menu section.start, .menu section.hot_main, .menu section.raw_main, .menu section.end, .menu section {
     font-size: .9em;
     width: 100%;
     padding: 2.5%;
     padding-top: 5%;
   }
   /* line 112, ../sass/_menu.scss */
-  .menu section.start h2, .menu section.hot_main h2, .menu section.raw_main h2, .menu section.end h2 {
+  .menu section.start h2, .menu section.hot_main h2, .menu section.raw_main h2, .menu section.end h2, .menu section h2 {
     padding-bottom: .5em;
   }
   /* line 115, ../sass/_menu.scss */
-  .menu section.start li, .menu section.hot_main li, .menu section.raw_main li, .menu section.end li {
+  .menu section.start li, .menu section.hot_main li, .menu section.raw_main li, .menu section.end li, .menu section li {
     width: 100%;
     margin-top: 1em;
     padding-top: 0;
   }
   /* line 119, ../sass/_menu.scss */
-  .menu section.start li h3, .menu section.hot_main li h3, .menu section.raw_main li h3, .menu section.end li h3 {
+  .menu section.start li h3, .menu section.hot_main li h3, .menu section.raw_main li h3, .menu section.end li h3, .menu section li h3 {
     padding-top: .75em;
   }
   /* line 121, ../sass/_menu.scss */
-  .menu section.start li h3:nth-child(1), .menu section.start li h3:nth-child(2), .menu section.hot_main li h3:nth-child(1), .menu section.hot_main li h3:nth-child(2), .menu section.raw_main li h3:nth-child(1), .menu section.raw_main li h3:nth-child(2), .menu section.end li h3:nth-child(1), .menu section.end li h3:nth-child(2) {
+  .menu section.start li h3:nth-child(1), .menu section.start li h3:nth-child(2), .menu section.hot_main li h3:nth-child(1), .menu section.hot_main li h3:nth-child(2), .menu section.raw_main li h3:nth-child(1), .menu section.raw_main li h3:nth-child(2), .menu section.end li h3:nth-child(1), .menu section.end li h3:nth-child(2), .menu section li h3:nth-child(1), .menu section li h3:nth-child(2) {
     border-top: 1px dashed black;
   }
   /* line 125, ../sass/_menu.scss */
-  .menu section.start li .price, .menu section.hot_main li .price, .menu section.raw_main li .price, .menu section.end li .price {
+  .menu section.start li .price, .menu section.hot_main li .price, .menu section.raw_main li .price, .menu section.end li .price, .menu section li .price {
     top: .5em;
   }
   /* line 128, ../sass/_menu.scss */
-  .menu section.start li:nth-child(even), .menu section.hot_main li:nth-child(even), .menu section.raw_main li:nth-child(even), .menu section.end li:nth-child(even) {
+  .menu section.start li:nth-child(even), .menu section.hot_main li:nth-child(even), .menu section.raw_main li:nth-child(even), .menu section.end li:nth-child(even), .menu section li:nth-child(even) {
     margin-left: 0%;
   }
   /* line 131, ../sass/_menu.scss */
-  .menu section.start li:nth-child(odd), .menu section.hot_main li:nth-child(odd), .menu section.raw_main li:nth-child(odd), .menu section.end li:nth-child(odd) {
+  .menu section.start li:nth-child(odd), .menu section.hot_main li:nth-child(odd), .menu section.raw_main li:nth-child(odd), .menu section.end li:nth-child(odd), .menu section li:nth-child(odd) {
     margin-right: 0%;
   }
   /* line 135, ../sass/_menu.scss */
-  .menu section.start li:first-of-type, .menu section.hot_main li:first-of-type, .menu section.raw_main li:first-of-type, .menu section.end li:first-of-type {
+  .menu section.start li:first-of-type, .menu section.hot_main li:first-of-type, .menu section.raw_main li:first-of-type, .menu section.end li:first-of-type, .menu section li:first-of-type {
     margin-top: 2.5%;
     margin-top: 0%;
   }
   /* line 138, ../sass/_menu.scss */
-  .menu section.start li:first-of-type h3, .menu section.hot_main li:first-of-type h3, .menu section.raw_main li:first-of-type h3, .menu section.end li:first-of-type h3 {
+  .menu section.start li:first-of-type h3, .menu section.hot_main li:first-of-type h3, .menu section.raw_main li:first-of-type h3, .menu section.end li:first-of-type h3, .menu section li:first-of-type h3 {
     border-top: 0;
   }
   /* line 142, ../sass/_menu.scss */
-  .menu section.start li:nth-child(2), .menu section.hot_main li:nth-child(2), .menu section.raw_main li:nth-child(2), .menu section.end li:nth-child(2) {
+  .menu section.start li:nth-child(2), .menu section.hot_main li:nth-child(2), .menu section.raw_main li:nth-child(2), .menu section.end li:nth-child(2), .menu section li:nth-child(2) {
     margin-top: 2.5%;
   }
 }
