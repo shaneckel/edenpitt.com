@@ -4,16 +4,9 @@
     <h1>{{brunch.meta.header}}</h1>
      <h2>{{brunch.meta.title}}</h2>
   </header>
-
-  <section>
-    <aside>
-      <h3></h3>
-      <p>{{brunch.config.descript}}</p>
-    </aside>
-  </header>
-
-  <section> 
-    <div ng-repeat="section in brunch.menulist">
+ 
+  <article class="menu"> 
+    <section ng-repeat="section in brunch.menulist" class="{{section.class}}">
       <h2>{{section.title}}</h2>
       <h2>{{section.description}}</h2>
       <ul>
@@ -23,9 +16,8 @@
           <b>{{item.price}}</b>
         </li>
       </ul>
-    </div>
-  </section>
- 
+    </section>
+  </article>
  
 <!-- Our unnamed main ui-view for this template 
 <div ui-view class="span9" ng-animate="{enter:'fade-enter'}"></div>-->
