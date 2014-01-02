@@ -1,11 +1,15 @@
-var ngEden = angular.module("ngEden",  ['ui.router', 'ngAnimate', 'breakpointApp' ]) 
+var ngEden = angular.module("ngEden",  ['ui.router', 'ngAnimate', 'breakpointApp', 'chieffancypants.loadingBar' ]) 
 
 ngEden.run(['$rootScope', '$state', '$stateParams',
   function ($rootScope,   $state,   $stateParams) {
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
   }]);
- 
+
+ngEden.config(function(cfpLoadingBarProvider) {
+    cfpLoadingBarProvider.includeSpinner = true;
+  });
+
 ngEden.config(function($urlRouterProvider, $stateProvider){
   
   $urlRouterProvider

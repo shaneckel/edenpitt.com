@@ -4,15 +4,24 @@
      <h2>{{brunch.meta.title}}</h2>
   </header>
  
-  <article class="menu"> 
+  <article class="menu brunch"> 
     <section ng-repeat="section in brunch.menulist" class="{{section.class}}">
       <h2>{{section.title}}</h2>
+      <h3 ng-if="section.note">+ {{section.note}}</h3>
       <ul>
         <li ng-repeat="item in section.items">
           <h3>{{item.title}}</h3>
           <span class="price">${{item.price}}</span>
           <p>{{item.descript}}</p>
+          <aside ng-if="item.listdescript">
+            <h4>{{item.listdescript}}</h4>
+          </aside>
         </li>
       </ul>
+      <aside ng-if="section.class == 'savory'">
+        <h5>WE ARE VERY SENSITIVE TO YOUR ALLERGIES. LET US KNOW AND WE WILL DO OUR VERY BEST TO ACCOMMODATE.</h5>
+        <h5>IN OUR SKILLETS WE ONLY USE COLD PRESSED EXTRA VIRGIN OLIVE OIL, FRESH GROUND PEPPER AND SEA SALT.</h5>
+      </aside>
     </section>
+
   </article>
