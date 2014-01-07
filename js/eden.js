@@ -10,6 +10,7 @@ ngEden.run(['$rootScope', '$state', '$stateParams',
 
     $rootScope.$on('$stateChangeStart', function(event){ 
       $state.ready = 'no';
+      disabled = false; 
     })
  
     $rootScope.$on('$viewContentLoaded', function(event){ 
@@ -35,7 +36,7 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
           var defer = $q.defer();
           $timeout(function(){
             defer.resolve();
-          }, 2000);
+          }, 22000);
           return defer.promise; 
         }
       } 

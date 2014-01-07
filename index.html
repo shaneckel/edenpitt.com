@@ -15,21 +15,26 @@
     
   <body ng-app="ngEden" ng-class="{ active: $state.includes('contact'), ready: $state.ready == 'yes', init: $state.init == 'yes' }" breakpoint="{766:'phonebreak', 767:'deskbreak'}">
     
-    <div class="loadbar" ng-class="{ready: $state.ready == 'yes', loading: $state.ready == 'no' }"></div>
+    <div class="loadbar" ng-class="{ready: $state.ready == 'yes', loading: $state.ready == 'no', min:scrollpast}">
+      <div class="bar"></div>
+      <div class="spin"></div>
+    </div>
+
 
     <header-main ></header-main>
-
     <main ui-view class="main"></main>
-
     <footer-main></footer-main>
 
+
+    <!--image preload -->
     <img style="width: 0; height: 0;" ng-src="./img/eden-about-large.jpg"/>
     <img style="width: 0; height: 0;" ng-src="./img/eden-contact-large.jpg"/>
     <img style="width: 0; height: 0;" ng-src="./img/eden-main-large-brunch.jpg"/>
     <img style="width: 0; height: 0;" ng-src="./img/eden-main-large-dinner.jpg"/>
     <img style="width: 0; height: 0;" ng-src="./img/eden-main-large-drinks.jpg"/>
     <img style="width: 0; height: 0;" ng-src="./img/eden-main-map.jpg"/>
-
+    <!--image preload -->
+    
     <script src="js/util/angular.js"></script>
     <script src="js/util/angular-breakpoint.js"></script>
     <script src="js/util/angular-ui-router.js"></script>
