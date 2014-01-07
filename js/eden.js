@@ -5,10 +5,16 @@ ngEden.run(['$rootScope', '$state', '$stateParams',
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
  
-    $state.isloadedman = 'no';
+    $state.init = 'no';
+    $state.ready = 'no';
+
+    $rootScope.$on('$stateChangeStart', function(event){ 
+      $state.ready = 'no';
+    })
  
     $rootScope.$on('$viewContentLoaded', function(event){ 
-       $state.isloadedman = 'yes';
+       $state.init = 'yes';
+       $state.ready = 'yes';
     })
 
   }]);

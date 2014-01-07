@@ -779,19 +779,19 @@ header.hero.brunch {
 }
 
 /* line 4, ../sass/_animations.scss */
-body.loaded .main.ng-enter {
+body.ready .main.ng-enter {
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   opacity: 0;
 }
 
 /* line 10, ../sass/_animations.scss */
-body.loaded .main.ng-enter-active {
+body.ready .main.ng-enter-active {
   opacity: 1;
 }
 
 /* line 14, ../sass/_animations.scss */
-body.loaded .home.ng-enter {
+body.ready .home.ng-enter {
   padding-top: 15%;
   transition: padding-top 4.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3;
 }
@@ -868,20 +868,42 @@ body > footer, body > header {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 
-/* line 36, ../sass/main.scss */
-body.loaded > footer, body.loaded > header {
+/* line 37, ../sass/main.scss */
+body.init > footer, body.init > header {
   opacity: 1;
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 
-/* line 42, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
+.loadbar {
+  transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s;
+  -webkit-transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  background: red;
+  height: 10px;
+}
+/* line 54, ../sass/main.scss */
+.loadbar.ready, .loadbar.ng-enter {
+  height: 1px;
+}
+/* line 57, ../sass/main.scss */
+.loadbar.loading, .loadbar.ng-active {
+  height: 10px;
+}
+
+/* line 62, ../sass/main.scss */
 main.main > section, main.main > header {
   padding: 15% 10%;
   padding-top: 15%;
   padding-bottom: 15%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 42, ../sass/main.scss */
+  /* line 62, ../sass/main.scss */
   main.main > section, main.main > header {
     padding: 5%;
     padding-top: 20%;
@@ -889,14 +911,14 @@ main.main > section, main.main > header {
   }
 }
 
-/* line 53, ../sass/main.scss */
+/* line 73, ../sass/main.scss */
 .hero {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% auto;
   background-size: cover;
 }
-/* line 58, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .hero h1 {
   font-size: 5em;
   color: white;
@@ -904,14 +926,14 @@ main.main > section, main.main > header {
   text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
 }
 @media only screen and (max-width: 767px) {
-  /* line 58, ../sass/main.scss */
+  /* line 78, ../sass/main.scss */
   .hero h1 {
     font-size: 2.5em;
     line-height: 1.4em;
     padding-bottom: .2em;
   }
 }
-/* line 69, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 .hero h2 {
   color: white;
   font-size: 2em;
@@ -922,7 +944,7 @@ main.main > section, main.main > header {
   text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
 }
 @media only screen and (max-width: 767px) {
-  /* line 69, ../sass/main.scss */
+  /* line 89, ../sass/main.scss */
   .hero h2 {
     font-size: 1.8em;
     line-height: 1.2em;

@@ -13,20 +13,15 @@
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6038632/802882/css/fonts.css" />
   </head>
     
-  <body ng-app="ngEden" ng-class="{ active: $state.includes('contact'), loaded: $state.isloadedman == 'yes' }" ng-cloak breakpoint="{766:'phonebreak', 767:'deskbreak'}">
+  <body ng-app="ngEden" ng-class="{ active: $state.includes('contact'), ready: $state.ready == 'yes', init: $state.init == 'yes' }" breakpoint="{766:'phonebreak', 767:'deskbreak'}">
     
+    <div class="loadbar" ng-class="{ready: $state.ready == 'yes', loading: $state.ready == 'no' }"></div>
+
     <header-main ></header-main>
 
     <main ui-view class="main"></main>
 
     <footer-main></footer-main>
-    
-    <img style="width: 0; height: 0;" ng-src="./img/eden-main-large-drinks.jpg"/>
-    <img style="width: 0; height: 0;"  ng-src="./img/eden-about-large.jpg"/>
-    <img style="width: 0; height: 0;" ng-src="./img/eden-contact-large.jpg"/>
-    <img style="width: 0; height: 0;" ng-src="./img/eden-main-map.jpg"/>
-    <img style="width: 0; height: 0;" ng-src="./img/eden-main-large-dinner.jpg"/>
-    <img style="width: 0; height: 0;" ng-src="./img/eden-main-large-brunch.jpg"/>
 
     <script src="js/util/angular.js"></script>
     <script src="js/util/angular-breakpoint.js"></script>
