@@ -27,7 +27,7 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
       resolve : {
         ngEden : function($q, $timeout){
           var defer = $q.defer();
-           $timeout(function(){
+          $timeout(function(){
             defer.resolve();
           }, 2000);
           return defer.promise; 

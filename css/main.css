@@ -63,15 +63,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 4, ../sass/_home.scss */
+header.hero.home {
+  background-image: url(../img/eden-main-large-drinks.jpg);
+}
+
+/* line 8, ../sass/_home.scss */
+header.hero.about {
+  background-image: url(../img/eden-about-large.jpg);
+}
+
+/* line 12, ../sass/_home.scss */
+header.hero.contact {
+  background-image: url(../img/eden-contact-large.jpg);
+}
+
 /* line 16, ../sass/_home.scss */
 section.location {
-  background: no-repeat center center;
+  background: url(../img/eden-main-map.jpg) no-repeat center center;
   background-size: 100% auto;
   background-size: cover;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
 }
-/* line 23, ../sass/_home.scss */
+/* line 22, ../sass/_home.scss */
 section.location p {
   width: 50%;
   font-size: 2em;
@@ -81,11 +96,11 @@ section.location p {
   line-height: 1.1em;
   border: 1px solid #aaa;
 }
-/* line 31, ../sass/_home.scss */
+/* line 30, ../sass/_home.scss */
 section.location p strong {
   font-weight: 600;
 }
-/* line 34, ../sass/_home.scss */
+/* line 33, ../sass/_home.scss */
 section.location p a {
   color: #ed1c24;
 }
@@ -563,6 +578,16 @@ footer.bot a {
   flex: 1;
   color: white;
   font-size: 1.6em;
+}
+
+/* line 4, ../sass/_menu.scss */
+header.hero.dinner {
+  background-image: url(../img/eden-main-large-dinner.jpg);
+}
+
+/* line 8, ../sass/_menu.scss */
+header.hero.brunch {
+  background-image: url(../img/eden-main-large-brunch.jpg);
 }
 
 /* line 14, ../sass/_menu.scss */
