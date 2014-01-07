@@ -1,25 +1,44 @@
-var ngEden = angular.module("ngEden",  ['ui.router', 'ngAnimate', 'breakpointApp', 'chieffancypants.loadingBar' ]) 
+var ngEden = angular.module("ngEden",  ['ui.router', 'ngAnimate', 'breakpointApp']) 
 
-ngEden.run(['$rootScope', '$state', '$stateParams',
-  function ($rootScope,   $state,   $stateParams) {
+ngEden.run(['$rootScope', '$state', '$stateParams', 
+  function ($rootScope,   $state, $stateParams ) {
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
-  }]);
 
-ngEden.config(function(cfpLoadingBarProvider) {
-    cfpLoadingBarProvider.includeSpinner = true;
-  });
+    $rootScope.$on('$stateChangeStart', function(event){ 
+      var greeting ="test";
+      console.log(greeting);
+       $state.isloadedman = 'no';
+    })    
+
+    $rootScope.$on('$stateChangeSuccess', function(event){ 
+      var greeting ="tested";
+      console.log(greeting);
+       $state.isloadedman = 'yes';
+    })
+
+  }]);
 
 ngEden.config(function($urlRouterProvider, $stateProvider){
   
   $urlRouterProvider
+
     .otherwise('/');
 
   $stateProvider
 
     .state("home", {
       url: "/",
-      templateUrl: 'template/home.html'
+      templateUrl: 'template/home.html',
+      resolve : {
+        ngEden : function($q, $timeout){
+          var defer = $q.defer();
+           $timeout(function(){
+            defer.resolve();
+          }, 2000);
+          return defer.promise; 
+        }
+      } 
     })
 
     .state("dinner", {
@@ -134,7 +153,23 @@ ngEden.directive("scroll", function ($window) {
     });
   };
 });
- 
+
+ngEden.directive('headerMain', function () {
+  return {
+    restrict: 'E',
+    templateUrl: 'template/header.html',
+    replace: true
+  };
+});
+
+ngEden.directive('footerMain', function () {
+  return {
+    restrict: 'E',
+    templateUrl: 'template/footer.html',
+    replace: true
+  };
+});
+
 // $scope.$on('breakpointChange', function(event, breakpoint, oldClass) { 
 //   console.log('Entering:' + breakpoint.class); 
 //   console.log('Leaving:' + oldClass); 

@@ -9,41 +9,21 @@
 
     <meta name="description" content="">
     <link type="text/css" rel="stylesheet" href="css/main.css">
-    <link type="text/css" rel="stylesheet" href="css/loading-bar.min.css">
+    <link type="text/css" rel="stylesheet" href="css/ngprogress.css">
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6038632/802882/css/fonts.css" />
   </head>
     
-  <body ng-app="ngEden" ng-cloak breakpoint="{767:'phonebreak', 768:'deskbreak'}">
- 
-    <header class="top" scroll ng-class="{min:scrollpast, disabled:disabled}" ng-init="disabled=false">
-      <nav ng-class="{disabled:disabled}" class="expose-animation">
-        <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
-        <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
-        <a ui-sref="home" class="logo">
-          <img ng-src="./img/edenlogo.svg">
-        </a>
-        <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
-        <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
-      </nav>
-      <div class="togglebutton-animation" ng-class="{disabled:disabled}" ng-click="disabled=!disabled" >+</div>
-    </header>
+  <body ng-app="ngEden" ng-class="{ active: $state.includes('contact'), loaded: $state.isloadedman == 'yes' }" ng-cloak breakpoint="{766:'phonebreak', 767:'deskbreak'}">
+    
+    <header-main ></header-main>
 
     <main ui-view class="main"></main>
 
-    <footer class="bot" >
-      <nav>
-        <a ng-class="{ active: $state.includes('home') }" ui-sref="dinner">home</a>
-        <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
-        <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
-        <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
-        <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
-      </nav>
-    </footer>
-
+    <footer-main></footer-main>
+    
     <script src="js/util/angular.js"></script>
     <script src="js/util/angular-breakpoint.js"></script>
     <script src="js/util/angular-ui-router.js"></script>
-    <script src="js/util/loading-bar.min.js"></script>
     <script src="js/util/angular-animate.js"></script>
  
     <script src="js/eden.js"></script>
