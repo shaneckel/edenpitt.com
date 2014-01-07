@@ -178,7 +178,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 100%;
   box-sizing: border-box;
   background: #ed1c24;
-  height: 8px;
+  height: 5px;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.75);
 }
 /* line 35, ../sass/_spinner.scss */
@@ -195,7 +195,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 26px;
   height: 26px;
   left: 50%;
-  top: -40px;
+  top: 10px;
   -webkit-animation-duration: 0.75s;
   -moz-animation-duration: 0.75s;
   -ms-animation-duration: 0.75s;
