@@ -4,16 +4,10 @@ ngEden.run(['$rootScope', '$state', '$stateParams',
   function ($rootScope,   $state, $stateParams ) {
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
-
-    $rootScope.$on('$stateChangeStart', function(event){ 
-      var greeting ="test";
-      console.log(greeting);
-       $state.isloadedman = 'no';
-    })    
-
+ 
+    $state.isloadedman = 'no';
+ 
     $rootScope.$on('$stateChangeSuccess', function(event){ 
-      var greeting ="tested";
-      console.log(greeting);
        $state.isloadedman = 'yes';
     })
 
@@ -167,6 +161,16 @@ ngEden.directive('footerMain', function () {
     restrict: 'E',
     templateUrl: 'template/footer.html',
     replace: true
+  };
+});
+
+ngEden.directive('backImg', function(){
+  return function(scope, element, attrs){
+    attrs.$observe('backImg', function(value) {
+      element.css({
+        'background-image': 'url(' + value +')'
+      });
+    });
   };
 });
 
