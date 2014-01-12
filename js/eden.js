@@ -30,16 +30,7 @@ ngEden.config(function($urlRouterProvider, $stateProvider){
 
     .state("home", {
       url: "/",
-      templateUrl: 'template/home.html' //,
-      // resolve : {
-      //   ngEden : function($q, $timeout){
-      //     var defer = $q.defer();
-      //     $timeout(function(){
-      //       defer.resolve();
-      //     }, 22000);
-      //     return defer.promise; 
-      //   }
-      // } 
+      templateUrl: 'template/home.html'
     })
 
     .state("dinner", {
