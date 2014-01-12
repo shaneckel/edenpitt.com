@@ -14,21 +14,12 @@
   </head>
     
   <body ng-app="ngEden" ng-class="{ active: $state.includes('contact'), ready: $state.ready == 'yes', init: $state.init == 'yes' }" breakpoint="{766:'phonebreak', 767:'deskbreak'}">
-    
+
     <div class="loadbar" ng-class="{ready: $state.ready == 'yes', loading: $state.ready == 'no', min:scrollpast}">
       <div class="bar"></div>
       <div class="spin"></div>
     </div>
-
-    <!--image preload -->
-    <img class="preload" ng-src="./img/eden-about-large.jpg"/> 
-    <img class="preload" ng-src="./img/eden-contact-large.jpg"/> 
-    <img class="preload" ng-src="./img/eden-main-large-brunch.jpg"/> 
-    <img class="preload" ng-src="./img/eden-main-large-dinner.jpg"/> 
-    <img class="preload" ng-src="./img/eden-main-large-drinks.jpg"/> 
-    <img class="preload" ng-src="./img/eden-main-map.jpg"/>
-    <!--image preload -->
-
+ 
     <header-main ></header-main>
     <main ui-view class="main"></main>
     <footer-main></footer-main>

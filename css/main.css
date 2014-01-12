@@ -310,35 +310,34 @@ section.hours {
   background-size: cover;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
-  min-height: 600px;
   padding: 10% 10%;
 }
-/* line 50, ../sass/_home.scss */
+/* line 49, ../sass/_home.scss */
 section.hours p {
   font-size: 1.2em;
   font-weight: 300;
 }
-/* line 54, ../sass/_home.scss */
+/* line 53, ../sass/_home.scss */
 section.hours h1 {
   font-size: 2.6em;
   border-bottom: 1px solid #666;
   margin-bottom: .5em;
   padding-bottom: .5em;
 }
-/* line 60, ../sass/_home.scss */
+/* line 59, ../sass/_home.scss */
 section.hours > h2 {
   font-size: 1.5em;
   font-weight: 400;
   border-top: 1px solid #666;
   padding-top: .5em;
 }
-/* line 65, ../sass/_home.scss */
+/* line 64, ../sass/_home.scss */
 section.hours > h2 a {
   font-weight: 900;
   color: #ed1c24;
   text-decoration: none;
 }
-/* line 71, ../sass/_home.scss */
+/* line 70, ../sass/_home.scss */
 section.hours ul {
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -360,7 +359,7 @@ section.hours ul {
   width: 100%;
   align-items: center;
 }
-/* line 79, ../sass/_home.scss */
+/* line 78, ../sass/_home.scss */
 section.hours ul aside {
   -webkit-box-flex: 2;
   -moz-box-flex: 2;
@@ -369,21 +368,21 @@ section.hours ul aside {
   flex: 2;
   height: 100%;
 }
-/* line 82, ../sass/_home.scss */
+/* line 81, ../sass/_home.scss */
 section.hours ul aside h2 {
   font-size: 2em;
-  margin-top: .5em;
-  font-weight: 900;
+  margin-top: .8em;
+  font-weight: 600;
   border-bottom: 1px solid #666;
   margin-bottom: .2em;
-  padding-bottom: .5em;
+  padding-bottom: .2em;
 }
-/* line 90, ../sass/_home.scss */
+/* line 89, ../sass/_home.scss */
 section.hours ul aside h3 {
   font-size: 1.4em;
   font-weight: 400;
 }
-/* line 95, ../sass/_home.scss */
+/* line 94, ../sass/_home.scss */
 section.hours ul li {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -393,13 +392,13 @@ section.hours ul li {
   height: 100%;
   text-align: center;
 }
-/* line 100, ../sass/_home.scss */
+/* line 99, ../sass/_home.scss */
 section.hours ul li h2 {
   font-size: .6em;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 105, ../sass/_home.scss */
+/* line 104, ../sass/_home.scss */
 section.hours ul li span {
   width: 4em;
   height: 4em;
@@ -408,7 +407,7 @@ section.hours ul li span {
   margin-top: 1.4em;
   border: 1px solid #666;
 }
-/* line 113, ../sass/_home.scss */
+/* line 112, ../sass/_home.scss */
 section.hours ul li span.open {
   width: 4em;
   height: 4em;
@@ -419,18 +418,18 @@ section.hours ul li span.open {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 126, ../sass/_home.scss */
+  /* line 125, ../sass/_home.scss */
   section.location {
     padding-top: 20%;
     padding-bottom: 20% !important;
   }
-  /* line 129, ../sass/_home.scss */
+  /* line 128, ../sass/_home.scss */
   section.location p {
     width: 100%;
     font-size: 1.1em;
     line-height: 1.5em;
   }
-  /* line 133, ../sass/_home.scss */
+  /* line 132, ../sass/_home.scss */
   section.location p a {
     display: block;
     text-align: center;
@@ -446,114 +445,115 @@ section.hours ul li span.open {
     margin-top: 1em;
   }
 
-  /* line 145, ../sass/_home.scss */
+  /* line 144, ../sass/_home.scss */
   header.home h1 {
     font-size: 2.1em;
   }
 
-  /* line 148, ../sass/_home.scss */
+  /* line 147, ../sass/_home.scss */
   main.main > header {
     padding: 5%;
     padding-top: 20%;
     padding-bottom: 15%;
   }
 
-  /* line 153, ../sass/_home.scss */
+  /* line 152, ../sass/_home.scss */
   section.hours {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 10% 5%;
+    white-space: nowrap;
   }
-  /* line 156, ../sass/_home.scss */
+  /* line 155, ../sass/_home.scss */
   section.hours h1 {
     font-size: 1.8em;
   }
-  /* line 159, ../sass/_home.scss */
+  /* line 158, ../sass/_home.scss */
   section.hours p {
     font-size: .9em;
     font-weight: 400;
     line-height: 1.2em;
+    white-space: normal;
   }
   /* line 164, ../sass/_home.scss */
   section.hours > h2 {
     font-size: 1.2em;
+    white-space: normal;
   }
-  /* line 167, ../sass/_home.scss */
+  /* line 168, ../sass/_home.scss */
   section.hours ul {
-    display: block;
+    display: inline-block;
     height: 100%;
     margin: 1.8em 0;
+    width: 50%;
   }
-  /* line 171, ../sass/_home.scss */
+  /* line 174, ../sass/_home.scss */
+  section.hours ul:first-of-type {
+    padding-right: 5%;
+  }
+  /* line 177, ../sass/_home.scss */
+  section.hours ul:last-of-type {
+    padding-left: 5%;
+  }
+  /* line 181, ../sass/_home.scss */
   section.hours ul aside {
     border-bottom: 1px solid;
     padding-bottom: .5em;
+    margin-bottom: 1em;
   }
-  /* line 174, ../sass/_home.scss */
+  /* line 185, ../sass/_home.scss */
   section.hours ul aside h2 {
-    display: inline;
+    display: block;
     padding: 0;
     margin: 0;
     font-size: 1.5em;
-    font-weight: 900;
+    font-weight: 600;
     border: 0;
   }
-  /* line 182, ../sass/_home.scss */
+  /* line 193, ../sass/_home.scss */
   section.hours ul aside h3 {
     font-size: 1.5em;
     font-weight: 300;
     display: inline;
   }
-  /* line 188, ../sass/_home.scss */
+  /* line 199, ../sass/_home.scss */
   section.hours ul li {
     height: 1.5em;
-    text-align: center;
+    text-align: left;
     position: relative;
   }
-  /* line 192, ../sass/_home.scss */
+  /* line 203, ../sass/_home.scss */
   section.hours ul li h2 {
-    font-size: 1em;
-    text-align: center;
+    font-size: .9em;
     text-transform: uppercase;
     text-align: left;
-    width: 50%;
+    padding-left: 1.6em;
     display: inline-block;
     position: relative;
-  }
-  /* line 200, ../sass/_home.scss */
-  section.hours ul li h2:after {
-    display: inline-block;
-    width: 100%;
-    border-bottom: solid 1px #999;
-    position: absolute;
-    top: .4em;
-    z-index: 0;
-    content: "";
   }
   /* line 210, ../sass/_home.scss */
+  section.hours ul li h2.closed {
+    font-weight: 300;
+  }
+  /* line 214, ../sass/_home.scss */
   section.hours ul li span {
-    width: 50%;
     height: 1em;
+    width: 1em;
     background: transparent;
     display: inline-block;
-    margin-top: 1.4em;
+    margin-top: 0em;
     border: 1px solid #666;
-    content: "x";
     z-index: 20;
-    position: relative;
-    position: relative;
-    color: black;
-    background: white;
-    content: close-quote;
-    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 0em;
   }
   /* line 225, ../sass/_home.scss */
   section.hours ul li span.open {
-    width: 50%;
     background: #ed1c24;
     display: inline-block;
-    margin-top: 1.4em;
+    margin-top: 0;
     border: 0;
     height: 1em;
+    width: 1em;
   }
 }
 /* line 2, ../sass/_header.scss */
