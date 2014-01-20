@@ -8,7 +8,7 @@
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  	<title>Fall | Eden</title>
+  	<title>Winter | Eden</title>
  	<meta name="description" content="">
   	<meta name="author" content="">
 
@@ -48,7 +48,7 @@
 		
 		<section id="main" role="main">
 		
-			<header><h1 id="fall"><span>Fall</span></h1></header>
+			<header><h1 id="winter"><span>Winter</span></h1></header>
 			
 			<p id="dinner-intro">
 				Eden is a BYOB establishment.
@@ -62,21 +62,21 @@
 				</header>				
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">CHEESE PLATE <div>[<mark>&#36;</mark><span class="padding-left-10">12]</span></div>
-							<aside>Cashew and brazil nut, sage cheeses, coconut walnuts, apricot jam, beet and sunflower cake and local bee boy honey.</aside></header>
+						<header class="featured-item">STUFFED AVOCADO <div>[<mark>&#36;</mark><span class="padding-left-10">7]</span></div>
+							<aside>Red cabbage, arugula and acorn squash with a horse radish and sunflower sauce.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">CARROT BREAD <div>[<mark>&#36;</mark><span class="padding-left-10">7.5]</span></div>
-							<aside>With apple coconut butter.</aside></header>
+						<header class="featured-item">BRUSSEL SPROUT SALAD <div>[<mark>&#36;</mark><span class="padding-left-10">7]</span></div>
+							<aside>Shaved brussel sprouts, apples and walnuts. with a lemon thyme vinaigrette.</aside></header>
 				</ul>
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
-						<header class="featured-item">APPLE AND FENNEL SALAD <div>[<mark>&#36;</mark><span class="padding-left-10">7]</span></div>
-							<aside>Parsley, celery, green onion, lemon, EVOO.</aside></header>
+						<header class="featured-item">ZUCCHINI RAVIOLI<div>[<mark>&#36;</mark><span class="padding-left-10">8]</span></div>
+							<aside>Thinly sliced zucchini filled with cashew and butter nut squash cream topped with sage and black pepper olive oil.</aside></header>
 					</li>
 					<li class="last">
-						<header class="featured-item">STUFFED MUSHROOMS <div>[<mark>&#36;</mark><span class="padding-left-10">8]</span></div>
-							<aside>Sage, sunflower, carrot, rosemary, orange and lemon.</aside></header>
+						<header class="featured-item">CRISPY KALE CHIPS <div>[<mark>&#36;</mark><span class="padding-left-10">6]</span></div>
+							<aside>Green kale leaves tossed in pumpkinseed butter and sea salt then dehydrated until crispy.</aside></header>
 					</li>
 				</ul>			
 			</article>					
@@ -87,26 +87,20 @@
 				<header class="featured-item-header easy-clearing">
 					<h2 class="float-left">Main [Raw]</h2>
 				</header>				
-				<ul class="featured-items-double-list easy-clearing">
+				<ul class="featured-items-triple-list easy-clearing">
 					<li>
-						<header class="featured-item">CURRIED BROCCOLI WRAP <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
-							<aside>Flax and beet wrap, ginger, avocado and arugula w/ a cucumber and mint salad.</aside></header>
+						<header class="featured-item">ACORN SQUASH AND LEEK TART <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
+							<aside>With a sunflower seed, carrot crust and celeriac cream, topped with arugula and served with a savoy cabbage and apple slaw.</aside></header>
 					</li>
+					<li class="featured-item">
+						<header class="featured-item">PORTOBELLO BURRITO <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
+							<aside>Marinated portobello with spicy almond meat, avocado, lettuce, and cashew sour cream. Served with cauliflower rice and fresh tomato salsa.</aside></header>	
+					</li>				
 					<li class="last">
-						<header class="featured-item">KOBOCHA SQUASH PAD THAI <div>[<mark>&#36;</mark><span class="padding-left-10">14]</span></div>
-							<aside>Kelp noodles, tamarind, basil, garlic, green onion, carrot, mint and almond.</aside></header>
+						<header class="featured-item">TOMATO AND PESTO FLATBREAD<div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
+							<aside>Dehydrated flax and vegetable crust, sun dried tomato marinara, chopped spinach and pumpkin seed pesto, sunflower seed cheese and fresh tomato.</aside></header>
+					</li>
 				</ul>
-				<ul class="featured-items-double-list easy-clearing">
-					<li>
-						<header class="featured-item">NACHOS <div>[<mark>&#36;</mark><span class="padding-left-10">15]</span></div>
-							<aside>Flax and sweet potato chips, beet, walnut, avocado, cashew sour cream, red onion, shaved cabbage and red pepper.</aside></header>
-					</li>
-					<li class="last">
-						<header class="featured-item">STUFFED COLLARD GREENS <div>[<mark>&#36;</mark><span class="padding-left-10">13]</span></div>
-							<aside>Portobello, pumpkin seeds, celery, garlic, pickled onions, spicy ginger cream.</aside></header>
-					</li>
-				</ul>					
-								
 			</article>			
 			<article class="hot">
 				<header class="featured-item-header easy-clearing">
@@ -115,11 +109,11 @@
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-							BLACK TRUFFLE MAC AND CHEESE
+							COCONUT GREEN BEAN NOODLES
 							<div>
 								[<mark>&#36;</mark><span class="padding-left-10">13]</span>
 							</div>
-							<aside>W/ brown rice pasta, coconut and cashew sauce, broccoli, sun dried tomatoes and spinach.
+							<aside>Bean thread noodles made of green beans and green peas with cauliflower, broccoli, zucchini, carrots and spinach with a coconut, ginger and cumin seed broth.
 								<aside class="sub-caption">with organic chicken, tofu or tempeh for an extra $2.</aside>
 							</aside>
 						</header>
@@ -127,11 +121,11 @@
 
 					<li>
 						<header class="featured-item">
-							PEANUT BUTTER KALE AND BUTTER NUT SQUASH
+							RUSSIAN CHILI
 							<div>
-								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">13]</span>
 							</div>
-							<aside>W/ maple syrup, red onion, garlic, and crushed peanuts.
+							<aside>Beets, black beans, cabbage and tomato with smoked paprika, chili and cumin. Served with brown rice and cashew sour cream or local goat cheese.
 								<aside class="sub-caption">with organic chicken, tofu or tempeh for an extra $2.</aside>
 							</aside>
 						</header>
@@ -139,11 +133,11 @@
 
 					<li class="last">
 						<header class="featured-item">
-							MUSHROOM NOODLE BOWL
+							VEGETABLE RICE BOWL
 	 						<div>
-								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">11]</span>
 							</div>
-							<aside>W/ rice vermicelli, miso and mushroom broth, peppers, greens, onion, ginger, garlic, mint and basil.
+							<aside>Brown rice, sauteed zucchini, broccoli, carrots and mushrooms with pickled vegetables and a fried egg. Topped with a tahini sauce.
 								<aside class="sub-caption">with organic chicken, tofu or tempeh for an extra $2.</aside>
 							</aside>
 						</header>
@@ -152,22 +146,22 @@
 				<ul class="featured-items-triple-list easy-clearing">
 					<li>
 						<header class="featured-item">
-							PUMPKIN CURRY
+							IRISH STEW
 							<div>
 								[<mark>&#36;</mark><span class="padding-left-10">13]</span>
 							</div>
-							<aside>W/ sweet potato, red potato, yellow curry, garlic, onion, chick peas, and coconut milk.
+							<aside>Sweet potato, red potato, kale, green lentils, gluten free beer, chickpea rosemary and thyme. Served with a gluten free oat muffin.
 								<aside class="sub-caption">with organic chicken, tofu or tempeh for an extra $2.</aside>
 							</aside>
 						</header>
 					</li>					
 					<li>
 						<header class="featured-item">
-							BBQ TOFU SALAD
+							WINTER BEAN SALAD
 							<div>
-								[<mark>&#36;</mark><span class="padding-left-10">12]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">10]</span>
 							</div>
-							<aside>Mixed organic greens, carrot, tomato cucumber, kale, chick peas and a roasted tomato dressing.
+							<aside>Warm chickpeas, black beans, and green lentils tossed with fresh kale red onion spinach and cabbage and a rosemary vinaigrette.
 								<aside class="sub-caption">with organic chicken, tofu or tempeh for an extra $2.</aside>
 							</aside>
 						</header>
@@ -195,20 +189,20 @@
 				<ul class="featured-items-double-list easy-clearing">
 					<li>
 						<header class="featured-item">
-							PUMPKIN PIE
+							LEMON AND CASHEW MOUSSE
 							<div>
-								[<mark>&#36;</mark><span class="padding-left-10">9]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">8]</span>
 							</div>
-							<aside>Almond, date, coconut, vanilla cashew cream.</aside>
+							<aside>Almond and lavender cookies and fresh fruit.</aside>
 						</header>
 					</li>					
 					<li class="last">
 						<header class="last featured-item">
-							APPLE CHEESE CAKE
+							BEET AND ORANGE CHEESECAKE
 							<div>
-									</br>[<mark>&#36;</mark><span class="padding-left-10">8.5]</span>
+									</br>[<mark>&#36;</mark><span class="padding-left-10">9]</span>
 							</div>
-							<aside>Sunflower seed, pumpkin seed, chai tea.</aside>
+							<aside>Topped with vanilla macerated strawberries.</aside>
 						</header>
 					</li>
 
@@ -216,20 +210,20 @@
 
 					<li >
 						<header class="featured-item">
-							CHOCOLATE AVOCADO FUDGE
+							CREAM FILLED CHOCOLATE CAKE
 		 					<div>
 								[<mark>&#36;</mark><span class="padding-left-10">9]</span>
 							</div>
-							<aside>W/ Caramel macaroons, raspberry sauce.</aside>
+							<aside>Caramel cream, hazelnut cake and a black cherry sauce.</aside>
 						</header>
 					</li>					
 					<li class="last">
 						<header class="featured-item">
-							SEASONAL GRANITA
+							CINNAMON CHIA SEED PUDDING
 		 					<div>
-								[<mark>&#36;</mark><span class="padding-left-10">3]</span>
+								[<mark>&#36;</mark><span class="padding-left-10">6]</span>
 							</div>
-							<aside>Ask your server for the flavor.</aside>
+							<aside>With fruit and local Bee Boy Honey. Nut Free.</aside>
 						</header>
 					</li>
 				</ul>				

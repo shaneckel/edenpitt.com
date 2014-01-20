@@ -71,11 +71,8 @@
 					<h2 id="delicious"><span>Delicious &amp; Creative Food From Farm to Table</span></h2>
 				</div>
 
-				<p class="margin-bottom-25">For information on "The Fall", Eden's Special dinner <a href="/thefall">click here</a>.
-
 				<p class="margin-bottom-25">Eden is Pittsburgh's premier restaurant for clean and healthy eating.  We specialize in offering raw, vegan entrees, local produce and chicken, and Sunday brunch. Eden is a BYOB establishment and is located at <a target="_blank" href="http://maps.google.com/maps?q=735+Copeland+St.+Pittsburgh,+Pa+15232&um=1&ie=UTF-8&hq=&hnear=0x8834f210e0181241:0x8f971a55e1378d7,735+Copeland+St,+Pittsburgh,+PA+15232&gl=us&ei=89tyTpuMEqLg0QHig8yqCg&sa=X&oi=geocode_result&ct=title&resnum=1&ved=0CBgQ8gEwAA">735 Copeland Street</a>, in Pittsburgh's beautiful Shadyside neighborhood.</p>
 				
-
 				<p>Your health is very important to us, as is the health of our local farms and cooperatives. We want to do good for you, and do good for our community. <a href="about.php">Learn more about Eden...</a></p>
 		
 			</article>	
