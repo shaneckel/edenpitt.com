@@ -35,7 +35,7 @@ if( isset($_POST) ){
     $data['success'] = false;
     $data['errors']  = $errors;
   }
-
   echo json_encode($data);
-
+}else{
+  echo json_encode("{'error': 'not post'}");
 }
