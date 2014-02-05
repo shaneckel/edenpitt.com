@@ -181,25 +181,27 @@ ngEden.controller('formController', function ($scope, $http) {
 
     $scope.processForm = function() {
       console.log("processs");
-      $http({
-        method  : 'POST',
-        url     : 'process.php',
-        data    : $.param($scope.formData), 
-        headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
-      })
-      .success(function(data) {
+      // $http({
+      //   method  : 'POST',
+      //   url     : 'process.php',
+      //   data    : $.param($scope.formData), 
+      //   headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
+      // })
+
+      $http.post('process.php', $scope.formData)
+        .success(function(data) {
           console.log(data);
 
           if (!data.success) {
             // if not successful, bind errors to error variables
-              $scope.errorName = data.errors.name;
-              $scope.errorEmail = data.errors.email;
-              $scope.errorMessage = data.errors.message;
+            $scope.errorName = data.errors.name;
+            $scope.errorEmail = data.errors.email;
+            $scope.errorMessage = data.errors.message;
           } else {
             // if successful, bind success message to message
-              $scope.message = data.message;
+            $scope.message = data.message;
           }
-      });
+        });
     };
   });
 
