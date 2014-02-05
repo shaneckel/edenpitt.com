@@ -22,16 +22,17 @@ if( isset($_POST) ){
    }
 
   if (!empty($errors)) {
-    $headers = "Edenpitt.com email" . "\r\n";
+    $headers = "From: Eden Pitt <hello@edenpitt.com>" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    
+    $headers .= 'MIME-Version: 1.0' . "\r\n";
+ 
     $emailbody = "<p>Eden Email Form</p>
             <p><strong>Name: </strong> {$name} </p>
             <p><strong>Email Address: </strong> {$email} </p>
             <p><strong>Message: </strong> {$message} </p>
             <p>This message was sent from the IP Address: </p>";
  
-    $emailMessage = "EdenPitt Email from {$name}.";
+    $emailMessage = "EdenPitt Email.";
 
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
