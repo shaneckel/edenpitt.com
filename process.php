@@ -34,7 +34,7 @@ if( isset($_POST) ){
                   <p style='border-top:1px solid #333;padding-top:10px;margin-top:10px;'>Their return email is:</p>
                   <h2 style='font-size:16px;'>{$email}</h2>";
  
-    $emailMessage = "Eden email from " . $name ".";
+    $emailMessage = "Eden Email Sent.";
 
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
