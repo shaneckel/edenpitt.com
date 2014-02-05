@@ -4,28 +4,24 @@ if( isset($_POST) ){
   
   $errors   = array();
   $data     = array();  
-  $formok   = true;
-
+ 
   $name     = $_POST['name'];
   $message  = $_POST['message'];
   $email    = $_POST['email'];  
 
   if (empty($_POST['name'])){
     $errors['name'] = 'Name is required.';
-    $formok = false;
-  }
+   }
 
   if (empty($_POST['email'])){
     $errors['email'] = 'Please include an email.';
-    $formok = false;
-  }
+   }
 
   if (empty($_POST['message'])){
     $errors['message'] = 'Please include a message.';
-    $formok = false;
-  }
+   }
 
-  if ($formok) {
+  if (!empty($errors)) {
     $headers = "Edenpitt.com email from {$name}" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     
