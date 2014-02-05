@@ -18,17 +18,19 @@ if( isset($_POST) ){
     $headers = "Edenpitt.com email from " . $name .  ".\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     
-    $emailbody = "<h2>Hey Hilary.</h2>
-                  <h3>{$name} Has sent you an email.</h3>
-                  <p>{$message}</p>
-                  <p>Their email is:</p>
-                  <h2>{$email}</h2> 
-                  <p>:)</p>"
+    // $emailbody = "<h2>Hey Hilary.</h2>
+    //               <h3>{$name} Has sent you an email.</h3>
+    //               <p>{$message}</p>
+    //               <p>Their email is:</p>
+    //               <h2>{$email}</h2> 
+    //               <p>:)</p>"
+    $emailbody = "test";
 
     //mail("hilaryzozula@gmail.com","New Eden Contact",$emailbody,$headers);
     //$stringsender =;
-    mail("shaneckel@gmail.com", "Edenpitt.com email", $emailbody, $headers);
-    
+   // mail("shaneckel@gmail.com", "Edenpitt.com email", $emailbody, $headers);
+    mail("shaneckel@gmail.com","testntact",$emailbody,$headers);
+
     $data['success'] = true;
     $data['message'] = 'Your email was successfully sent on '. date('l jS \of F Y h:i:s A');
  
