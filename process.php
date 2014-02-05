@@ -11,19 +11,20 @@ if( isset($_POST) ){
   $message = $_POST['message'];
   $email = $_POST['email'];  
 
-  if (empty($name) && isset($name)){
+  if (empty($_POST['name']) && isset( $_POST['name'])){
     $errors['name'] = 'Name is required.';
   }
 
-  if (empty($email) && isset($email)){
+  if (empty($_POST['email']) && isset($_POST['email'])){
     $errors['email'] = 'Please include an email.';
   }
 
-  if (empty($message) && isset($message)){
+  if (empty( $_POST['message']) && isset( $_POST['message'])){
     $errors['message'] = 'Please include a message.';
+    $formok = false;
   }
 
-  if (empty($errors)) {
+  if (empty($errors) && $formok) {
     $headers = "From: Eden Pitt <hello@edenpitt.com>" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
@@ -33,7 +34,7 @@ if( isset($_POST) ){
                   <p style='border-top:1px solid #333;padding-top:10px;margin-top:10px;'>Their return email is:</p>
                   <h2 style='font-size:16px;'>{$email}</h2>";
  
-    $emailMessage = "Eden email from {name}.";
+    $emailMessage = "Eden email from " . $name ".";
 
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
