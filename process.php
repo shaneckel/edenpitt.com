@@ -17,12 +17,12 @@ if( isset($_POST) ){
   }
 
   if (empty($_POST['email']) ){
-    $errors['email'] = 'Please include an email.';
+    $errors['email'] = 'Email is required.';
     $formok = false;
   }
 
   if (empty( $_POST['message']) ){
-    $errors['message'] = 'Please include a message.';
+    $errors['message'] = 'A message is Required.';
     $formok = false;
   }
 
@@ -31,12 +31,9 @@ if( isset($_POST) ){
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
  
-    $emailbody = "<h1 style='font-size:18px;'>{$name} sent you an email.</h1>
-                  <p style='border-top:1px solid #333;padding-top:20px;margin-top:10px;'>{$message} </p>
-                  <p style='border-top:1px solid #333;padding-top:10px;margin-top:10px;'>Their return email is:</p>
-                  <h2 style='font-size:16px;'>{$email}</h2>";
+    $emailbody = "<h1 style='font-size:18px; padding: 30px 20px 10px 20px; background: #ed1c24; color: white; font-family: sans-serif; font-weight: normal;'><span style='font-weight:bold'>{$name}</span> sent you an email</h1><p style='padding:30px 20px; color: #c50202;'>{$message}</p><h2 style='padding: 20px; font-size: 15px; background: #ed1c24; color: white; font-family: sans-serif;'>Their return email is. <strong>{email}</strong>.</h2>";
  
-    $emailMessage = "Eden Email Sent.";
+    $emailMessage = "Eden Email";
 
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
