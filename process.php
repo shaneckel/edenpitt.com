@@ -26,7 +26,8 @@ if( isset($_POST) ){
                   <p>:)</p>"
 
     //mail("hilaryzozula@gmail.com","New Eden Contact",$emailbody,$headers);
-    mail("shaneckel@gmail.com", "Edenpitt.com email from " . $name .  "." , $emailbody, $headers);
+    $stringsender = "Edenpitt.com email from " . $name . ".";
+    mail("shaneckel@gmail.com", $stringsender , $emailbody, $headers);
     
     $data['success'] = true;
     $data['message'] = 'Your email was successfully sent on '. date('l jS \of F Y h:i:s A');
