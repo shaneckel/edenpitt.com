@@ -22,7 +22,7 @@ if( isset($_POST) ){
    }
 
   if (!empty($errors)) {
-    $headers = "Edenpitt.com email from {$name}" . "\r\n";
+    $headers = "Edenpitt.com email" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     
     $emailbody = "<p>Eden Email Form</p>
