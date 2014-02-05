@@ -1,12 +1,43 @@
 
    
   <header class="hero contact">
-     <h1>Contact</h1>
-    <h2>Curious about eden</h2>
+    <h1>Contact Eden</h1>
   </header>
 
+  <section>
+
+    <form ng-controller="formController" ng-submit="processForm()">
+      
+      <div id="messages" ng-show="message">{{ message }}</div>
+ 
+      <div class="form-group" ng-class="{ 'error' : errorName }">
+        <label>Name</label>
+        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name">
+        <span ng-show="errorName">{{ errorName }}</span>
+      </div>
+
+      <div class="form-group" ng-class="{ 'error' : errorEmail }">
+        <label>Email</label>
+        <input type="text" name="email" class="form-control" placeholder="Return Email"  ng-model="formData.email">
+        <span ng-show="errorEmail">{{ errorEmail }}</span>
+      </div>
+
+      <div class="form-group" ng-class="{ 'error' : errorMessage }">
+        <label>Message</label>
+        <textarea type="text" name="message" class="form-control" placeholder="Message" ng-model="formData.message"></textarea> 
+        <span ng-show="errorMessage">{{ errorMessage }}</span>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <pre>
+        {{ formData }}
+      </pre>
+
+    </form>
+
+  </section>
   <!--image preload-->
-
-
+ 
 <!-- Our unnamed main ui-view for this template 
 <div ui-view class="span9" ng-animate="{enter:'fade-enter'}"></div>-->

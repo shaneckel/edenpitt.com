@@ -172,6 +172,38 @@ ngEden.directive('backImg', function(){
   };
 });
 
+ngEden.controller('formController', function ($scope, $http) {
+
+    // create a blank object to hold our form information
+    // $scope will allow this to pass between controller and view
+    $scope.formData = { };
+    console.log("sadad");
+
+    $scope.processForm = function() {
+      console.log("processs");
+      $http({
+        method  : 'POST',
+        url     : 'process.php',
+        data    : $.param($scope.formData), 
+        headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
+      })
+      .success(function(data) {
+          console.log(data);
+
+          if (!data.success) {
+            // if not successful, bind errors to error variables
+              $scope.errorName = data.errors.name;
+              $scope.errorEmail = data.errors.email;
+              $scope.errorMessage = data.errors.message;
+          } else {
+            // if successful, bind success message to message
+              $scope.message = data.message;
+          }
+      });
+    };
+  });
+
+
 // $scope.$on('breakpointChange', function(event, breakpoint, oldClass) { 
 //   console.log('Entering:' + breakpoint.class); 
 //   console.log('Leaving:' + oldClass); 
