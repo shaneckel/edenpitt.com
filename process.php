@@ -10,13 +10,13 @@ if( isset($_POST) ){
   $email    = $_POST['email'];  
 
 
-  if (empty($name)
+  if (empty($name))
     $errors['name'] = 'Name is required.';
 
-  if (empty($email)
+  if (empty($email))
     $errors['email'] = 'Please include an email.';
 
-  if (empty($message)
+  if (empty($message))
     $errors['message'] = 'Please include a message.';
 
   if (!empty($errors)) {
