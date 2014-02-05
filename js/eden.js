@@ -180,7 +180,7 @@ ngEden.controller('formController', function ($scope, $http) {
     console.log("sadad");
 
     $scope.processForm = function() {
-      console.log("processs");
+      console.log("processs" + $.param($scope.formData));
       $http({
         method  : 'POST',
         url     : 'process.php',

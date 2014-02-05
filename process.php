@@ -11,21 +11,23 @@ if( isset($_POST) ){
   $message = $_POST['message'];
   $email = $_POST['email'];  
 
-  if (empty($_POST['name']) && isset( $_POST['name'])){
+  if (empty($_POST['name']) ){
     $errors['name'] = 'Name is required.';
+    $formok = false;
   }
 
-  if (empty($_POST['email']) && isset($_POST['email'])){
+  if (empty($_POST['email']) ){
     $errors['email'] = 'Please include an email.';
+    $formok = false;
   }
 
-  if (empty( $_POST['message']) && isset( $_POST['message'])){
+  if (empty( $_POST['message']) ){
     $errors['message'] = 'Please include a message.';
     $formok = false;
   }
 
   if (empty($errors) && $formok) {
-    $headers = "From: Eden Pitt <hello@edenpitt.com>" . "\r\n";
+    $headers = "From: Eden <hello@edenpitt.com>" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
  
