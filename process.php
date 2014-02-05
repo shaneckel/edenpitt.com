@@ -25,8 +25,8 @@ if( isset($_POST) ){
     
     $emailbody = "<h2>Hey Hilary.</h2>";
     $emailbody .= "<h3>". $name . "Has sent you an email.</h3>";
-    $emailbody .= "<p>" . $message . "</p><p>Their email is:</p>"
-    $emailbody .= "<h2>" . $email . "</h2><p>:)</p>"
+    $emailbody .= "<p>" . $message . "</p><p>Their email is:</p>";
+    $emailbody .= "<h2>" . $email . "</h2><p>:)</p>";
  
     mail("shaneckel@gmail.com","EdenPitt Email from " . $name . ".",$emailbody,$headers);
 
