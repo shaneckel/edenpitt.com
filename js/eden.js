@@ -181,14 +181,14 @@ ngEden.controller('formController', function ($scope, $http) {
 
     $scope.processForm = function() {
       console.log("processs");
-      // $http({
-      //   method  : 'POST',
-      //   url     : 'process.php',
-      //   data    : $.param($scope.formData), 
-      //   headers :  // set the headers so angular passing info as form data (not request payload)
-      // })
-      $http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
-      $http.post('process.php', $scope.formData)
+      $http({
+        method  : 'POST',
+        url     : 'process.php',
+        data    :  $scope.formData, 
+        headers :  // set the headers so angular passing info as form data (not request payload)
+      })
+      // $http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
+      // $http.post('process.php', $scope.formData)
         .success(function(data) {
           console.log(data);
 
