@@ -2,12 +2,14 @@
 
 if( isset($_POST) ){
   
-  $errors   = array();
-  $data     = array();  
+  $formok = true;
+
+  $errors = array();
+  $data = array();  
  
-  $name     = $_POST['name'];
-  $message  = $_POST['message'];
-  $email    = $_POST['email'];  
+  $name = $_POST['name'];
+  $message = $_POST['message'];
+  $email = $_POST['email'];  
 
   if (empty($name) && isset($name)){
     $errors['name'] = 'Name is required.';
@@ -40,7 +42,7 @@ if( isset($_POST) ){
  
   }else{
     $data['success'] = false;
-    $data['errors']  = $errors;
+    $data['errors'] = $errors;
   }
 
   echo json_encode($data);
