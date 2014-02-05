@@ -13,17 +13,22 @@ if( isset($_POST) ){
   if (empty($name)){
     $errors['name'] = 'Name is required.';
     $formok = false;
+  }else{
+    $errors['name'] = 'Name is not empty.';
   }
+
   if (empty($email)){
     $errors['email'] = 'Please include an email.';
     $formok = false;
   }
+
   if (empty($message)){
     $errors['message'] = 'Please include a message.';
     $formok = false;
   }
+
   if ($formok) {
-    $headers = "Edenpitt.com email from " . $name .  ".\r\n";
+    $headers = "Edenpitt.com email from {$name}" . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     
     $emailbody = "<p>Eden Email Form</p>
