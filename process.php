@@ -10,19 +10,17 @@ if( isset($_POST) ){
   $message  = $_POST['message'];
   $email    = $_POST['email'];  
 
-  if (empty($name)){
+  if (empty($_POST['name'])){
     $errors['name'] = 'Name is required.';
     $formok = false;
-  }else{
-    $errors['name'] = 'Name is not empty.';
   }
 
-  if (empty($email)){
+  if (empty($_POST['email'])){
     $errors['email'] = 'Please include an email.';
     $formok = false;
   }
 
-  if (empty($message)){
+  if (empty($_POST['message'])){
     $errors['message'] = 'Please include a message.';
     $formok = false;
   }
