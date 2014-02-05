@@ -4,7 +4,12 @@ if( isset($_POST) ){
   
   $errors   = array();
   $data     = array();  
-    
+  
+  $name     = $_POST['name'];
+  $message  = $_POST['message'];
+  $email    = $_POST['email'];  
+
+
   if (empty($_POST['name']))
     $errors['name'] = 'Name is required.';
 
@@ -18,18 +23,14 @@ if( isset($_POST) ){
     $headers = "Edenpitt.com email from " . $name .  ".\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     
-    // $emailbody = "<h2>Hey Hilary.</h2>
-    //               <h3>{$name} Has sent you an email.</h3>
-    //               <p>{$message}</p>
-    //               <p>Their email is:</p>
-    //               <h2>{$email}</h2> 
-    //               <p>:)</p>"
-    $emailbody = "test";
+    $emailbody = "<h2>Hey Hilary.</h2>
+                  <h3>{$name} Has sent you an email.</h3>
+                  <p>{$message}</p>
+                  <p>Their email is:</p>
+                  <h2>{$email}</h2> 
+                  <p>:)</p>"
 
-    //mail("hilaryzozula@gmail.com","New Eden Contact",$emailbody,$headers);
-    //$stringsender =;
-   // mail("shaneckel@gmail.com", "Edenpitt.com email", $emailbody, $headers);
-    mail("shaneckel@gmail.com","testntact",$emailbody,$headers);
+    mail("shaneckel@gmail.com","EdenPitt Email from " . $name . ".",$emailbody,$headers);
 
     $data['success'] = true;
     $data['message'] = 'Your email was successfully sent on '. date('l jS \of F Y h:i:s A');
@@ -38,7 +39,7 @@ if( isset($_POST) ){
     $data['success'] = false;
     $data['errors']  = $errors;
   }
+
   echo json_encode($data);
-}else{
-  echo json_encode("{'error': 'not post'}");
+
 }
