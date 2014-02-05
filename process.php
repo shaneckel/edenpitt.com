@@ -31,9 +31,9 @@ if( isset($_POST) ){
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
  
-    $emailbody = "<h1 style='font-size:18px; padding: 30px 20px 10px 20px; background: #ed1c24; color: white; font-family: sans-serif; font-weight: normal;'><span style='font-weight:bold'>{$name}</span> sent you an email</h1><p style='padding:30px 20px; color: #c50202;'>{$message}</p><h2 style='padding: 20px; font-size: 15px; background: #ed1c24; color: white; font-family: sans-serif;'>Their return email is. <strong>{email}</strong>.</h2>";
+    $emailbody = "<h1 style='font-size: 30px; color: #ed1c24; padding: 20px; font-family: sans-serif;>Edenpitt.com</h1><h1 style='font-size:26px; padding: 20px; background: #ed1c24; color: white; font-family: sans-serif; font-weight: normal;'><span style='font-weight:bold'>{$name}</span> sent you an email</h1><p style='font-size: 16px; padding:30px 20px;'>{$message}</p><h2 style='padding: 20px; font-size: 18px; background: #ed1c24; color: white; font-family: sans-serif;'>Their return email is. <strong>{$email}</strong>.</h2>";
  
-    $emailMessage = "Eden Email";
+    $emailMessage = "Edenpitt.com Email";
 
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
