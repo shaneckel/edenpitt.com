@@ -41,7 +41,7 @@ if( isset($_POST) ){
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
     $data['success'] = true;
-    $data['message'] = 'Your email was sent at '. date("g:i a"); . '.';
+    $data['message'] = 'Your email was sent at '. date("g:i a") . '.';
  
   }else{
     $data['success'] = false;
