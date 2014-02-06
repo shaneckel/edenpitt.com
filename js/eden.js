@@ -180,15 +180,15 @@ ngEden.controller('formController', function ($scope, $http) {
     console.log("sadad");
 
     $scope.processForm = function() {
-      console.log("processs" + $.param($scope.formData));
-      $http({
-        method  : 'POST',
-        url     : 'process.php',
-        data    :  $.param($scope.formData), 
-        headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
-      })
+      console.log("processs" + $scope.formData );
+      // $http({
+      //   method  : 'POST',
+      //   url     : 'process.php',
+      //   data    :  $.param($scope.formData), 
+      //   headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
+      // })
       //$http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
-      //$http.post('process.php', $scope.formData)
+       $http.post('process.php', $scope.formData)
         .success(function(data) {
           console.log(data);
 
