@@ -1,12 +1,13 @@
 <?php
 
 if( isset($_POST) ){
-  
+  date_default_timezone_set('US/Eastern');
+
   $formok = true;
 
   $errors = array();
   $data = array();
-  
+
   $dataInput = json_decode(stripslashes(file_get_contents('php://input')));
   
   $name = $dataInput->name;
@@ -40,7 +41,7 @@ if( isset($_POST) ){
     mail("shaneckel@gmail.com",$emailMessage,$emailbody,$headers);
 
     $data['success'] = true;
-    $data['message'] = 'Your email was successfully sent at '. date('h:i A') . '.';
+    $data['message'] = 'Your email was sent at '. date("g:i a"); . '.';
  
   }else{
     $data['success'] = false;
