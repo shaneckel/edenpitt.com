@@ -5,23 +5,25 @@ if( isset($_POST) ){
   $formok = true;
 
   $errors = array();
-  $data = array();  
- 
-  $name = $_POST['name'];
-  $message = stripslashes($_POST['message']);
-  $email = $_POST['email'];  
+  $data = array();
+  
+  $dataInput = json_decode(stripslashes(file_get_contents('php://input')));
+  
+  $name = $dataInput->name;
+  $message = $dataInput->message;
+  $email = $dataInput->email;
 
-  if (empty($_POST['name']) ){
+  if (empty( $dataInput->name) ){
     $errors['name'] = 'Name is required.';
     $formok = false;
   }
 
-  if (empty($_POST['email']) ){
+  if (empty( $dataInput->email) ){
     $errors['email'] = 'Email is required.';
     $formok = false;
   }
 
-  if (empty( $_POST['message']) ){
+  if (empty( $dataInput->message) ){
     $errors['message'] = 'A message is Required.';
     $formok = false;
   }
