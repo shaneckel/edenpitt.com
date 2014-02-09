@@ -8,7 +8,7 @@ if( isset($_POST) ){
   $errors = array();
   $data = array();
 
-  $dataInput = json_decode(stripslashes(file_get_contents('php://input')));
+  $dataInput = json_decode( file_get_contents('php://input'));
   
   $name = $dataInput->name;
   $message = nl2br($dataInput->message);
