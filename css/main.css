@@ -650,13 +650,13 @@ section.contact form div.submit {
   position: relative;
 }
 /* line 78, ../sass/_contact.scss */
-section.contact form div.submit.processing:after {
+section.contact form div.submit.processing button:after {
   position: absolute;
   z-index: 110;
   width: 30px;
   height: 30px;
-  left: 7%;
-  top: 35%;
+  left: 16px;
+  top: 25%;
   -webkit-animation-duration: 0.75s;
   -moz-animation-duration: 0.75s;
   -ms-animation-duration: 0.75s;
@@ -685,14 +685,15 @@ section.contact form div.submit button {
   -webkit-transition: padding-left 0.2s ease-out 0s;
   text-align: left;
   padding-left: 40px;
+  position: relative;
 }
-/* line 115, ../sass/_contact.scss */
+/* line 116, ../sass/_contact.scss */
 section.contact form div.submit.processing button {
   transition: padding-left 0.2s ease-out 0s;
   -webkit-transition: padding-left 0.2s ease-out 0s;
   padding-left: 60px;
 }
-/* line 121, ../sass/_contact.scss */
+/* line 122, ../sass/_contact.scss */
 section.contact form div.respond {
   border-top: 1px solid;
   padding: 5%;
@@ -702,20 +703,20 @@ section.contact form div.respond {
   margin: 5%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 130, ../sass/_contact.scss */
+  /* line 131, ../sass/_contact.scss */
   section.contact form div.respond {
     margin-bottom: 1em;
   }
 }
-/* line 134, ../sass/_contact.scss */
+/* line 135, ../sass/_contact.scss */
 section.contact form label {
   display: inline-block;
 }
-/* line 137, ../sass/_contact.scss */
+/* line 138, ../sass/_contact.scss */
 section.contact form input:focus {
   background: #f0f0f0;
 }
-/* line 140, ../sass/_contact.scss */
+/* line 141, ../sass/_contact.scss */
 section.contact form input, section.contact form textarea {
   width: 100%;
   display: inline-block;
@@ -763,12 +764,12 @@ section.contact form input::-webkit-input-placeholder, section.contact form text
   font-weight: 300;
   font-style: italic;
 }
-/* line 159, ../sass/_contact.scss */
+/* line 160, ../sass/_contact.scss */
 section.contact form textarea {
   height: 10em;
   font-weight: 400;
 }
-/* line 163, ../sass/_contact.scss */
+/* line 164, ../sass/_contact.scss */
 section.contact form button {
   width: 50%;
   padding: .6em;
@@ -790,7 +791,7 @@ section.contact form button {
   transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -webkit-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-/* line 180, ../sass/_contact.scss */
+/* line 181, ../sass/_contact.scss */
 section.contact form button.disabled {
   transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -webkit-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -802,26 +803,26 @@ section.contact form button.disabled {
   color: #333;
 }
 @media only screen and (max-width: 767px) {
-  /* line 192, ../sass/_contact.scss */
+  /* line 193, ../sass/_contact.scss */
   section.contact form div.half, section.contact form div.half:nth-child(1), section.contact form div.half:nth-child(2) {
     width: 100%;
     padding: 5% 5%;
   }
-  /* line 196, ../sass/_contact.scss */
+  /* line 197, ../sass/_contact.scss */
   section.contact form div.full {
     padding: 6% 5% 2% 5%;
   }
-  /* line 199, ../sass/_contact.scss */
+  /* line 200, ../sass/_contact.scss */
   section.contact form div.submit {
     padding: 6% 5%;
   }
-  /* line 201, ../sass/_contact.scss */
+  /* line 202, ../sass/_contact.scss */
   section.contact form div.submit button {
     width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 208, ../sass/_contact.scss */
+  /* line 209, ../sass/_contact.scss */
   section.contact form {
     font-size: .9em;
   }
