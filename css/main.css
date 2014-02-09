@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-webkit-keyframes rotate-forever {
-  /* line 8, ../sass/_spinner.scss */
+  /* line 28, ../sass/_variables.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -73,7 +73,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: rotate(0deg);
   }
 
-  /* line 9, ../sass/_spinner.scss */
+  /* line 29, ../sass/_variables.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -84,7 +84,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-moz-keyframes rotate-forever {
-  /* line 8, ../sass/_spinner.scss */
+  /* line 28, ../sass/_variables.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -93,7 +93,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: rotate(0deg);
   }
 
-  /* line 9, ../sass/_spinner.scss */
+  /* line 29, ../sass/_variables.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -104,7 +104,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-ms-keyframes rotate-forever {
-  /* line 8, ../sass/_spinner.scss */
+  /* line 28, ../sass/_variables.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -113,7 +113,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: rotate(0deg);
   }
 
-  /* line 9, ../sass/_spinner.scss */
+  /* line 29, ../sass/_variables.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -124,7 +124,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-o-keyframes rotate-forever {
-  /* line 8, ../sass/_spinner.scss */
+  /* line 28, ../sass/_variables.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -133,7 +133,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: rotate(0deg);
   }
 
-  /* line 9, ../sass/_spinner.scss */
+  /* line 29, ../sass/_variables.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -144,7 +144,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @keyframes rotate-forever {
-  /* line 8, ../sass/_spinner.scss */
+  /* line 28, ../sass/_variables.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -153,7 +153,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     transform: rotate(0deg);
   }
 
-  /* line 9, ../sass/_spinner.scss */
+  /* line 29, ../sass/_variables.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -163,14 +163,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 
-/* line 18, ../sass/_spinner.scss */
+/* line 3, ../sass/_spinner.scss */
 .loadbar {
   position: fixed;
   z-index: 120;
   top: 0;
   width: 100%;
 }
-/* line 24, ../sass/_spinner.scss */
+/* line 9, ../sass/_spinner.scss */
 .loadbar .bar {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -webkit-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -181,11 +181,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 4px;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.75);
 }
-/* line 35, ../sass/_spinner.scss */
+/* line 20, ../sass/_spinner.scss */
 .loadbar.min .bar {
   background: white;
 }
-/* line 39, ../sass/_spinner.scss */
+/* line 24, ../sass/_spinner.scss */
 .loadbar .spin {
   transition: top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   -webkit-transition: top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
@@ -217,23 +217,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 50%;
   display: inline-block;
 }
-/* line 72, ../sass/_spinner.scss */
+/* line 57, ../sass/_spinner.scss */
 .loadbar.ready .bar, .loadbar.ng-enter .bar {
   height: 0px;
 }
-/* line 75, ../sass/_spinner.scss */
+/* line 60, ../sass/_spinner.scss */
 .loadbar.ready .spin, .loadbar.ng-enter .spin {
   top: -40px;
 }
-/* line 80, ../sass/_spinner.scss */
+/* line 65, ../sass/_spinner.scss */
 .loadbar.loading .bar, .loadbar.ng-active .bar {
   height: 4px;
 }
-/* line 83, ../sass/_spinner.scss */
+/* line 68, ../sass/_spinner.scss */
 .loadbar.loading .spin, .loadbar.ng-active .spin {
   top: 10px;
 }
-/* line 87, ../sass/_spinner.scss */
+/* line 72, ../sass/_spinner.scss */
 .loadbar.loading.min .spin, .loadbar.ng-active.min .spin {
   top: 12px;
   border-right: 4px solid white;
@@ -241,18 +241,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 98, ../sass/_spinner.scss */
+  /* line 83, ../sass/_spinner.scss */
   .loadbar .spin {
     left: 50%;
     top: 10px;
   }
-  /* line 103, ../sass/_spinner.scss */
+  /* line 88, ../sass/_spinner.scss */
   .loadbar.loading .spin, .loadbar.ng-active .spin {
     left: 50%;
     top: 21px;
     right: none;
   }
-  /* line 107, ../sass/_spinner.scss */
+  /* line 92, ../sass/_spinner.scss */
   .loadbar.loading .spin.min, .loadbar.ng-active .spin.min {
     top: 10px;
   }
@@ -554,6 +554,279 @@ section.hours ul li span.open {
     width: 1em;
   }
 }
+/* line 1, ../sass/_contact.scss */
+section.contact {
+  padding: 5%;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1, ../sass/_contact.scss */
+  section.contact {
+    padding: 0%;
+  }
+}
+/* line 6, ../sass/_contact.scss */
+section.contact article {
+  padding: 5%;
+  padding-bottom: 2.5%;
+}
+/* line 9, ../sass/_contact.scss */
+section.contact article h2 {
+  font-size: 2.6em;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  padding-bottom: .8em;
+}
+/* line 15, ../sass/_contact.scss */
+section.contact article h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-top: 2.5%;
+  line-height: 1.4em;
+  border-bottom: 1px solid black;
+  padding-bottom: 2.5%;
+}
+@media only screen and (max-width: 767px) {
+  /* line 24, ../sass/_contact.scss */
+  section.contact article h3 {
+    margin-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.1em;
+  }
+}
+/* line 30, ../sass/_contact.scss */
+section.contact article p {
+  font-weight: 400;
+  line-height: 1.6em;
+}
+/* line 37, ../sass/_contact.scss */
+section.contact form div {
+  padding: 2% 5%;
+}
+/* line 39, ../sass/_contact.scss */
+section.contact form div span {
+  padding-top: 0;
+  transition: padding-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: padding-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: absolute;
+  font-weight: 300;
+  padding-top: .6em;
+  font-style: italic;
+}
+/* line 49, ../sass/_contact.scss */
+section.contact form .ng-valid {
+  border-bottom: 1px solid black;
+  color: black;
+}
+/* line 53, ../sass/_contact.scss */
+section.contact form .ng-invalid {
+  border-bottom: 4px solid #af0e14;
+  background: #f0f0f0;
+  color: #520609;
+}
+/* line 58, ../sass/_contact.scss */
+section.contact form .ng-valid:focus {
+  border-bottom: 4px solid #24ed1c;
+}
+/* line 61, ../sass/_contact.scss */
+section.contact form .ng-pristine {
+  background: white;
+  border: 1px solid black;
+}
+/* line 65, ../sass/_contact.scss */
+section.contact form div.half {
+  width: 50%;
+  display: inline-block;
+}
+/* line 68, ../sass/_contact.scss */
+section.contact form div.half:nth-child(1) {
+  padding: 2% 2.5% 2% 5%;
+}
+/* line 71, ../sass/_contact.scss */
+section.contact form div.half:nth-child(2) {
+  padding: 2% 5% 2% 2.5%;
+}
+/* line 75, ../sass/_contact.scss */
+section.contact form div.submit {
+  position: relative;
+}
+/* line 78, ../sass/_contact.scss */
+section.contact form div.submit.processing:after {
+  position: absolute;
+  z-index: 110;
+  width: 30px;
+  height: 30px;
+  left: 7%;
+  top: 35%;
+  -webkit-animation-duration: 0.75s;
+  -moz-animation-duration: 0.75s;
+  -ms-animation-duration: 0.75s;
+  -o-animation-duration: 0.75s;
+  -webkit-animation-duration: 0.75s;
+  -moz-animation-duration: 0.75s;
+  -ms-animation-duration: 0.75s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-name: rotate-forever;
+  -ms-animation-name: rotate-forever;
+  -moz-animation-name: rotate-forever;
+  -webkit-animation-timing-function: linear;
+  border-top: 4px solid white;
+  border-right: 4px solid #ed1c24;
+  border-bottom: 4px solid #ed1c24;
+  border-left: 4px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  content: "";
+}
+/* line 109, ../sass/_contact.scss */
+section.contact form div.submit button {
+  transition: padding-left 0.2s ease-out 0s;
+  -webkit-transition: padding-left 0.2s ease-out 0s;
+  text-align: left;
+  padding-left: 40px;
+}
+/* line 115, ../sass/_contact.scss */
+section.contact form div.submit.processing button {
+  transition: padding-left 0.2s ease-out 0s;
+  -webkit-transition: padding-left 0.2s ease-out 0s;
+  padding-left: 60px;
+}
+/* line 121, ../sass/_contact.scss */
+section.contact form div.respond {
+  border-top: 1px solid;
+  padding: 5%;
+  font-size: 1.5em;
+  font-weight: 300;
+  border-bottom: 1px solid;
+  margin: 5%;
+}
+@media only screen and (max-width: 767px) {
+  /* line 130, ../sass/_contact.scss */
+  section.contact form div.respond {
+    margin-bottom: 1em;
+  }
+}
+/* line 134, ../sass/_contact.scss */
+section.contact form label {
+  display: inline-block;
+}
+/* line 137, ../sass/_contact.scss */
+section.contact form input:focus {
+  background: #f0f0f0;
+}
+/* line 140, ../sass/_contact.scss */
+section.contact form input, section.contact form textarea {
+  width: 100%;
+  display: inline-block;
+  padding: .8em;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 800;
+  font-size: 1.5em;
+  background: white;
+}
+/* line 16, ../sass/main.scss */
+section.contact form input.placeholder, section.contact form textarea.placeholder {
+  color: #333;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: italic;
+}
+/* line 17, ../sass/main.scss */
+section.contact form input:-moz-placeholder, section.contact form textarea:-moz-placeholder {
+  color: #333;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: italic;
+}
+/* line 18, ../sass/main.scss */
+section.contact form input::-moz-placeholder, section.contact form textarea::-moz-placeholder {
+  color: #333;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: italic;
+}
+/* line 19, ../sass/main.scss */
+section.contact form input:-ms-input-placeholder, section.contact form textarea:-ms-input-placeholder {
+  color: #333;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: italic;
+}
+/* line 20, ../sass/main.scss */
+section.contact form input::-webkit-input-placeholder, section.contact form textarea::-webkit-input-placeholder {
+  color: #333;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 300;
+  font-style: italic;
+}
+/* line 159, ../sass/_contact.scss */
+section.contact form textarea {
+  height: 10em;
+  font-weight: 400;
+}
+/* line 163, ../sass/_contact.scss */
+section.contact form button {
+  width: 50%;
+  padding: .6em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background: #ed1c24;
+  border: none;
+  font-size: 1.6em;
+  font-family: 'Whitney A', 'Whitney B';
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/* line 180, ../sass/_contact.scss */
+section.contact form button.disabled {
+  transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transition: background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background: white;
+  border: 1px solid #333;
+  font-style: italic;
+  font-weight: 300;
+  padding: .6em;
+  color: #333;
+}
+@media only screen and (max-width: 767px) {
+  /* line 192, ../sass/_contact.scss */
+  section.contact form div.half, section.contact form div.half:nth-child(1), section.contact form div.half:nth-child(2) {
+    width: 100%;
+    padding: 5% 5%;
+  }
+  /* line 196, ../sass/_contact.scss */
+  section.contact form div.full {
+    padding: 6% 5% 2% 5%;
+  }
+  /* line 199, ../sass/_contact.scss */
+  section.contact form div.submit {
+    padding: 6% 5%;
+  }
+  /* line 201, ../sass/_contact.scss */
+  section.contact form div.submit button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 208, ../sass/_contact.scss */
+  section.contact form {
+    font-size: .9em;
+  }
+}
+
 /* line 2, ../sass/_header.scss */
 header.top {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
@@ -1350,50 +1623,50 @@ body.ready .home.ng-enter {
   opacity: 0;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 body {
   overflow-y: scroll;
 }
-/* line 22, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 body main.main > header {
   padding: 10%;
   padding-top: 20%;
   padding-bottom: 15%;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 34, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 body {
   font-family: 'Whitney A', 'Whitney B';
   font-weight: 600;
   font-style: normal;
 }
-/* line 38, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 body > footer, body > header {
   opacity: 0;
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 body.init > footer, body.init > header {
   opacity: 1;
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 main.main > header {
   padding: 5%;
   padding-top: 20%;
   padding-bottom: 15%;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 .preload {
   display: none;
   height: 0;

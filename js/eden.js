@@ -172,40 +172,33 @@ ngEden.directive('backImg', function(){
   };
 });
 
-ngEden.controller('formController', function ($scope, $http) {
-
-    // create a blank object to hold our form information
-    // $scope will allow this to pass between controller and view
+ngEden.controller('formController', function ($scope, $http, $timeout) {
+ 
     $scope.formData = { };
-    console.log("sadad");
-
+    $scope.processing = false;
+    $scope.buttonStatus = "send";
+    $scope.submitted = false; 
     $scope.processForm = function() {
-      console.log("processs" + $scope.formData );
-      // $http({
-      //   method  : 'POST',
-      //   url     : 'process.php',
-      //   data    :  $.param($scope.formData), 
-      //   headers : { 'Content-Type': 'application/x-www-form-urlencoded' }
-      // })
-      //$http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
-       $http.post('process.php', $scope.formData)
+      $scope.processing = true;
+      $scope.buttonStatus = 'sending';
+ 
+      $http.post('process.php', $scope.formData)
         .success(function(data) {
-          console.log(data);
-
           if (!data.success) {
-            // if not successful, bind errors to error variables
+            $scope.message = 'There was an error.';
             $scope.errorName = data.errors.name;
             $scope.errorEmail = data.errors.email;
             $scope.errorMessage = data.errors.message;
           } else {
-            // if successful, bind success message to message
+            $scope.processing = false;
             $scope.message = data.message;
+            $scope.buttonStatus = "sent";
+            $scope.submitted = true; 
           }
         });
     };
   });
-
-
+ 
 // $scope.$on('breakpointChange', function(event, breakpoint, oldClass) { 
 //   console.log('Entering:' + breakpoint.class); 
 //   console.log('Leaving:' + oldClass); 

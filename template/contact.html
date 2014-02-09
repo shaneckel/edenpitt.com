@@ -4,35 +4,42 @@
     <h1>Contact Eden</h1>
   </header>
 
-  <section>
-
-    <form ng-controller="formController" ng-submit="processForm()">
-      
-      <div id="messages" ng-show="message">{{ message }}</div>
+  <section class="contact">
  
-      <div class="form-group" ng-class="{ 'error' : errorName }">
-        <label>Name</label>
-        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name">
-        <span ng-show="errorName">{{ errorName }}</span>
+    <article class="email">
+      <h2>send us an email</h2>
+      <h3>Email us if you want more information on getting our raw cookies in your business, special dinners, or just curious about how we do things.</h3>
+    </article>
+
+    <form name="cform" ng-controller="formController" ng-submit="processForm()" novalidate >
+  
+      <div class="half" ng-class="{ 'error' : errorName }">
+        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name" ng-minlength=2 required> 
+        <span ng-show="cform.name.$error.required && !cform.name.$pristine">+ please enter your name here. </span>
+        <span ng-show="errorName">+ {{ errorName }}</span>
+      </div><!--
+   
+   --><div class="half" ng-class="{ 'error' : errorEmail } " >
+        <input type="email" name="email" class="form-control" placeholder="Email"  ng-model="formData.email" required>
+        <span ng-show="cform.email.$error.required && !cform.email.$pristine">+ please enter your email here. </span>        
+        <span ng-show="cform.email.$error.email">+ check your email to see if it's right. </span>
+        <span ng-show="errorEmail">+ {{ errorEmail }}</span>
       </div>
 
-      <div class="form-group" ng-class="{ 'error' : errorEmail }">
-        <label>Email</label>
-        <input type="text" name="email" class="form-control" placeholder="Return Email"  ng-model="formData.email">
-        <span ng-show="errorEmail">{{ errorEmail }}</span>
+      <div class="full" ng-class="{ 'error' : errorMessage }">
+        <textarea type="text" name="message" class="form-control" placeholder="Message"  ng-model="formData.message" ng-minlength=5 required></textarea> 
+        <span ng-show="cform.message.$error.required && !cform.message.$pristine">+ you forgot to write your message. </span>
+        <span ng-show="cform.message.$error.minlength && !cform.message.$pristine">+ A bit more. </span>
+        <span ng-show="errorMessage">+ {{ errorMessage }}</span>
       </div>
 
-      <div class="form-group" ng-class="{ 'error' : errorMessage }">
-        <label>Message</label>
-        <textarea type="text" name="message" class="form-control" placeholder="Message" ng-model="formData.message"></textarea> 
-        <span ng-show="errorMessage">{{ errorMessage }}</span>
+      <div ng-class="{'processing' : processing }" class="submit" >
+        <button type="submit" name="sendbutton" ng-disabled="cform.$invalid" ng-class="{ 'disabled' : cform.$invalid }" >{{buttonStatus}}</button>
       </div>
 
-      <button type="submit">Submit</button>
-
-      <pre>
-        {{ formData }}
-      </pre>
+      <div class="respond" ng-show="submitted">
+        <h2>{{message}} We'll get back to you very soon.</h2>
+      </div>
 
     </form>
 
