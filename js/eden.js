@@ -176,33 +176,31 @@ ngEden.controller('formController', function ($scope, $http, $timeout) {
  
     $scope.formData = { };
     $scope.submitted = false;
-    $scope.processing = false;
     $scope.buttonStatus = "send";
+    $scope.processing = false;
     $scope.processForm = function() {
       $scope.processing = true;
       $scope.buttonStatus = 'sending';
-      
-      if($scope.buttonStatus !== 'done'){
-        
-        $http.post('process.php', $scope.formData)
-          .success(function(data) {
-            if (!data.success) {
-              $scope.message = 'Server Errors.';
-              $scope.errorName = data.errors.name;
-              $scope.errorEmail = data.errors.email;
-              $scope.errorMessage = data.errors.message;
-            } else {
-              $scope.submitted = true;
-              $scope.processing = false;
-              $scope.message = data.message;
-              $scope.buttonStatus = 'done';
-            }
-          });
-      }
-
-    };
+      $http.post('process.php', $scope.formData)
+        .success(function(data) {
+          if (!data.success) {
+            $scope.message = 'Server Errors.';
+            $scope.errorName = data.errors.name;
+            $scope.errorEmail = data.errors.email;
+            $scope.errorMessage = data.errors.message;
+          } else {
+            $scope.processing = false;
+            $scope.message = data.message;
+            $scope.buttonStatus = 'done';
+            $scope.submitted = true;
+          }
+        });
+     };
   });
  
+
+
+
 // $scope.$on('breakpointChange', function(event, breakpoint, oldClass) { 
 //   console.log('Entering:' + breakpoint.class); 
 //   console.log('Leaving:' + oldClass); 

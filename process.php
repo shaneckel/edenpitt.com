@@ -8,10 +8,10 @@ if( isset($_POST) ){
   $errors = array();
   $data = array();
 
-  $dataInput = json_decode(stripcslashes(file_get_contents('php://input')));
+  $dataInput = json_decode(file_get_contents('php://input'));
   
   $name = $dataInput->name;
-  $message = $dataInput->message;
+  $message = stripcslashes($dataInput->message);
   $email = $dataInput->email;
 
   if (empty( $dataInput->name) ){
