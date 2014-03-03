@@ -263,27 +263,31 @@ header.hero.home {
   padding-left: 10%;
   padding: 15% 10%;
 }
+/* line 8, ../sass/_home.scss */
+header.hero.home h1 {
+  font-size: 5em;
+}
 
-/* line 10, ../sass/_home.scss */
+/* line 13, ../sass/_home.scss */
 header.hero.about {
   background-image: url(../img/eden-about-large.jpg);
   padding: 15% 10%;
 }
 
-/* line 15, ../sass/_home.scss */
+/* line 18, ../sass/_home.scss */
 header.hero.contact {
   background-image: url(../img/eden-contact-large.jpg);
   padding: 15% 10%;
 }
 
-/* line 19, ../sass/_home.scss */
+/* line 22, ../sass/_home.scss */
 section.cookies {
   background-image: url(../img/eden-cookies.jpg);
   background-size: 100% auto;
   background-size: cover;
   padding: 30% 10% 5%;
 }
-/* line 24, ../sass/_home.scss */
+/* line 27, ../sass/_home.scss */
 section.cookies p {
   font-size: 2em;
   background: rgba(255, 255, 255, 0.9);
@@ -293,7 +297,7 @@ section.cookies p {
   border: 1px solid #aaa;
 }
 
-/* line 33, ../sass/_home.scss */
+/* line 36, ../sass/_home.scss */
 section.location {
   background: url(../img/eden-main-map.jpg) no-repeat center center;
   background-size: 100% auto;
@@ -301,7 +305,7 @@ section.location {
   border-top: 1px solid #aaa;
   padding: 15% 10%;
 }
-/* line 39, ../sass/_home.scss */
+/* line 42, ../sass/_home.scss */
 section.location p {
   width: 50%;
   font-size: 2em;
@@ -311,20 +315,20 @@ section.location p {
   line-height: 1.4em;
   border: 1px solid #aaa;
 }
-/* line 47, ../sass/_home.scss */
+/* line 50, ../sass/_home.scss */
 section.location p strong {
   font-weight: 600;
 }
-/* line 50, ../sass/_home.scss */
+/* line 53, ../sass/_home.scss */
 section.location p a {
   color: #ed1c24;
 }
 
-/* line 55, ../sass/_home.scss */
+/* line 58, ../sass/_home.scss */
 section.about {
   padding: 10%;
 }
-/* line 57, ../sass/_home.scss */
+/* line 60, ../sass/_home.scss */
 section.about h1 {
   font-size: 2.6em;
   border-bottom: 1px solid #666;
@@ -332,22 +336,22 @@ section.about h1 {
   padding-bottom: .5em;
   margin-top: 1em;
 }
-/* line 64, ../sass/_home.scss */
+/* line 67, ../sass/_home.scss */
 section.about article.main h1 {
   margin-top: 0em;
 }
-/* line 67, ../sass/_home.scss */
+/* line 70, ../sass/_home.scss */
 section.about strong {
   font-weight: 400;
 }
-/* line 70, ../sass/_home.scss */
+/* line 73, ../sass/_home.scss */
 section.about p {
   font-size: 1.6em;
   line-height: 1.5em;
   font-weight: 300;
   padding-bottom: 2.2em;
 }
-/* line 76, ../sass/_home.scss */
+/* line 79, ../sass/_home.scss */
 section.about blockquote {
   border-left: 1px solid #ed1c24;
   padding: 0 5%;
@@ -357,16 +361,15 @@ section.about blockquote {
   line-height: 1.8em;
   margin-bottom: 5%;
 }
-/* line 85, ../sass/_home.scss */
+/* line 88, ../sass/_home.scss */
 section.about h2 {
-  border-top: 1px solid black;
-  padding: 10% 0;
+  padding: 5% 0;
   font-weight: 400;
   font-size: 1.6em;
   line-height: 1.5em;
 }
 
-/* line 94, ../sass/_home.scss */
+/* line 96, ../sass/_home.scss */
 section.hours {
   background-size: 100% auto;
   background-size: cover;
@@ -374,33 +377,33 @@ section.hours {
   border-bottom: 1px solid #aaa;
   padding: 10% 10%;
 }
-/* line 100, ../sass/_home.scss */
+/* line 102, ../sass/_home.scss */
 section.hours p {
   font-size: 1.6em;
   line-height: 1.5em;
   font-weight: 300;
   padding-bottom: 2.2em;
 }
-/* line 106, ../sass/_home.scss */
+/* line 108, ../sass/_home.scss */
 section.hours h1 {
   font-size: 2.6em;
   border-bottom: 1px solid #666;
   margin-bottom: .5em;
   padding-bottom: .5em;
 }
-/* line 112, ../sass/_home.scss */
+/* line 114, ../sass/_home.scss */
 section.hours > h2 {
   font-size: 1.6em;
   font-weight: 300;
   border-top: 1px solid #666;
   padding-top: 1em;
 }
-/* line 117, ../sass/_home.scss */
+/* line 119, ../sass/_home.scss */
 section.hours > h2 a {
   color: #ed1c24;
   text-decoration: none;
 }
-/* line 122, ../sass/_home.scss */
+/* line 124, ../sass/_home.scss */
 section.hours ul {
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -422,7 +425,7 @@ section.hours ul {
   width: 100%;
   align-items: center;
 }
-/* line 130, ../sass/_home.scss */
+/* line 132, ../sass/_home.scss */
 section.hours ul aside {
   -webkit-box-flex: 2;
   -moz-box-flex: 2;
@@ -431,7 +434,7 @@ section.hours ul aside {
   flex: 2;
   height: 100%;
 }
-/* line 133, ../sass/_home.scss */
+/* line 135, ../sass/_home.scss */
 section.hours ul aside h2 {
   font-size: 2em;
   margin-top: .2em;
@@ -440,12 +443,12 @@ section.hours ul aside h2 {
   margin-bottom: .2em;
   padding-bottom: .2em;
 }
-/* line 141, ../sass/_home.scss */
+/* line 143, ../sass/_home.scss */
 section.hours ul aside h3 {
   font-size: 1.4em;
   font-weight: 400;
 }
-/* line 146, ../sass/_home.scss */
+/* line 148, ../sass/_home.scss */
 section.hours ul li {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -455,13 +458,13 @@ section.hours ul li {
   height: 100%;
   text-align: center;
 }
-/* line 151, ../sass/_home.scss */
+/* line 153, ../sass/_home.scss */
 section.hours ul li h2 {
   font-size: .6em;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 156, ../sass/_home.scss */
+/* line 158, ../sass/_home.scss */
 section.hours ul li span {
   width: 3.5em;
   height: 3.5em;
@@ -470,7 +473,7 @@ section.hours ul li span {
   margin-top: .5em;
   border: 1px solid #666;
 }
-/* line 164, ../sass/_home.scss */
+/* line 166, ../sass/_home.scss */
 section.hours ul li span.open {
   background: #ed1c24;
   display: inline-block;
@@ -478,18 +481,18 @@ section.hours ul li span.open {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 174, ../sass/_home.scss */
+  /* line 176, ../sass/_home.scss */
   section.location {
     padding-top: 20%;
     padding-bottom: 20% !important;
   }
-  /* line 177, ../sass/_home.scss */
+  /* line 179, ../sass/_home.scss */
   section.location p {
     width: 100%;
     font-size: 1.1em;
     line-height: 1.5em;
   }
-  /* line 181, ../sass/_home.scss */
+  /* line 183, ../sass/_home.scss */
   section.location p a {
     display: block;
     text-align: center;
@@ -505,37 +508,37 @@ section.hours ul li span.open {
     margin-top: 1em;
   }
 
-  /* line 193, ../sass/_home.scss */
+  /* line 195, ../sass/_home.scss */
   header.home h1 {
     font-size: 2.3em;
   }
 
-  /* line 196, ../sass/_home.scss */
+  /* line 198, ../sass/_home.scss */
   main.main > header {
     padding: 5%;
     padding-top: 20%;
     padding-bottom: 15%;
   }
 
-  /* line 202, ../sass/_home.scss */
+  /* line 204, ../sass/_home.scss */
   section.cookies {
     padding: 30% 5% 5%;
   }
-  /* line 204, ../sass/_home.scss */
+  /* line 206, ../sass/_home.scss */
   section.cookies p {
     font-size: 1em;
   }
 
-  /* line 208, ../sass/_home.scss */
+  /* line 210, ../sass/_home.scss */
   section.hours {
     padding: 10% 5%;
     white-space: nowrap;
   }
-  /* line 211, ../sass/_home.scss */
+  /* line 213, ../sass/_home.scss */
   section.hours h1 {
     font-size: 1.8em;
   }
-  /* line 214, ../sass/_home.scss */
+  /* line 216, ../sass/_home.scss */
   section.hours p {
     font-size: .9em;
     font-weight: 400;
@@ -543,33 +546,33 @@ section.hours ul li span.open {
     display: none;
     white-space: normal;
   }
-  /* line 221, ../sass/_home.scss */
+  /* line 223, ../sass/_home.scss */
   section.hours > h2 {
     font-size: 1.2em;
     white-space: normal;
   }
-  /* line 225, ../sass/_home.scss */
+  /* line 227, ../sass/_home.scss */
   section.hours ul {
     display: inline-block;
     height: 100%;
     margin: 0 0 1em 0;
     width: 50%;
   }
-  /* line 231, ../sass/_home.scss */
+  /* line 233, ../sass/_home.scss */
   section.hours ul:first-of-type {
     padding-right: 5%;
   }
-  /* line 234, ../sass/_home.scss */
+  /* line 236, ../sass/_home.scss */
   section.hours ul:last-of-type {
     padding-left: 5%;
   }
-  /* line 238, ../sass/_home.scss */
+  /* line 240, ../sass/_home.scss */
   section.hours ul aside {
     border-bottom: 1px solid;
     padding-bottom: .5em;
     margin-bottom: 1em;
   }
-  /* line 242, ../sass/_home.scss */
+  /* line 244, ../sass/_home.scss */
   section.hours ul aside h2 {
     display: block;
     padding: 0;
@@ -578,19 +581,19 @@ section.hours ul li span.open {
     font-weight: 600;
     border: 0;
   }
-  /* line 250, ../sass/_home.scss */
+  /* line 252, ../sass/_home.scss */
   section.hours ul aside h3 {
     font-size: 1.5em;
     font-weight: 300;
     display: inline;
   }
-  /* line 256, ../sass/_home.scss */
+  /* line 258, ../sass/_home.scss */
   section.hours ul li {
     height: 1.5em;
     text-align: left;
     position: relative;
   }
-  /* line 260, ../sass/_home.scss */
+  /* line 262, ../sass/_home.scss */
   section.hours ul li h2 {
     font-size: .9em;
     text-transform: uppercase;
@@ -599,11 +602,11 @@ section.hours ul li span.open {
     display: inline-block;
     position: relative;
   }
-  /* line 267, ../sass/_home.scss */
+  /* line 269, ../sass/_home.scss */
   section.hours ul li h2.closed {
     font-weight: 300;
   }
-  /* line 271, ../sass/_home.scss */
+  /* line 273, ../sass/_home.scss */
   section.hours ul li span {
     height: 1em;
     width: 1em;
@@ -616,7 +619,7 @@ section.hours ul li span.open {
     left: 0;
     top: 0em;
   }
-  /* line 282, ../sass/_home.scss */
+  /* line 284, ../sass/_home.scss */
   section.hours ul li span.open {
     background: #ed1c24;
     display: inline-block;
@@ -626,27 +629,27 @@ section.hours ul li span.open {
     width: 1em;
   }
 
-  /* line 294, ../sass/_home.scss */
+  /* line 296, ../sass/_home.scss */
   section.about {
     padding: 10% 5%;
   }
-  /* line 296, ../sass/_home.scss */
+  /* line 298, ../sass/_home.scss */
   section.about h1 {
     font-size: 1.6em;
     margin-bottom: .5em;
     padding-bottom: .5em;
   }
-  /* line 301, ../sass/_home.scss */
+  /* line 303, ../sass/_home.scss */
   section.about p {
     padding-bottom: 1.4em;
     font-size: 1.2em;
     line-height: 1.6em;
   }
-  /* line 306, ../sass/_home.scss */
+  /* line 308, ../sass/_home.scss */
   section.about blockquote {
     font-size: 1.4em;
   }
-  /* line 309, ../sass/_home.scss */
+  /* line 311, ../sass/_home.scss */
   section.about h2 {
     padding: 5% 0;
     font-weight: 400;
@@ -1451,6 +1454,7 @@ footer.bot section {
   -webkit-flex: 1;
   flex: 1;
   padding-right: 2.5%;
+  padding-bottom: 5%;
 }
 /* line 432, ../sass/_header.scss */
 footer.bot nav {
@@ -1460,51 +1464,60 @@ footer.bot nav {
   -webkit-flex: 1;
   flex: 1;
   padding-left: 2.5%;
+  padding-bottom: 2.5%;
 }
-/* line 435, ../sass/_header.scss */
+/* line 437, ../sass/_header.scss */
 footer.bot nav > a, footer.bot nav > aside {
   color: white;
   padding-right: .5em;
 }
-/* line 438, ../sass/_header.scss */
+/* line 440, ../sass/_header.scss */
 footer.bot nav > a.active, footer.bot nav > aside.active {
   font-weight: 400;
   text-decoration: underline;
 }
-/* line 443, ../sass/_header.scss */
+/* line 445, ../sass/_header.scss */
 footer.bot nav aside > a {
   width: 2.2em;
   padding-right: .3em;
   display: inline-block;
 }
-/* line 447, ../sass/_header.scss */
+/* line 449, ../sass/_header.scss */
 footer.bot nav aside > a img {
   width: 100%;
 }
+/* line 455, ../sass/_header.scss */
+footer.bot nav h1:nth-of-type(2), footer.bot section h1:nth-of-type(2) {
+  padding-top: 10%;
+}
 
 @media only screen and (max-width: 767px) {
-  /* line 454, ../sass/_header.scss */
+  /* line 461, ../sass/_header.scss */
   footer.bot {
     display: block;
     padding-bottom: 10%;
   }
-  /* line 457, ../sass/_header.scss */
+  /* line 464, ../sass/_header.scss */
   footer.bot section, footer.bot nav {
     padding: 0;
   }
-  /* line 459, ../sass/_header.scss */
+  /* line 466, ../sass/_header.scss */
   footer.bot section > a, footer.bot section aside, footer.bot nav > a, footer.bot nav aside {
     display: block;
     padding: .4em 0;
   }
-  /* line 463, ../sass/_header.scss */
+  /* line 470, ../sass/_header.scss */
   footer.bot section a, footer.bot nav a {
     font-size: 1.1em;
   }
-  /* line 466, ../sass/_header.scss */
+  /* line 473, ../sass/_header.scss */
   footer.bot section h1, footer.bot nav h1 {
     font-size: 1.2em;
     margin-top: 10%;
+  }
+  /* line 479, ../sass/_header.scss */
+  footer.bot nav h1:nth-of-type(2), footer.bot section h1:nth-of-type(2) {
+    padding-top: 0;
   }
 }
 /* line 4, ../sass/_menu.scss */
@@ -1526,7 +1539,7 @@ header.hero.brunch {
 }
 /* line 17, ../sass/_menu.scss */
 .hero h1 {
-  font-size: 5em;
+  font-size: 5.6em;
   color: white;
   line-height: 1.4em;
   text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
@@ -1547,7 +1560,7 @@ header.hero.brunch {
 /* line 33, ../sass/_menu.scss */
 .hero h2 {
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.6em;
   font-family: 'Whitney A', 'Whitney B';
   font-weight: 300;
@@ -1661,131 +1674,139 @@ header.hero.brunch {
 }
 /* line 135, ../sass/_menu.scss */
 .menu section li p {
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6em;
+  font-size: 1.2em;
+  padding-top: .4em;
 }
 
-/* line 145, ../sass/_menu.scss */
+/* line 147, ../sass/_menu.scss */
 .menu section {
   width: 50%;
   padding: 5%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 150, ../sass/_menu.scss */
+/* line 152, ../sass/_menu.scss */
 .menu section:nth-child(even) {
   padding-left: 2.5%;
 }
-/* line 153, ../sass/_menu.scss */
+/* line 155, ../sass/_menu.scss */
 .menu section:nth-child(odd) {
   padding-right: 2.5%;
 }
-/* line 156, ../sass/_menu.scss */
+/* line 158, ../sass/_menu.scss */
 .menu section.hot_main, .menu section.end {
   width: 100%;
   padding: 5%;
   padding-top: 0;
 }
-/* line 161, ../sass/_menu.scss */
+/* line 163, ../sass/_menu.scss */
 .menu section.hot_main li, .menu section.end li {
   width: 47.5%;
   margin-top: 2.5%;
 }
-/* line 165, ../sass/_menu.scss */
+/* line 167, ../sass/_menu.scss */
 .menu section.hot_main li:nth-child(even), .menu section.end li:nth-child(even) {
   margin-left: 2.5%;
 }
-/* line 168, ../sass/_menu.scss */
+/* line 170, ../sass/_menu.scss */
 .menu section.hot_main li:nth-child(odd), .menu section.end li:nth-child(odd) {
   margin-right: 2.5%;
 }
-/* line 171, ../sass/_menu.scss */
+/* line 173, ../sass/_menu.scss */
 .menu section.hot_main li:nth-child(1), .menu section.hot_main li:nth-child(2), .menu section.end li:nth-child(1), .menu section.end li:nth-child(2) {
   margin-top: 0;
 }
-/* line 173, ../sass/_menu.scss */
+/* line 175, ../sass/_menu.scss */
 .menu section.hot_main li:nth-child(1) h3, .menu section.hot_main li:nth-child(2) h3, .menu section.end li:nth-child(1) h3, .menu section.end li:nth-child(2) h3 {
   border-top: 0;
 }
 
-/* line 182, ../sass/_menu.scss */
+/* line 184, ../sass/_menu.scss */
 .menu.brunch section:nth-child(1), .menu.brunch section:nth-child(2) {
   padding-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 187, ../sass/_menu.scss */
+  /* line 189, ../sass/_menu.scss */
   header.hero.home {
     padding: 15% 5%;
   }
 
-  /* line 190, ../sass/_menu.scss */
+  /* line 192, ../sass/_menu.scss */
   .menu {
     padding-bottom: 5%;
   }
-  /* line 192, ../sass/_menu.scss */
+  /* line 194, ../sass/_menu.scss */
   .menu section.start, .menu section.hot_main, .menu section.raw_main, .menu section.end, .menu section {
     font-size: .9em;
     width: 100%;
     padding: 5%;
     padding-top: 5%;
   }
-  /* line 198, ../sass/_menu.scss */
+  /* line 200, ../sass/_menu.scss */
   .menu section.start:nth-child(even), .menu section.hot_main:nth-child(even), .menu section.raw_main:nth-child(even), .menu section.end:nth-child(even), .menu section:nth-child(even) {
     padding: 5%;
     margin-top: 0;
   }
-  /* line 202, ../sass/_menu.scss */
+  /* line 204, ../sass/_menu.scss */
   .menu section.start:nth-child(odd), .menu section.hot_main:nth-child(odd), .menu section.raw_main:nth-child(odd), .menu section.end:nth-child(odd), .menu section:nth-child(odd) {
     padding: 5%;
     margin-top: 0;
   }
-  /* line 206, ../sass/_menu.scss */
+  /* line 208, ../sass/_menu.scss */
   .menu section.start:nth-child(1), .menu section.start:nth-child(2), .menu section.hot_main:nth-child(1), .menu section.hot_main:nth-child(2), .menu section.raw_main:nth-child(1), .menu section.raw_main:nth-child(2), .menu section.end:nth-child(1), .menu section.end:nth-child(2), .menu section:nth-child(1), .menu section:nth-child(2) {
     padding-bottom: 5%;
   }
-  /* line 209, ../sass/_menu.scss */
+  /* line 211, ../sass/_menu.scss */
   .menu section.start h2, .menu section.hot_main h2, .menu section.raw_main h2, .menu section.end h2, .menu section h2 {
     padding-bottom: .5em;
     padding-top: .5em;
   }
-  /* line 213, ../sass/_menu.scss */
+  /* line 216, ../sass/_menu.scss */
   .menu section.start li, .menu section.hot_main li, .menu section.raw_main li, .menu section.end li, .menu section li {
     width: 100%;
     margin-top: 5%;
     padding-top: 0;
   }
-  /* line 217, ../sass/_menu.scss */
+  /* line 220, ../sass/_menu.scss */
   .menu section.start li h3, .menu section.hot_main li h3, .menu section.raw_main li h3, .menu section.end li h3, .menu section li h3 {
     padding-top: .75em;
   }
-  /* line 219, ../sass/_menu.scss */
+  /* line 222, ../sass/_menu.scss */
   .menu section.start li h3:nth-child(1), .menu section.start li h3:nth-child(2), .menu section.hot_main li h3:nth-child(1), .menu section.hot_main li h3:nth-child(2), .menu section.raw_main li h3:nth-child(1), .menu section.raw_main li h3:nth-child(2), .menu section.end li h3:nth-child(1), .menu section.end li h3:nth-child(2), .menu section li h3:nth-child(1), .menu section li h3:nth-child(2) {
     border-top: 1px dashed black;
   }
-  /* line 223, ../sass/_menu.scss */
-  .menu section.start li h4, .menu section.hot_main li h4, .menu section.raw_main li h4, .menu section.end li h4, .menu section li h4 {
+  /* line 226, ../sass/_menu.scss */
+  .menu section.start li p, .menu section.hot_main li p, .menu section.raw_main li p, .menu section.end li p, .menu section li p {
+    font-size: 1.2em;
     line-height: 1.4em;
   }
-  /* line 226, ../sass/_menu.scss */
+  /* line 230, ../sass/_menu.scss */
+  .menu section.start li h4, .menu section.hot_main li h4, .menu section.raw_main li h4, .menu section.end li h4, .menu section li h4 {
+    padding-top: .5em;
+    line-height: 1.4em;
+  }
+  /* line 234, ../sass/_menu.scss */
   .menu section.start li .price, .menu section.hot_main li .price, .menu section.raw_main li .price, .menu section.end li .price, .menu section li .price {
     top: .5em;
   }
-  /* line 229, ../sass/_menu.scss */
+  /* line 237, ../sass/_menu.scss */
   .menu section.start li:nth-child(even), .menu section.hot_main li:nth-child(even), .menu section.raw_main li:nth-child(even), .menu section.end li:nth-child(even), .menu section li:nth-child(even) {
     margin-top: 5%;
     margin-left: 0%;
   }
-  /* line 233, ../sass/_menu.scss */
+  /* line 241, ../sass/_menu.scss */
   .menu section.start li:nth-child(odd), .menu section.hot_main li:nth-child(odd), .menu section.raw_main li:nth-child(odd), .menu section.end li:nth-child(odd), .menu section li:nth-child(odd) {
     margin-top: 5%;
     margin-right: 0%;
   }
-  /* line 237, ../sass/_menu.scss */
+  /* line 245, ../sass/_menu.scss */
   .menu section.start li:first-of-type, .menu section.hot_main li:first-of-type, .menu section.raw_main li:first-of-type, .menu section.end li:first-of-type, .menu section li:first-of-type {
     margin-top: 0%;
   }
-  /* line 239, ../sass/_menu.scss */
+  /* line 247, ../sass/_menu.scss */
   .menu section.start li:first-of-type h3, .menu section.hot_main li:first-of-type h3, .menu section.raw_main li:first-of-type h3, .menu section.end li:first-of-type h3, .menu section li:first-of-type h3 {
     border-top: 0;
   }

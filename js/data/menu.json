@@ -2,10 +2,10 @@
   "menu" : {
     "meta" : { 
       "header" : " Dinner Menu.",
-      "title" : "Fall Season 2013"
+      "title" : "Winter Season 2014"
     },
     "config" : {
-      "season" : "Fall 2013",
+      "season" : "",
       "descript" : ""
     },
     "menulist": [
@@ -15,24 +15,24 @@
         "descript" : "our raw starters", 
          "items" : [
           {
-            "title" : "cheese plate",
-            "descript" : "cashew and brazil nut, sage cheeses, coconut walnuts, apricot jam, beet and sunflower cake and local bee boy honey.",
-            "price" : "12"
+            "title" : "stuffed avocado",
+            "descript" : "red cabbage, arugula and acorn squash with a horse radish and sunflower sauce.",
+            "price" : "7"
           },
           {
-            "title" : "carrot bread",
-            "descript" : "with apple coconut butter.",
-            "price" : "7.5"
+            "title" : "brussel sprout salad",
+            "descript" : "shaved brussel sprouts, apples and walnuts. with a lemon thyme vinaigrette.",
+            "price" : "7"
           },                  
           {
-            "title" : "apple and fennel salad",
-            "descript" : "arsley, celery, green onion, lemon, evoo.",
-            "price" : "7"
+            "title" : "zucchini ravioli",
+            "descript" : "thinly sliced zucchini filled with cashew and butter nut squash cream topped with sage and black pepper olive oil.",
+            "price" : "8"
            },                  
            {
-            "title" : "stuffed mushroom",
-            "descript" : "sage, sunflower, carrot, rosemary, orange and lemon.",
-            "price" : "8"
+            "title" : "crispy kale chips",
+            "descript" : "green kale leaves tossed in pumpkinseed butter and sea salt then dehydrated until crispy.",
+            "price" : "6"
             }
         ]
       }, 
@@ -41,24 +41,19 @@
         "class" : "raw_main", 
         "items" : [
           {
-            "title" : "curried broccoli",
-            "descript" : "flax and beet wrap, ginger, avocado and arugula w/ a cucumber and mint salad.",
-            "price" : "15"
+            "title" : "accorn squash and leek tart",
+            "descript" : "with a sunflower seed, carrot crust and celeriac cream, topped with arugula and served with a savoy cabbage and apple slaw.",
+            "price" : "14"
           },
           {
-            "title" : "kobocha squash pad thai",
-            "descript" : "kelp noodles, tamarind, basil, garlic, green onion, carrot, mint and almond.",
-            "price" : "14"
+            "title" : "portobello burrito",
+            "descript" : "marinated portobello with spicy almond meat, avocado, lettuce, and cashew sour cream. served with cauliflower rice and fresh tomato salsa.",
+            "price" : "15"
           },                
           {
-            "title" : "nachos",
-            "descript" : "flax and sweet potato chips, beet, walnut, avocado, cashew sour cream, red onion, shaved cabbage and red pepper.",
+            "title" : "tomato and pesto flatbread",
+            "descript" : "dehydrated flax and vegetable crust, sun dried tomato marinara, chopped spinach and pumpkin seed pesto, sunflower seed cheese and fresh tomato.",
             "price" : "15"
-          },                  
-          {
-            "title" : "stuffed collard greens",
-            "descript" : "portobello, pumpkin seeds, celery, garlic, pickled onions, spicy ginger cream.",
-            "price" : "13"
           }
         ]
       },        
@@ -67,29 +62,29 @@
         "class" : "hot_main", 
         "items" : [
           {
-            "title" : "black truffle mac and cheese",
-            "descript" : "w/ brown rice pasta, coconut and cashew sauce, broccoli, sun dried tomatoes and spinach.",
+            "title" : "coconut green bean noodles",
+            "descript" : "bean thread noodles made of green beans and green peas with cauliflower, broccoli, zucchini, carrots and spinach with a coconut, ginger and cumin seed broth.",
             "price" : "13"
            },         
            {
-            "title" : "peanut butter kale and butter nut squash",
-            "descript" : "w/ maple syrup, red onion, garlic, and crushed peanuts.",
-            "price" : "12"
-           },
-           {
-            "title" : "mushroom noodle bowl",
-            "descript" : "w/ rice vermicelli, miso and mushroom broth, peppers, greens, onion, ginger, garlic, mint and basil.",
-            "price" : "12"
-           },
-           {
-            "title" : "pumpkin curry",
-            "descript" : "w/ sweet potato, red potato, yellow curry, garlic, onion, chick peas, and coconut milk.",
+            "title" : "russian chili",
+            "descript" : "beets, black beans, cabbage and tomato with smoked paprika, chili and cumin. served with brown rice and cashew sour cream or local goat cheese.",
             "price" : "13"
            },
            {
-            "title" : "bbq tofu salad",
-            "descript" : "mixed organic greens, carrot, tomato cucumber, kale, chick peas and a roasted tomato dressing.",
-            "price" : "12"
+            "title" : "vegetable rice bowl",
+            "descript" : "brown rice, sauteed zucchini, broccoli, carrots and mushrooms with pickled vegetables and a fried egg. topped with a tahini sauce.",
+            "price" : "11"
+           },
+           {
+            "title" : "irish stew",
+            "descript" : "sweet potato, red potato, kale, green lentils, gluten free beer, chickpea rosemary and thyme. served with a gluten free oat muffin.",
+            "price" : "13"
+           },
+           {
+            "title" : "winter bean salad",
+            "descript" : "warm chickpeas, black beans, and green lentils tossed with fresh kale red onion spinach and cabbage and a rosemary vinaigrette.",
+            "price" : "10"
            },
            {
             "title" : "huge gardan salad",
@@ -103,24 +98,24 @@
         "class" : "end", 
         "items" : [
           {
-            "title" : "pumpkin pie",
-            "descript" : "almond, date, coconut, vanilla cashew cream.",
+            "title" : "lemon and cashew mousse",
+            "descript" : "almond and lavender cookies and fresh fruit.",
+            "price" : "8"
+          },
+          {
+            "title" : "beet and orange cheesecake",
+            "descript" : "topped with vanilla macerated strawberries.",
             "price" : "9"
           },
           {
-            "title" : "apple cheese cake",
-            "descript" : "sunflower seed, pumpkin seed, chai tea.",
-            "price" : "8.5"
-          },
-          {
-            "title" : "chocolate avocado fudge",
-            "descript" : "w/ caramel macaroons, raspberry sauce.",
+            "title" : "cream filled chocolate cake",
+            "descript" : "caramel cream, hazelnut cake and a black cherry sauce.",
             "price" : "9"
           },                  
           {
-            "title" : "seasonal granita",
-            "descript" : "ask your server for the flavor.",
-            "price" : "3"
+            "title" : "cinnamon chia seed pudding",
+            "descript" : "with fruit and local bee boy honey. nut free.",
+            "price" : "6"
           }
         ]
       }   
