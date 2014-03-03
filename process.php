@@ -34,7 +34,7 @@ if( isset($_POST) ){
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'MIME-Version: 1.0' . "\r\n";
  
-    $emailbody = "<h1 style='font-size: 30px; color: #ed1c24; padding: 20px 20px 10px 20px; font-family: sans-serif;'>Edenpitt.com</h1><h1 style='font-size:26px; padding: 20px; background: #ed1c24; color: white; font-family: sans-serif; font-weight: 300;'><span style='font-weight:900'>{$name}</span> sent you an email</h1><p style='font-size: 16px; padding:30px 20px; line-height: 22px;'>{$message}</p><p style='padding: 20px; font-size: 16px; border-top: 3px solid #ed1c24; color: black; font-family: sans-serif; font-weight: normal;'>Their return email is <strong style='color: #ed1c24; font-weight: bold;'>{$email}</strong>.</p>";
+    $emailbody = "<h1 style='font-size: 30px; color: #ed1c24; padding: 20px 20px 10px 20px; font-family: sans-serif;'>Edenpitt.com</h1><h1 style='font-size:26px; padding: 20px; background: #ed1c24; color: white; font-family: sans-serif; font-weight: 300;'><span style='font-weight:900'>{$name}</span> sent you an email</h1><p style='font-size: 16px; padding:30px 20px; line-height: 22px;'>{$message}</p><p style='padding: 20px; font-size: 16px; border-top: 3px solid #ed1c24; color: black; font-family: sans-serif; font-weight: normal;'>Sent from: <strong style='color: #ed1c24; font-weight: bold;'>{$email}</strong>.</p>";
  
     $emailMessage = "Edenpitt.com Email";
 

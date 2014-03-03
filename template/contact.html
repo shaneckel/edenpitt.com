@@ -1,29 +1,29 @@
 
    
-  <header class="hero contact">
-    <h1>Contact Eden</h1>
-  </header>
+  <header class="hero contact"></header>
 
   <section class="contact">
  
     <article class="email">
-      <h2>send us an email</h2>
+      <h2>Contact Us</h2>
       <h3>Email us if you want more information on getting our raw cookies in your business, special dinners, or just curious about how we do things.</h3>
     </article>
 
     <form name="cform" ng-controller="formController" ng-submit="processForm()" novalidate >
   
       <div class="half" ng-class="{ 'error' : errorName }">
-        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name" ng-minlength=2 required> 
         <span ng-show="cform.name.$error.required && !cform.name.$pristine">+ please enter your name here. </span>
         <span ng-show="errorName">+ {{ errorName }}</span>
+        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name" ng-minlength=2 required> 
+
       </div><!--
    
    --><div class="half" ng-class="{ 'error' : errorEmail } " >
-        <input type="email" name="email" class="form-control" placeholder="Email"  ng-model="formData.email" required>
         <span ng-show="cform.email.$error.required && !cform.email.$pristine">+ please enter your email here. </span>        
         <span ng-show="cform.email.$error.email">+ check your email to see if it's right. </span>
         <span ng-show="errorEmail">+ {{ errorEmail }}</span>
+        <input type="email" name="email" class="form-control" placeholder="Email"  ng-model="formData.email" required>
+
       </div>
 
       <div class="full" ng-class="{ 'error' : errorMessage }">
