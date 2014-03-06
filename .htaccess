@@ -1,3 +1,4 @@
 
 AddHandler php-legacy .php
 
+ErrorDocument 404 /404.html
