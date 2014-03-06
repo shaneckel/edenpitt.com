@@ -29,11 +29,6 @@
             "price" : "12"
           },
           {
-            "title" : "MUESLI (raw)",
-            "descript" : "A Swiss cereal type dish made with oats, goji berries, hemp seeds, coconut, raisins, walnuts, sunflower seeds,pumpkin seeds and fresh fruit, served with house made raw nut milk.",
-            "price" : "10"
-          },
-          {
             "title" : "GRANOLA BOWL",
             "descript" : "House made granola is vegan and gluten free. Made with maple syrup and olive oil. It comes with fresh fruit, and one of your choosing, organic European yogurt, organic soy yogurt, local goat milk yogurt, or raw nut milk.",
             "price" : "8"
@@ -48,7 +43,7 @@
       {
         "title" : "savory", 
         "class" : "savory",
-        "note" : "All Savory meals come with a side salad, roasted vegetables, or a fruit cup.", 
+        "note" : "All Savory meals come with a side salad, soup, or a fruit cup.", 
         "items" : [
           {
             "title" : "BREAKFAST BURRITO",
@@ -57,7 +52,7 @@
           },
           {
             "title" : "VEGETABLE OMELETTE",
-            "descript" : "Three free range eggs, spinach, zucchini, tomato and local goat cheese. Comes with toast.",
+            "descript" : "Made with three free range eggs. With your choice of one of the two kinds: 1. Greens and mushrooms with local feta 2. Acorn squash and leeks with local chevre. Comes with toast.",
             "price" : "15"
           },
           {
@@ -74,7 +69,13 @@
             "title" : "POTATO AND KALE TACOS",
             "descript" : "Corn tortillas, cashew cheese, pickled red onions, and a sun dried tomato sauce. Also available as a wrap.",
             "price" : "15"
+          },
+          {
+            "title" : "BUTTER BEAN AND MUSHROOM BURGER",
+            "descript" : "Vegan or gluten free with cashew or goat cheese, pickled onions cashew mayo and fresh arugula.",
+            "price" : "12"
           }
+
         ]
       },        
       {
@@ -119,7 +120,7 @@
           },
           {
             "title" : "Various",
-            "descript" : "side salad, roasted vegetables, or a side of fruit",
+            "descript" : "side salad, soup, or a side of fruit",
             "price" : "4"
           }
         ]
