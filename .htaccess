@@ -1,20 +1,5 @@
 
 AddHandler php-legacy .php
 
-<VirtualHost *:80>
-    ServerName my-app
+ErrorDocument 404 /index.html
 
-    DocumentRoot /path/to/app
-
-    <Directory /path/to/app>
-        RewriteEngine on
-
-        # Don't rewrite files or directories
-        RewriteCond %{REQUEST_FILENAME} -f [OR]
-        RewriteCond %{REQUEST_FILENAME} -d
-        RewriteRule ^ - [L]
-
-        # Rewrite everything else to index.html to allow html5 state links
-        RewriteRule ^ index.html [L]
-    </Directory>
-</VirtualHost>
