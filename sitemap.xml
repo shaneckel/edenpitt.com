@@ -1,0 +1,27 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.edenpitt.com/home</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>hhttp://www.edenpitt.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>  
+  <url>
+    <loc>hhttp://www.edenpitt.com/menu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>  
+  <url>
+    <loc>hhttp://www.edenpitt.com/brunch</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>  
+  <url>
+    <loc>hhttp://www.edenpitt.com/contact</loc>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset> 
