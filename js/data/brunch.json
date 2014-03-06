@@ -48,27 +48,27 @@
           {
             "title" : "BREAKFAST BURRITO",
             "descript" : "Tomato wheat wrap, TVP scramble or two cage free eggs, seasoned black beans, tomatoes and avocado. Or get it with corn tortillas instead of the flour tortilla.",
-            "price" : "15"
+            "price" : "9"
           },
           {
             "title" : "VEGETABLE OMELETTE",
             "descript" : "Made with three free range eggs. With your choice of one of the two kinds: 1. Greens and mushrooms with local feta 2. Acorn squash and leeks with local chevre. Comes with toast.",
-            "price" : "15"
+            "price" : "10"
           },
           {
             "title" : "CURRY EGGS",
             "descript" : "Three free range eggs, local goat cheese, curry and onion, scrambled with arugula. Comes with toast.",
-            "price" : "15"
+            "price" : "10"
           },
           {
             "title" : "EGG SANDWICH",
             "descript" : "Two free range eggs, whole wheat or gluten free bread, cream cheese, local feta cheese, spinach and tomato.",
-            "price" : "15"
+            "price" : "9"
           },
           {
             "title" : "POTATO AND KALE TACOS",
             "descript" : "Corn tortillas, cashew cheese, pickled red onions, and a sun dried tomato sauce. Also available as a wrap.",
-            "price" : "15"
+            "price" : "10"
           },
           {
             "title" : "BUTTER BEAN AND MUSHROOM BURGER",
