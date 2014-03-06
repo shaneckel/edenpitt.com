@@ -243,11 +243,15 @@ ngEden.run(['$rootScope', '$state', '$stateParams',
   }]);
 
 ngEden.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
-  
+   
   $urlRouterProvider
     .otherwise('/');
-
+    
   $stateProvider
+    .state("/*", {
+       url: "/",
+      templateUrl: 'template/home.html'
+    })
     .state("home", {
       url: "/",
       templateUrl: 'template/home.html'
