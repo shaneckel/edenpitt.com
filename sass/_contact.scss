@@ -20,6 +20,12 @@ section.contact{
       line-height: 1.5em;
       border-bottom: 1px solid black;
       padding-bottom: 2.5%; 
+      &.designcredit{
+        padding-top: 2.5%; 
+        border-top: 1px solid black;
+        font-size: 1.4em;
+
+      }
     }
 
     @media #{$phone} {
@@ -27,6 +33,10 @@ section.contact{
         margin-top: 5%;
         padding-bottom: 5%; 
         font-size: 1.1em;
+        &.designcredit{
+          padding-top: 5%; 
+          font-size: 1em;
+         }
       }
       h2{
         font-size: 2em;
