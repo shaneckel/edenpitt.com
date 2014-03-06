@@ -5,22 +5,22 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>hhttp://www.edenpitt.com/about</loc>
+    <loc>http://www.edenpitt.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>  
   <url>
-    <loc>hhttp://www.edenpitt.com/menu</loc>
+    <loc>http://www.edenpitt.com/menu</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>  
   <url>
-    <loc>hhttp://www.edenpitt.com/brunch</loc>
+    <loc>http://www.edenpitt.com/brunch</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>  
   <url>
-    <loc>hhttp://www.edenpitt.com/contact</loc>
+    <loc>http://www.edenpitt.com/contact</loc>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
