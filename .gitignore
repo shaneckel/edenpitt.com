@@ -2,11 +2,8 @@
 
 /staging
 
-#.htaccess
-
 /thefall/sass
 /thefall/.sass-cache
 /thefall/config.rb
 .sass-cache
-/sass
 config.rb

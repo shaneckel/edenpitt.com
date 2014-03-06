@@ -1,0 +1,78 @@
+
+// edenpitt.com 
+
+// keep this file reserved for sitewide changes
+// module or page specificity should be left to a partial 
+
+@import "compass/reset";
+@import "compass/CSS3";
+@import "compass/css3/transition";
+@import "flexbox";
+@import "variables.scss";
+@import "spinner.scss";
+
+//mixin
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; } 
+}
+ 
+//partial imports // I know I know... can be done with grunt.
+@import "home.scss";
+@import "contact.scss";
+@import "header.scss";
+@import "menu.scss";
+@import "animations.scss";
+
+body {  
+  main.main > header{
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+  }
+  overflow-y: scroll;
+
+ }
+
+*, *:before, *:after {
+  @include box-sizing(border-box); // Box size it all 
+}
+
+body{
+  font-family: 'Whitney A', 'Whitney B'; 
+  font-weight: 600; 
+  font-style: normal;
+  > footer, > header {
+    opacity: 0;
+    transition: $normal;
+  }
+}
+
+body.init{
+  > footer, > header {
+    opacity: 1;
+    transition: $normal;
+  }
+}
+
+a{
+  color: $edenred;
+  text-decoration: none;
+}
+
+main.main > header{
+  padding: 5%;
+  padding-top: 20%;
+  padding-bottom: 15%;
+}
+
+.preload{
+  display: none;
+  height:0;
+  width: 0;
+}
+
+

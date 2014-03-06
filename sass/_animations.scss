@@ -1,0 +1,39 @@
+
+// angular animations
+
+body.ready .main.ng-enter {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  opacity: 0; 
+}
+
+body.ready .main.ng-enter-active {
+  opacity: 1;
+}
+
+body.ready .home.ng-enter {
+  padding-top: 15%;
+  transition: padding-top 4.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3;
+}
+
+.togglebutton-animation {
+  transition: $fast;
+  position: absolute;
+  top: 0.05em;
+  right: .1em;
+  width: .8em;
+  font-size: 3.7em;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  @include rotate(-90deg);
+ 
+}
+
+.togglebutton-animation.disabled {
+  @include rotate(45deg);
+  &:after{
+    opacity: 0; 
+  }
+}
+
