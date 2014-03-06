@@ -1,0 +1,36 @@
+
+// eden vars
+
+// color
+$edenred: #ed1c24;
+
+// shadow
+$textshadow: 0px 1px 3px rgba(41, 41, 41, 0.7);
+
+// speed
+$normal: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+$fast: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
+// mediaqueries
+$desk: "only screen and (min-width: 768px)"; // tablets and desktop
+
+$phone: "only screen and (max-width: 767px)"; // phones
+
+$ipad: "only screen and (max-width: 1024px)"; // portrait phones
+
+
+$thickness:  4px;  
+$size:  26px; 
+$s_right: rgba(255, 255, 255, 0.4);
+$s_left: rgba(237, 28, 36, 1);
+
+@mixin rotate-forever {
+  0%    { @include transform(rotate(0deg)); }
+  100%  { @include transform(rotate(360deg)); }
+}
+
+@-webkit-keyframes rotate-forever { @include rotate-forever; }
+@-moz-keyframes rotate-forever { @include rotate-forever; }
+@-ms-keyframes rotate-forever { @include rotate-forever; }
+@-o-keyframes rotate-forever { @include rotate-forever; }
+@keyframes rotate-forever { @include rotate-forever; }

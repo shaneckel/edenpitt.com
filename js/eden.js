@@ -242,8 +242,8 @@ ngEden.run(['$rootScope', '$state', '$stateParams',
     })
   }]);
 
-ngEden.config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
-   
+ngEden.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider){
+  $locationProvider.html5Mode(true);
   $urlRouterProvider
     .otherwise('/');
     

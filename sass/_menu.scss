@@ -1,0 +1,268 @@
+
+//Menu
+
+header.hero.dinner{
+  @media #{$desk} {
+     background-image: url(../img/eden-main-large-dinner.jpg);
+  }
+  @media #{$phone} {
+     background-image: url(../img/eden-main-small-dinner.jpg);
+  }
+}
+
+header.hero.brunch{
+  @media #{$desk} {
+    background-image: url(../img/eden-main-large-brunch.jpg);
+  }
+  @media #{$phone} {
+    background-image: url(../img/eden-main-small-brunch.jpg);
+  }
+}
+
+.hero{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  background-size: cover;
+  h1{
+    font-size: 5.6em;
+    color: white;
+    line-height: 1.4em;
+    text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+    @media #{$phone} {
+      font-size: 2.5em;
+      line-height: 1.4em;
+      padding-bottom: .2em;
+      font-weight: 400;
+      font-size: 1.6em;
+      line-height: 1.4em;
+      padding-bottom: .6em;
+      padding-top: 1em;
+    }
+  }
+  h2{
+    color: white;
+    font-size: 3em;
+    line-height: 1.6em;
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300; 
+    font-style: normal;
+    text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+    @media #{$phone} {
+      font-size: 1em;
+      line-height: 1.2em;
+      font-weight: 300;
+      text-shadow: 1px 1px 6px rgba(81, 81, 81, 0.9);
+    }
+  }
+  @media #{$phone} {
+    &.brunch, &.dinner{
+      h1{
+        font-size: 2.5em;
+        line-height: 1.4em;
+        padding-bottom: 0;
+        padding-top: .6em;
+      }
+      h2{
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+.menu{
+  section{
+    h2{
+      font-size: 2em;
+      font-weight: 300;
+      border-bottom: 1px solid black;
+      padding-bottom: .8em;
+    }
+    > h3{
+      font-size: 1.2em;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin-top: 1em;
+      line-height: 1.4em;
+      border-bottom: 1px solid black;
+      padding-bottom: 1em; 
+    }
+    h5{
+      font-size: 1.2em;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding-top: 1em;
+      line-height: 1.4em;
+      border-top: 1px solid black;
+      margin-bottom: 1em;
+      &:first-of-type{
+        margin-top: 1em;
+      }
+    }
+    li{
+      display: inline-block;
+      width: 100%; 
+      vertical-align: top;
+      position: relative;
+      margin-top: 5%; 
+      &:first-of-type{
+        margin-top: 0;
+        h3{
+          border-top: 0;
+        }
+      }
+      h2{
+        color: white;
+        font-size: 1.8em;
+        line-height: 1.6em;
+        font-family: 'Whitney A', 'Whitney B';
+        font-weight: 300; 
+        font-style: normal;
+        text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+        padding-bottom: 1em;
+      }
+      h3{
+        font-weight: 700;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        padding-right: 15%;
+        padding-top: 1em; 
+        line-height: 1.2em;
+        border-top: 1px dashed black;
+      }
+      h4{
+        font-size: .9em;
+        font-weight: 300;
+        line-height: 1.2em;
+      }
+      .price{
+        position: absolute;
+        right: 0;
+        font-weight: 300;
+        top: .6em;
+        font-size: 1.8em;
+      }
+      p{
+        font-weight: 300;
+        line-height: 1.6em;
+        font-size: 1.2em;
+        padding-top: .4em;
+      }
+    }
+  }
+}
+
+
+.menu{
+  section{
+    width: 50%;
+    padding: 5%;
+    display: inline-block;
+    vertical-align: top;
+    &:nth-child(even){
+      padding-left: 2.5%;
+    }    
+    &:nth-child(odd){
+      padding-right: 2.5%;
+    }
+    &.hot_main, &.end{
+      width: 100%; 
+      padding: 5%;
+      padding-top: 0;
+
+      li{
+        width: 47.5%;
+        margin-top: 2.5%; 
+ 
+        &:nth-child(even){
+          margin-left: 2.5%;
+        }    
+        &:nth-child(odd){
+          margin-right: 2.5%;
+        }
+        &:nth-child(1), &:nth-child(2) {
+           margin-top: 0;
+          h3{
+             border-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+.menu.brunch{
+  section:nth-child(1), section:nth-child(2){
+    padding-bottom: 0;
+  }
+}
+@media #{$phone} {
+  header.hero.home{
+    padding: 15% 5%;
+  }
+  .menu{
+    padding-bottom: 5%;
+    section.start, section.hot_main , section.raw_main, section.end, section{
+      font-size: .9em;
+      width: 100%;
+      padding: 5%;
+      padding-top: 5%;
+
+      &:nth-child(even){
+        padding: 5%;
+        margin-top: 0;
+      }    
+      &:nth-child(odd){
+        padding: 5%;
+        margin-top: 0;
+      }
+      &:nth-child(1), &:nth-child(2){
+        padding-bottom: 5%;
+      }
+      h2{
+        padding-bottom: .5em;
+        padding-top: .5em;
+      }
+
+      li{ 
+        width: 100%;
+        margin-top: 5%;
+        padding-top: 0; 
+        h3{
+          padding-top: .75em;
+          &:nth-child(1), &:nth-child(2){
+            border-top: 1px dashed black;
+          }
+        }
+        p{
+           font-size: 1.2em;
+          line-height: 1.4em;
+        }
+        h4{
+          padding-top: .5em;
+          line-height: 1.4em;
+        }
+        .price{
+          top: .5em;
+        }
+        &:nth-child(even){
+          margin-top: 5%;
+          margin-left: 0%;
+        }    
+        &:nth-child(odd){
+          margin-top: 5%;
+          margin-right: 0%;
+        }
+        &:first-of-type{
+          margin-top: 0%;
+          h3{
+            border-top: 0;
+          }
+        }
+        // &:nth-child(2)  {
+        //   //margin-top: 2.5%; 
+        // }
+      }
+    }
+  }
+}
+
