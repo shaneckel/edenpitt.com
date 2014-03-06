@@ -1,57 +1,53 @@
 <?php
-if( isset($_POST) ){
-	
-	$formok = true;
-	$errors = array();
-	
-	$ipaddress = $_SERVER['REMOTE_ADDR'];
-	$date = date('d/m/Y');
-	$time = date('H:i:s');
-	
-	$name = $_POST['name'];	
-	$email = $_POST['email'];
-	$message = $_POST['message'];
-		
-	if(empty($name)){
-		$formok = false;
-		$errors[] = "You have not entered a name";
-	}
 
-	if(empty($message)){
-		$formok = false;
-		$errors[] = "You have not entered a message";
-	}
-	
-	if($formok){
-		$headers = "From: hello@edenpitt.com" . "\r\n";
-		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		
-		$emailbody = "<p>You have recieved a new message from the Eden contact form.</p>
-					  <p><strong>Name: </strong> {$name} </p>
-					  <p><strong>Email Address: </strong> {$email} </p>
-					  <p><strong>Message: </strong> {$message} </p>
-					  <p>This message was sent from the IP Address: {$ipaddress} on {$date} at {$time}</p>";
-		
-		mail("hilaryzozula@gmail.com","New Eden Contact",$emailbody,$headers);
-		
-	}
-	
-	$returndata = array(
-		'posted_form_data' => array(
-			'name' => $name,
-			'email' => $email,
-			'message' => $message
-		),
-		'form_ok' => $formok,
-		'errors' => $errors
-	);
-		
-	
-	if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest'){
-		session_start();
-		$_SESSION['cf_returndata'] = $returndata;
-		
-		header('location: ' . $_SERVER['HTTP_REFERER']);
-	}
+if( isset($_POST) ){
+  date_default_timezone_set('US/Eastern');
+
+  $formok = true;
+
+  $errors = array();
+  $data = array();
+
+  $dataInput = json_decode( file_get_contents('php://input'));
+  
+  $name = $dataInput->name;
+  $message = nl2br($dataInput->message);
+  $email = $dataInput->email;
+
+  if (empty( $dataInput->name) ){
+    $errors['name'] = 'Name is required.';
+    $formok = false;
+  }
+
+  if (empty( $dataInput->email) ){
+    $errors['email'] = 'Email is required.';
+    $formok = false;
+  }
+
+  if (empty( $dataInput->message) ){
+    $errors['message'] = 'A message is Required.';
+    $formok = false;
+  }
+
+  if (empty($errors) && $formok) {
+    $headers = "From: Eden <hello@edenpitt.com>" . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $headers .= 'MIME-Version: 1.0' . "\r\n";
+ 
+    $emailbody = "<h1 style='font-size: 30px; color: #ed1c24; padding: 20px 20px 10px 20px; font-family: sans-serif;'>Edenpitt.com</h1><h1 style='font-size:26px; padding: 20px; background: #ed1c24; color: white; font-family: sans-serif; font-weight: 300;'><span style='font-weight:900'>{$name}</span> sent you an email</h1><p style='font-size: 16px; padding:30px 20px; line-height: 22px;'>{$message}</p><p style='padding: 20px; font-size: 16px; border-top: 3px solid #ed1c24; color: black; font-family: sans-serif; font-weight: normal;'>Sent from: <strong style='color: #ed1c24; font-weight: bold;'>{$email}</strong>.</p>";
+ 
+    $emailMessage = "Edenpitt.com Email";
+
+    mail("hilaryzozula@gmail.com",$emailMessage,$emailbody,$headers);
+
+    $data['success'] = true;
+    $data['message'] = 'Your email was sent at '. date("g:i a") . '.';
+ 
+  }else{
+    $data['success'] = false;
+    $data['errors'] = $errors;
+  }
+
+  echo json_encode($data);
+
 }
-?>

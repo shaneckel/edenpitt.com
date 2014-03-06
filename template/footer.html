@@ -1,0 +1,31 @@
+
+<footer ng-cloak class="bot">
+  <section>
+    <h1>Phone</h1>
+    <a href="tel:+4128027070">
+      <p>(412) 802-7070</p>
+    </a>
+    <h1>Address</h1>
+    <a href="https://www.google.com/maps/preview#!q=735+Copeland+St.+Pittsburgh%2C+Pa+15232&data=!1m4!1m3!1d3230!2d-79.9345744!3d40.4511665!4m12!2m11!1m10!1s0x8834f210e0181241%3A0x8f971a55e1378d7!3m8!1m3!1d97183!2d-79.9805004!3d40.4313684!3m2!1i1024!2i768!4f13.1">
+      <p>385 Copeland street</p>
+      <p>Pittsburgh, PA 15232</p>
+    </a>
+  </section>  
+  <nav>
+    <h1>Navigation</h1>
+    <a ng-class="{ active: $state.includes('home') }" ui-sref="home">home</a>
+    <a ng-class="{ active: $state.includes('dinner') }" ui-sref="dinner">dinner</a>
+    <a ng-class="{ active: $state.includes('brunch') }" ui-sref="brunch">brunch</a>
+    <a ng-class="{ active: $state.includes('about') }" ui-sref="about">about</a>
+    <a ng-class="{ active: $state.includes('contact') }" ui-sref="contact">contact</a>
+    <h1>Social</h1>
+    <aside>
+      <a ui-sref="home" class="logo" ng-click="disabled=false" >
+        <img ng-src="./img/facebook.svg">
+      </a>
+      <a ui-sref="home" class="logo" ng-click="disabled=false" >
+        <img ng-src="./img/twitter.svg">
+      </a>
+    </aside>
+  </nav>
+</footer>

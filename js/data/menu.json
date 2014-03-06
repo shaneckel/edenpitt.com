@@ -1,0 +1,124 @@
+{
+  "menu" : {
+    "meta" : { 
+      "header" : " Dinner Menu.",
+      "title" : "Winter Season 2014"
+    },
+    "config" : {
+      "season" : "",
+      "descript" : ""
+    },
+    "menulist": [
+      {
+        "title" : "start", 
+        "class" : "start", 
+        "descript" : "our raw starters", 
+         "items" : [
+          {
+            "title" : "stuffed avocado",
+            "descript" : "red cabbage, arugula and acorn squash with a horse radish and sunflower sauce.",
+            "price" : "7"
+          },
+          {
+            "title" : "brussel sprout salad",
+            "descript" : "shaved brussel sprouts, apples and walnuts. with a lemon thyme vinaigrette.",
+            "price" : "7"
+          },                  
+          {
+            "title" : "zucchini ravioli",
+            "descript" : "thinly sliced zucchini filled with cashew and butter nut squash cream topped with sage and black pepper olive oil.",
+            "price" : "8"
+           },                  
+           {
+            "title" : "crispy kale chips",
+            "descript" : "green kale leaves tossed in pumpkinseed butter and sea salt then dehydrated until crispy.",
+            "price" : "6"
+            }
+        ]
+      }, 
+      {
+        "title" : "raw main", 
+        "class" : "raw_main", 
+        "items" : [
+          {
+            "title" : "accorn squash and leek tart",
+            "descript" : "with a sunflower seed, carrot crust and celeriac cream, topped with arugula and served with a savoy cabbage and apple slaw.",
+            "price" : "14"
+          },
+          {
+            "title" : "portobello burrito",
+            "descript" : "marinated portobello with spicy almond meat, avocado, lettuce, and cashew sour cream. served with cauliflower rice and fresh tomato salsa.",
+            "price" : "15"
+          },                
+          {
+            "title" : "tomato and pesto flatbread",
+            "descript" : "dehydrated flax and vegetable crust, sun dried tomato marinara, chopped spinach and pumpkin seed pesto, sunflower seed cheese and fresh tomato.",
+            "price" : "15"
+          }
+        ]
+      },        
+      {
+        "title" : "hot main",
+        "class" : "hot_main", 
+        "items" : [
+          {
+            "title" : "coconut green bean noodles",
+            "descript" : "bean thread noodles made of green beans and green peas with cauliflower, broccoli, zucchini, carrots and spinach with a coconut, ginger and cumin seed broth.",
+            "price" : "13"
+           },         
+           {
+            "title" : "russian chili",
+            "descript" : "beets, black beans, cabbage and tomato with smoked paprika, chili and cumin. served with brown rice and cashew sour cream or local goat cheese.",
+            "price" : "13"
+           },
+           {
+            "title" : "vegetable rice bowl",
+            "descript" : "brown rice, sauteed zucchini, broccoli, carrots and mushrooms with pickled vegetables and a fried egg. topped with a tahini sauce.",
+            "price" : "11"
+           },
+           {
+            "title" : "irish stew",
+            "descript" : "sweet potato, red potato, kale, green lentils, gluten free beer, chickpea rosemary and thyme. served with a gluten free oat muffin.",
+            "price" : "13"
+           },
+           {
+            "title" : "winter bean salad",
+            "descript" : "warm chickpeas, black beans, and green lentils tossed with fresh kale red onion spinach and cabbage and a rosemary vinaigrette.",
+            "price" : "10"
+           },
+           {
+            "title" : "huge gardan salad",
+            "descript" : "mixed organic greens, carrots, kale, cucumber, tomato, red pepper, and sunflower seeds.",
+            "price" : "10"
+           }
+        ]
+      },         
+      {
+        "title" : "end", 
+        "class" : "end", 
+        "items" : [
+          {
+            "title" : "lemon and cashew mousse",
+            "descript" : "almond and lavender cookies and fresh fruit.",
+            "price" : "8"
+          },
+          {
+            "title" : "beet and orange cheesecake",
+            "descript" : "topped with vanilla macerated strawberries.",
+            "price" : "9"
+          },
+          {
+            "title" : "cream filled chocolate cake",
+            "descript" : "caramel cream, hazelnut cake and a black cherry sauce.",
+            "price" : "9"
+          },                  
+          {
+            "title" : "cinnamon chia seed pudding",
+            "descript" : "with fruit and local bee boy honey. nut free.",
+            "price" : "6"
+          }
+        ]
+      }   
+    ]
+  }
+}

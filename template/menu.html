@@ -1,0 +1,29 @@
+
+  <header class="hero dinner">
+    <h1>{{menu.meta.header}}</h1>
+    <h2>{{menu.meta.title}}</h2>
+  </header>
+
+  <article class="menu"> 
+    <section ng-repeat="section in menu.menulist" class="{{section.class}}">
+      <h2>{{section.title}}</h2>
+      <ul>
+        <li ng-repeat="item in section.items">
+          <h3>{{item.title}}</h3>
+          <span class="price">${{item.price}}</span>
+          <p>{{item.descript}}</p>
+
+        </li>
+      </ul>
+      <aside ng-if="section.class == 'raw_main'">
+        <h5>raw dishes only use pink himalayan salt.</h5>
+      </aside>     
+      <aside ng-if="section.class == 'hot_main'">
+        <h5>We only USE COLD PRESSED EXTRA VIRGIN OLIVE OIL, FRESH GROUND PEPPER, AND SEA SALT.</h5>
+        <h5>WE ARE VERY SENSITIVE TO YOUR ALLERGIES. LET US KNOW AND WE WILL DO OUR VERY BEST TO ACCOMMODATE.</h5>
+      </aside>
+      <aside ng-if="section.class == 'end'">
+        <h5>in our raw deserts we use only wild bourbon vanilla bean powder.</h5>
+      </aside>
+    </section>
+  </article> 

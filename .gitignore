@@ -2,12 +2,17 @@
 
 /staging
 
-.htaccess
+#.htaccess
 
 /thefall/sass
 /thefall/.sass-cache
 /thefall/config.rb
+<<<<<<< HEAD
 
 /sass
 .sass-cache
+=======
+.sass-cache
+/sass
+>>>>>>> staging
 config.rb

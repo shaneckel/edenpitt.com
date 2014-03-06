@@ -1,0 +1,130 @@
+{
+  "menu" : {
+    "meta" : { 
+      "header" : "Brunch Menu.",
+      "title" : "Every Saturday and Sunday."
+    },
+    "config" : {
+      "season" : "fall"
+    },
+    "menulist": [
+      {
+        "title" : "sweet", 
+        "class" : "sweet", 
+        "items" : [
+          {
+            "title" : "VEGAN and GLUTEN FREE WAFFLES",
+            "descript" : "Our gluten free flour and brown sugar. With vegan butter and local maple syrup.",
+            "price" : "9"
+          },
+          {
+            "title" : "FARM HOUSE WAFFLES",
+            "descript" : "Free range eggs, whole wheat flour and brown sugar. With real butter and local maple syrup.",
+            "price" : "9",
+            "listdescript" : "For an extra dollar (1$) both types of waffles allow you to choose up to three (3) of the following toppings: fresh fruit, walnuts, pumpkin seeds, chocolate chips, coconut, bee pollen, goji berries, or peanut butter."
+          },
+          {
+            "title" : "OAT AND ALMOND PANCAKES (raw)",
+            "descript" : "Made with rolled oats, almond pulp, dates, cinnamon and coconut, then semi dehydrated and topped with fresh fruit. Served with walnut cream and local maple syrup.",
+            "price" : "12"
+          },
+          {
+            "title" : "GRANOLA BOWL",
+            "descript" : "House made granola is vegan and gluten free. Made with maple syrup and olive oil. It comes with fresh fruit, and one of your choosing, organic European yogurt, organic soy yogurt, local goat milk yogurt, or raw nut milk.",
+            "price" : "8"
+          },
+          {
+            "title" : "MUFFIN AND FRUIT OF THE DAY",
+            "descript" : "House made muffin of the day is vegan and gluten free. It comes with fresh fruit, local honey and one of your choosing, organic European yogurt, local goat milk yogurt, or organic soy yogurt .",
+            "price" : "9"
+          }
+        ]
+      }, 
+      {
+        "title" : "savory", 
+        "class" : "savory",
+        "note" : "All Savory meals come with a side salad, soup, or a fruit cup.", 
+        "items" : [
+          {
+            "title" : "BREAKFAST BURRITO",
+            "descript" : "Tomato wheat wrap, TVP scramble or two cage free eggs, seasoned black beans, tomatoes and avocado. Or get it with corn tortillas instead of the flour tortilla.",
+            "price" : "15"
+          },
+          {
+            "title" : "VEGETABLE OMELETTE",
+            "descript" : "Made with three free range eggs. With your choice of one of the two kinds: 1. Greens and mushrooms with local feta 2. Acorn squash and leeks with local chevre. Comes with toast.",
+            "price" : "15"
+          },
+          {
+            "title" : "CURRY EGGS",
+            "descript" : "Three free range eggs, local goat cheese, curry and onion, scrambled with arugula. Comes with toast.",
+            "price" : "15"
+          },
+          {
+            "title" : "EGG SANDWICH",
+            "descript" : "Two free range eggs, whole wheat or gluten free bread, cream cheese, local feta cheese, spinach and tomato.",
+            "price" : "15"
+          },
+          {
+            "title" : "POTATO AND KALE TACOS",
+            "descript" : "Corn tortillas, cashew cheese, pickled red onions, and a sun dried tomato sauce. Also available as a wrap.",
+            "price" : "15"
+          },
+          {
+            "title" : "BUTTER BEAN AND MUSHROOM BURGER",
+            "descript" : "Vegan or gluten free with cashew or goat cheese, pickled onions cashew mayo and fresh arugula.",
+            "price" : "12"
+          }
+
+        ]
+      },        
+      {
+        "title" : "salads",
+        "class" : "salads", 
+        "items" : [
+          {
+            "title" : "ROASTED VEGETABLE SALAD",
+            "descript" : "Mixed organic baby greens, roasted vegetables, local goat cheese, and a lemon, apple cider vinegar and olive oil dressing.",
+            "price" : "10"
+           },         
+           {
+            "title" : "garden salad",
+            "descript" : "Mixed organic baby greens, tomato, carrots, cucumber, sunflower seeds, red pepper, and a balsamic and extra virgin olive oil dressing",
+            "price" : "10"
+           },
+           {
+            "title" : "GRILLED TEMPEH SALAD",
+            "descript" : "Arugula, grilled tempeh, sun dried tomatoes, olives, cucumber and local feta cheese and a balsamic and olive oil dressing.",
+            "price" : "11"
+           }
+        ]
+      },         
+      {
+        "title" : "sides", 
+        "class" : "sides", 
+        "items" : [
+          {
+            "title" : "TEMPEH BACON",
+            "descript" : "w/ sweet potato, red potato, yellow curry, garlic, onion, chick peas, and coconut milk.",
+            "price" : "3"
+          },          
+          {
+            "title" : "SINGLE MUFFIN",
+            "descript" : "Our gluten free muffin of the day.",
+            "price" : "3"
+          },
+          {
+            "title" : "Extra Egg",
+            "descript" : "*Free range. Get them scrambled or fried.",
+            "price" : "1.5"
+          },
+          {
+            "title" : "Various",
+            "descript" : "side salad, soup, or a side of fruit",
+            "price" : "4"
+          }
+        ]
+      }   
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+ <header ng-cloak header-main class="top main-header" scroll ng-class="{min:scrollpast, disabled:disabled}" ng-init="disabled=false">
+  <nav ng-class="{disabled:disabled}" class="expose-animation">
+    <a ng-class="{ active: $state.includes('dinner') }"ng-click="disabled=false"  ui-sref="dinner">dinner</a>
+    <a ng-class="{ active: $state.includes('brunch') }" ng-click="disabled=false"  ui-sref="brunch">brunch</a>
+    <a ui-sref="home" class="logo" ng-click="disabled=false" >
+      <img ng-src="./img/edenlogo.svg">
+    </a>
+    <a ng-class="{ active: $state.includes('about') }" ng-click="disabled=false"  ui-sref="about">about</a>
+    <a ng-class="{ active: $state.includes('contact') }" ng-click="disabled=false" ui-sref="contact">contact</a>
+   </nav>
+  <div class="togglebutton-animation" ng-class="{disabled:disabled}" ng-click="disabled=!disabled" >+</div>
+</header>
