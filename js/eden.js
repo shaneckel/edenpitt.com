@@ -254,7 +254,7 @@ ngEden.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', func
       templateUrl: 'template/home.html'
     })
     .state("dinner", {
-      url: "/dinner",
+      url: "/dinner/",
       templateUrl: 'template/menu.html',
       resolve: {
         menu: ['menu', function(menu){
@@ -267,11 +267,11 @@ ngEden.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', func
       }]
     })
     .state("contact", {
-      url: "/contact",
+      url: "/contact/",
       templateUrl: 'template/contact.html',
     })     
     .state("brunch", {
-      url: "/brunch",
+      url: "/brunch/",
       templateUrl: 'template/brunch.html',
       resolve: {
         brunch: ['brunch', function(brunch){
@@ -284,7 +284,7 @@ ngEden.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', func
       }]    
     }) 
     .state("about", {
-      url: "/about",
+      url: "/about/",
       templateUrl: 'template/about.html',
     });
 }]);
