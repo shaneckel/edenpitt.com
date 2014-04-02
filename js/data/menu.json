@@ -2,7 +2,7 @@
   "menu" : {
     "meta" : { 
       "header" : " Dinner Menu.",
-      "title" : "Winter Season 2014"
+      "title" : "Spring Season 2014"
     },
     "config" : {
       "season" : "",
@@ -15,24 +15,24 @@
         "descript" : "our raw starters", 
          "items" : [
           {
-            "title" : "stuffed avocado",
-            "descript" : "red cabbage, arugula and acorn squash with a horse radish and sunflower sauce.",
-            "price" : "7"
+            "title" : "Pumello and Cara Cara salad",
+            "descript" : "With pea shoots, preserved lemon, spicy almonds, avocado, ginger and lime.",
+            "price" : "8"
           },
           {
-            "title" : "brussel sprout salad",
-            "descript" : "shaved brussel sprouts, apples and walnuts. with a lemon thyme vinaigrette.",
-            "price" : "7"
+            "title" : "Legumes Non Cuits",
+            "descript" : "Our version of a charcuterie platter. Cured beet, hot porcini mushroom sausage, apple and walnut pate, asparagus and sunflower terrine, creamy mustard, fig jam, pickled green apple and mustard seeds with soaked oat and flax bread",
+            "price" : "13"
           },                  
           {
-            "title" : "zucchini ravioli",
-            "descript" : "thinly sliced zucchini filled with cashew and butter nut squash cream topped with sage and black pepper olive oil.",
+            "title" : "BBQ Shiitake Dumplings",
+            "descript" : "Chia seed and coconut wraps filled with shiitake, red onion,and jicama, served in a coconut amino, sassafras leaf and beads or paradise sauce..",
             "price" : "8"
            },                  
            {
-            "title" : "crispy kale chips",
-            "descript" : "green kale leaves tossed in pumpkinseed butter and sea salt then dehydrated until crispy.",
-            "price" : "6"
+            "title" : "Sunflower Seed Hummus",
+            "descript" : "Red black and white quinoa, baby kale, pepitas, cranberries, red cabbage, and carrots served with a whole grain mustard and nutmeg vinaigrette.",
+            "price" : "11"
             }
         ]
       }, 
@@ -41,18 +41,18 @@
         "class" : "raw_main", 
         "items" : [
           {
-            "title" : "accorn squash and leek tart",
-            "descript" : "with a sunflower seed, carrot crust and celeriac cream, topped with arugula and served with a savoy cabbage and apple slaw.",
-            "price" : "14"
+            "title" : "Green Papaya Noodles",
+            "descript" : "Kelp noodles, carrot, basil, mint, cucumber and daikon radish in a lime, ginger and goji berry sauce. With a spicy dehydrated peanuts and mango dust.",
+            "price" : "15"
           },
           {
-            "title" : "portobello burrito",
-            "descript" : "marinated portobello with spicy almond meat, avocado, lettuce, and cashew sour cream. served with cauliflower rice and fresh tomato salsa.",
+            "title" : "Crusted Oyster Mushroom Enchiladas",
+            "descript" : "Thinly sliced zucchini filled with coriander and flax crusted oyster mushrooms almond cotija cheese, avocado and chopped kale, topped with a chili and cacao sun dried tomato sauce, green onions and poblano peppers.",
             "price" : "15"
           },                
           {
-            "title" : "tomato and pesto flatbread",
-            "descript" : "dehydrated flax and vegetable crust, sun dried tomato marinara, chopped spinach and pumpkin seed pesto, sunflower seed cheese and fresh tomato.",
+            "title" : "Spicy Plantain Curry",
+            "descript" : "Cherry tomato, carrot, red pepper and sweet potato in a sun dried tomato, ancho chili and coconut, curry sauce, served with parsnip and sunflower rice, plantain chips and basil edamame pure..",
             "price" : "15"
           }
         ]
@@ -62,33 +62,33 @@
         "class" : "hot_main", 
         "items" : [
           {
-            "title" : "coconut green bean noodles",
-            "descript" : "bean thread noodles made of green beans and green peas with cauliflower, broccoli, zucchini, carrots and spinach with a coconut, ginger and cumin seed broth.",
+            "title" : "Creamy Green Bean Noodles",
+            "descript" : "Grain free noodles made of green beans and green peas with oyster mushrooms, cauliflower, baby kale and asparagus in a coconut milk, smoke and tomato sauce.",
             "price" : "13"
            },         
            {
-            "title" : "russian chili",
-            "descript" : "beets, black beans, cabbage and tomato with smoked paprika, chili and cumin. served with brown rice and cashew sour cream or local goat cheese.",
+            "title" : "Jack Fruit Carnitas",
+            "descript" : "Shredded jack fruit cooked with onion and garlic served in a cacao and tomato sauce with brown rice, avocado, locally made corn tortillas, cashew sour cream and pickled onions topped with a cilantro and arugula salad.",
             "price" : "13"
            },
            {
-            "title" : "vegetable rice bowl",
-            "descript" : "brown rice, sauteed zucchini, broccoli, carrots and mushrooms with pickled vegetables and a fried egg. topped with a tahini sauce.",
+            "title" : "Spicy Curried Brussel Sprouts",
+            "descript" : "Halved brussel sprouts, potatoes, onions, zucchini and spinach in a thick yellow curry and sunflower seed sauce served with brown rice, fresh parsley and avocado.",
+            "price" : "13"
+           },
+           {
+            "title" : "Rainbow Quinoa Salad",
+            "descript" : "Red black and white quinoa, baby kale, pepitas, cranberries, red cabbage and carrots served with a whole grain mustard and nutmeg vinaigrette.",
             "price" : "11"
            },
            {
-            "title" : "irish stew",
-            "descript" : "sweet potato, red potato, kale, green lentils, gluten free beer, chickpea rosemary and thyme. served with a gluten free oat muffin.",
-            "price" : "13"
+            "title" : "Peanut Noodle Salad",
+            "descript" : "Grain free mung bean noodles. chopped spinach, red onion, red pepper, edemame and carrots tossed in a peanut butter sauce topped with crushed and toasted peanuts.",
+            "price" : "11"
            },
            {
-            "title" : "winter bean salad",
-            "descript" : "warm chickpeas, black beans, and green lentils tossed with fresh kale red onion spinach and cabbage and a rosemary vinaigrette.",
-            "price" : "10"
-           },
-           {
-            "title" : "huge gardan salad",
-            "descript" : "mixed organic greens, carrots, kale, cucumber, tomato, red pepper, and sunflower seeds.",
+            "title" : "gardan salad",
+            "descript" : "Baby greens, kale, avocado, tomato, carrot, red pepper, cucumber and pumpkin seeds served with a balsamic and olive oil vinaigrette.",
             "price" : "10"
            }
         ]
@@ -98,24 +98,24 @@
         "class" : "end", 
         "items" : [
           {
-            "title" : "lemon and cashew mousse",
-            "descript" : "almond and lavender cookies and fresh fruit.",
+            "title" : "Red Velvet",
+            "descript" : "Beet tinted cacao and almond cake with white chocolate, cinnamon and cashew ganache. Served with persimmon sauce and fresh blackberries. Nut Free.",
+            "price" : "9"
+          },
+          {
+            "title" : "Double Chocolate Sandwich",
+            "descript" : "Pumpkin seed and cacao cookies with avocado and cacao butter fudge, fresh bananas and banana cream.",
             "price" : "8"
           },
           {
-            "title" : "beet and orange cheesecake",
-            "descript" : "topped with vanilla macerated strawberries.",
-            "price" : "9"
-          },
-          {
-            "title" : "cream filled chocolate cake",
-            "descript" : "caramel cream, hazelnut cake and a black cherry sauce.",
+            "title" : "Strawberry Shortcake",
+            "descript" : "crushed coconut cake with vanilla macadamia cream, fresh strawberries and strawberry dust.",
             "price" : "9"
           },                  
           {
-            "title" : "cinnamon chia seed pudding",
-            "descript" : "with fruit and local bee boy honey. nut free.",
-            "price" : "6"
+            "title" : "Green pea and lime ice cream",
+            "descript" : "served with pecan short bread, kumquat marmalade and local bee boy honey. (please tell your server if you do not eat honey)",
+            "price" : "8"
           }
         ]
       }   
