@@ -5,124 +5,147 @@
       "title" : "Every Saturday and Sunday."
     },
     "config" : {
-      "season" : "fall"
+      "season" : "summer"
     },
     "menulist": [
       {
+        "title" : "raw", 
+        "class" : "raw", 
+        "items" : [
+          {
+            "title" : "Coconut, Oat, and Almond Raw Cakes",
+            "descript" : "Cinnamon, banana, and strawberry. Served with maple syrup and cashew butter.",
+            "price" : "12"
+          },
+          {
+            "title" : "Mango and Rose Water Chia Pudding",
+            "descript" : "Pumpkin seed milk topped with fresh fruit. Your choice between local raw honey or organic agave.",
+            "price" : "12"
+          },
+          {
+            "title" : "Mushroom Sandwich",
+            "descript" : "Flax and carrot bread, garlic cream, cashew cheese, spinach, and avocado. Served with a huge garden salad.",
+            "price" : "15"
+          },
+          {
+            "title" : "Collard Green Wraps",
+            "descript" : "Three collard leaves stuffed with sunflower and beet “meat” avocado, carrots and spinach topped with sunflower cream. Served with a huge garden salad.",
+            "price" : "14"
+          }
+        ]
+      },       {
         "title" : "sweet", 
         "class" : "sweet", 
         "items" : [
           {
-            "title" : "VEGAN and GLUTEN FREE WAFFLES",
-            "descript" : "Our gluten free flour and brown sugar. With vegan butter and local maple syrup.",
+            "title" : "Granola",
+            "descript" : "Oats, walnuts, and maple syrup. Served with fruit. Your choice between european yogurt, goat yogurt, or almond milk.",
             "price" : "9"
           },
           {
-            "title" : "FARM HOUSE WAFFLES",
-            "descript" : "Free range eggs, whole wheat flour and brown sugar. With real butter and local maple syrup.",
-            "price" : "9",
-            "listdescript" : "For an extra dollar (1$) both types of waffles allow you to choose up to three (3) of the following toppings: fresh fruit, walnuts, pumpkin seeds, chocolate chips, coconut, bee pollen, goji berries, or peanut butter."
+            "title" : "Eden's Waffles",
+            "descript" : "Oat, chickpea and fava bean ﬂour. Along with cinnamon and vanilla.",
+            "price" : "10",
+            "listdescript" : "Available waffle toppings are: Fresh fruit, peanut butter, pumpkin seeds, sunﬂower seeds, goji berries, chocolate chips, coconut, bee pollen, golden berries, or almond butter."
           },
           {
-            "title" : "OAT AND ALMOND PANCAKES (raw)",
-            "descript" : "Made with rolled oats, almond pulp, dates, cinnamon and coconut, then semi dehydrated and topped with fresh fruit. Served with walnut cream and local maple syrup.",
-            "price" : "12"
-          },
-          {
-            "title" : "GRANOLA BOWL",
-            "descript" : "House made granola is vegan and gluten free. Made with maple syrup and olive oil. It comes with fresh fruit, and one of your choosing, organic European yogurt, organic soy yogurt, local goat milk yogurt, or raw nut milk.",
-            "price" : "8"
-          },
-          {
-            "title" : "MUFFIN AND FRUIT OF THE DAY",
-            "descript" : "House made muffin of the day is vegan and gluten free. It comes with fresh fruit, local honey and one of your choosing, organic European yogurt, local goat milk yogurt, or organic soy yogurt .",
-            "price" : "9"
+            "title" : "Strawberry Stuffed Chick Pea Pancake",
+            "descript" : "Cinnamon, ginger, and strawberries. Served with cashew butter and maple syrup.",
+            "price" : "10"
           }
         ]
       }, 
       {
         "title" : "savory", 
         "class" : "savory",
-        "note" : "All Savory meals come with a side salad, soup, or a fruit cup.", 
+        "note" : "with your choice of fresh fruit, side salad, or soup of the day.", 
         "items" : [
           {
-            "title" : "BREAKFAST BURRITO",
-            "descript" : "Tomato wheat wrap, TVP scramble or two cage free eggs, seasoned black beans, tomatoes and avocado. Or get it with corn tortillas instead of the flour tortilla.",
-            "price" : "9"
+            "title" : "Omelettes of the Day",
+            "descript" : "Three local organic eggs with seasonal ﬁllings. Served with gluten free & vegan toast.",
+            "price" : "11"
           },
           {
-            "title" : "VEGETABLE OMELETTE",
-            "descript" : "Made with three free range eggs. With your choice of one of the two kinds: 1. Greens and mushrooms with local feta 2. Acorn squash and leeks with local chevre. Comes with toast.",
-            "price" : "10"
-          },
-          {
-            "title" : "CURRY EGGS",
-            "descript" : "Three free range eggs, local goat cheese, curry and onion, scrambled with arugula. Comes with toast.",
-            "price" : "10"
-          },
-          {
-            "title" : "EGG SANDWICH",
-            "descript" : "Two free range eggs, whole wheat or gluten free bread, cream cheese, local feta cheese, spinach and tomato.",
-            "price" : "9"
-          },
-          {
-            "title" : "POTATO AND KALE TACOS",
-            "descript" : "Corn tortillas, cashew cheese, pickled red onions, and a sun dried tomato sauce. Also available as a wrap.",
-            "price" : "10"
-          },
-          {
-            "title" : "BUTTER BEAN AND MUSHROOM BURGER",
-            "descript" : "Vegan or gluten free with cashew or goat cheese, pickled onions cashew mayo and fresh arugula.",
+            "title" : "Coconut Chickpea Burger",
+            "descript" : "Mango cashew cream and spinach. Served on a gluten free bun. Choose between cashew cheese or goat cheese. ",
             "price" : "12"
+          },
+          {
+            "title" : "Jack Fruit Crab Salad Sandwich",
+            "descript" : "Arugula, tomato, and avocado. Served on gluten free & vegan bread.",
+            "price" : "12",
+            "listdescript" : "add a fried egg or goat cheese $1"
+          },
+          {
+            "title" : "Vegetable Scramble",
+            "descript" : "An assortment of vegetables, black eyed peas, and avocado. With either three local and organic eggs or Eden’s tofu eggs. Gluten free & vegan toast or corn tortillas are also available.",
+            "price" : "10",
+            "listdescript" : "add cashew cheese or goat cheese for an extra $1"
+          },
+          {
+            "title" : "Cauliflower and Collard Green Tacos",
+            "descript" : "Chili spiced tomato sauce, pickled onions, cashew cheese, and avocado. Served with cashew sour cream.",
+            "price" : "11"
+          },
+          {
+            "title" : "Indian Spiced Egg",
+            "descript" : "Three eggs scrambled with indian spices, chick peas, goat cheese, and arugula. Served with gluten free & vegan toast.",
+            "price" : "11"
+          },
+          {
+            "title" : "Super Green Salad",
+            "descript" : "Kale, spinach, wakame seaweed, collards and lettuce with carrots, cucumbers, and red pepper. Served with a sesame and ginger vinaigrette, toasted peanuts, and gluten free & vegan toast.",
+            "price" : "10",
+            "listdescript" : "add tofu, tempeh, fried egg $2 -Or also add cashew cheese or goat cheese $1"
+          },
+          {
+            "title" : "Garden Salad",
+            "descript" : "Baby greens, kale, carrots, peppers, cucumber, tomato, pumpkin seeds, balsamic vinaigrette, and avocado. Served with gluten free & vegan toast.",
+            "price" : "10",
+            "listdescript" : "add tofu, tempeh, fried egg $2 -Or also add cashew cheese or goat cheese $1"
           }
 
         ]
-      },        
+      },
       {
-        "title" : "salads",
-        "class" : "salads", 
-        "items" : [
-          {
-            "title" : "ROASTED VEGETABLE SALAD",
-            "descript" : "Mixed organic baby greens, roasted vegetables, local goat cheese, and a lemon, apple cider vinegar and olive oil dressing.",
-            "price" : "10"
-           },         
-           {
-            "title" : "garden salad",
-            "descript" : "Mixed organic baby greens, tomato, carrots, cucumber, sunflower seeds, red pepper, and a balsamic and extra virgin olive oil dressing",
-            "price" : "10"
-           },
-           {
-            "title" : "GRILLED TEMPEH SALAD",
-            "descript" : "Arugula, grilled tempeh, sun dried tomatoes, olives, cucumber and local feta cheese and a balsamic and olive oil dressing.",
-            "price" : "11"
-           }
-        ]
-      },         
-      {
-        "title" : "sides", 
+        "title" : "small plates & sides", 
         "class" : "sides", 
         "items" : [
           {
-            "title" : "TEMPEH BACON",
-            "descript" : "w/ sweet potato, red potato, yellow curry, garlic, onion, chick peas, and coconut milk.",
-            "price" : "3"
-          },          
-          {
-            "title" : "SINGLE MUFFIN",
-            "descript" : "Our gluten free muffin of the day.",
-            "price" : "3"
+            "title" : "Fruit Salad or soup",
+            "descript" : "",
+            "price" : "3.5"
           },
           {
-            "title" : "Extra Egg",
-            "descript" : "*Free range. Get them scrambled or fried.",
-            "price" : "1.5"
-          },
+            "title" : "Extra egg (fried or scrambled)",
+            "descript" : "",
+            "price" : "2"
+          } ,
           {
-            "title" : "Various",
-            "descript" : "side salad, soup, or a side of fruit",
+            "title" : "Gluten free & vegan toast",
+            "descript" : "",
+            "price" : "2"
+          } ,
+          {
+            "title" : "tempeh bacon",
+            "descript" : "",
             "price" : "4"
-          }
+          } ,
+          {
+            "title" : "Mushroom and almond sausage ",
+            "descript" : "",
+            "price" : "4"
+          } ,
+          {
+            "title" : "Yogurt side (european, goat, coconut)",
+            "descript" : "",
+            "price" : "3"
+          } ,
+          {
+            "title" : "Muffin of the day",
+            "descript" : "",
+            "price" : "3"
+          } 
         ]
       }   
     ]
