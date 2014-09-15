@@ -366,6 +366,81 @@ section.hours{
   }
 }   
 
+section.thefall{
+  $black: #84A0A0;
+  $bg: #A9C0C0;
+  $bg2: #DCE7E7;
+  @include background-image(linear-gradient($bg2, $bg));
+  border-left: 2em solid $black;
+  padding: 10%;
+  padding-top: 25%;
+  padding-bottom: 2em;
+  p{
+    color: #4D5B61;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-right: 20%;
+    margin-top: 1em;
+    span{
+      font-weight: 700;
+    }
+  }
+  a{
+    color: #EFFDFF;
+    border-bottom: 1px solid #EFFDFF;
+ 
+  }
+  h2{
+    text-transform: uppercase;
+    color: #4D5B61;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+  }
+  h1{
+    font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-size: 8.1em;
+    color: $black;
+    font-weight: 500;
+    a{
+      text-decoration: none;
+      color: $black;
+      border-bottom: 0;
+    }
+    span{
+      position: relative;
+      &:nth-child(3){
+        margin-left: -.03em;
+        margin-right: .2em;    
+      }    
+      &:nth-child(5){
+        margin-left: -.1em;
+      }    
+      &:nth-child(6){
+        margin-left: -.01em;
+      }
+    }
+  }
+}
+@media #{$phone} {
+  section.thefall{
+    font-size: .7em;
+    border-left: 1em solid #84A0A0;
+
+    p{
+      margin-right: 0;
+    }
+    h1{
+      font-size: 5.2em;
+    }
+    h2{
+      font-size: 1em;
+    }
+  }
+}
+
 .ie9crap{
   section.hours{
     ul{
