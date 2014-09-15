@@ -286,6 +286,12 @@ ngEden.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', func
     .state("about", {
       url: "/about",
       templateUrl: 'template/about.html',
+    })
+    .state("thefall", {
+      url: "/thefall",
+      resolve: {
+        $location.path( "/thefall" );
+      }
     });
 }]);
 
