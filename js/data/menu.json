@@ -2,7 +2,7 @@
   "menu" : {
     "meta" : { 
       "header" : " Dinner Menu.",
-      "title" : "Summer Season 2014"
+      "title" : "Fall Season 2014"
     },
     "config" : {
       "season" : "",
@@ -15,24 +15,24 @@
         "descript" : "our raw starters", 
          "items" : [
           {
-            "title" : "Brie and Fruit",
-            "descript" : "A brie style cashew cheese served  with local honey, fresh fruit and a bread made of walnut coconut and chia flour.",
-            "price" : "10"
+            "title" : "Turnip & Saffron Risotto",
+            "descript" : "Red palm, pumpkin seed, and butternut squash. Topped with sunflower seed crusted portobello and fresh thyme.",
+            "price" : "8"
           },
           {
-            "title" : "Tomato Flat Bread",
-            "descript" : "Crispy vegetable and flax flatbread with pistachio and basil pesto, fresh local tomatoes and creamy chevre style almond cheese.",
-            "price" : "9"
+            "title" : "Cheese & Paté",
+            "descript" : "Apple white-pepper almond cheese with a pumpkin walnut paté. Served with fresh fruit and pecan crisps.",
+            "price" : "11"
           },                  
           {
-            "title" : "Chaat Puri",
-            "descript" : "Crispy flax cups stuffed with coconut, green peas and sunflower served with chili spiced mango chutney and mint coconut and cucumber coulis.",
-            "price" : "8"
+            "title" : "Brussel Sprout Salad",
+            "descript" : "Shaved brussel sprouts, shredded pumpkin, apples, and pistachios. Served with dehydrated carrots and date sweetened garam masala dressing.",
+            "price" : "7"
            },                  
            {
-            "title" : "Summer Berry Salad",
-            "descript" : "Fresh Summer Berries, chopped arugula, shaved turmeric, coconut, ginger and dehydrated orange.",
-            "price" : "7"
+            "title" : "Spicy Kohlrabi Noodles",
+            "descript" : "Noodles in an avocado cream. Accompanied with Thai chili sauce. Topped with sesame seeds and virgin peanuts.",
+            "price" : "9"
             }
         ]
       }, 
@@ -41,18 +41,18 @@
         "class" : "raw_main", 
         "items" : [
           {
-            "title" : "Lasagna",
-            "descript" : "Soft flax zucchini and spinach noodles, with sun dried tttomato marinara, coconut and almond ricotta, chopped kale and basil with fresh heirloom tomatoes and cashew parmesan. Served with a fresh, shaved green bean salad.",
+            "title" : "Pizza",
+            "descript" : "Sweet potato and golden flax crust. A sun-dried tomato sauce. Mushroom and almond sausage. With spinach, cashew cheese, and wilted yellow onions.",
             "price" : "15"
           },
           {
-            "title" : "Perogies",
-            "descript" : "Chia seed and coconut dough filled with carrot, sunflower and plantain, served with red cabbage, caraway seeds and chopped greens topped with pumpkin and sesame seed cream and a juniper vinaigrette and pickled then crisped red onion.",
+            "title" : "Ravioli",
+            "descript" : "Rutabaga, chia, and coconut pasta filled with a butternut squash and pine nut cheese. With coconut sage cream sauce, cashew parmesan, and baby kale.",
             "price" : "15"
           },                
           {
-            "title" : "Zucchini Noodle Alfredo",
-            "descript" : "Spiralized zucchini noodles with cashew alfredo sauce, swiss chard and basil topped with pistachio parmesan. Served with semi dehydrated portobello steak.",
+            "title" : "Falafel",
+            "descript" : "Sunflower and carrot falafel wrapped with a pumpkin seed, chia, and flax pita. With cucumber cream, parsley pesto, tomato, and lettuce.",
             "price" : "15"
           }
         ]
@@ -62,33 +62,33 @@
         "class" : "hot_main", 
         "items" : [
           {
-            "title" : "Burrito Bowl",
-            "descript" : "Peppers, tomatoes and onion sauteed with kale and black beans in a chili spiced tomato sauce served over brown rice with avocado cashew cheese sauce and fresh salsa.",
+            "title" : "Pumpkin Curry",
+            "descript" : "Potato, sweet potato, pumpkin, butter beans, and kale in a pumpkin seed and tomato curry sauce. Served with brown rice.",
             "price" : "13"
            },         
            {
-            "title" : "Green Bean Noodles",
-            "descript" : "Shiitake and enoki mushrooms, broccoli, water chestnuts, thinly sliced collard greens, miso and mushroom and black garlic broth, crushed peanuts and basil.",
+            "title" : "Truffle Mac and Cheese",
+            "descript" : "Brown rice pasta, cashew and coconut cheese sauce, spinach, crimini mushrooms, and green peas. Topped with black truffle infused olive oil.",
             "price" : "13"
            },
            {
-            "title" : "Indian Spiced Eggplant",
-            "descript" : "Tomato, cauliflower, swiss chard, green peas, chickpeas and coconut milk . Served with brown rice.",
+            "title" : "Peanut Butter Squash",
+            "descript" : "Butternut squash, collard greens, black-eyed peas, cabbage, and red quinoa. A maple peanut sauce. Topped with crushed peanuts and fresh thyme.",
             "price" : "13"
            },
            {
-            "title" : "Oyster Scallop Salad",
-            "descript" : "Seared king oyster mushrooms with seaweed, carrots, kale, spinach and wild black rice with a sesame vinaigrette and fresh cucumbers.",
-            "price" : "12"
+            "title" : "Rice and Sea Greens",
+            "descript" : "A warm bowl of brown rice topped with a chilled salad of seaweed, spinach, kale, carrots, sesame, sunflower seeds, and avocado. Served with a spinach, lemon, and coconut amino dressing.",
+            "price" : "13"
            },
            {
-            "title" : "Peanut Butter Chopped Salad",
-            "descript" : "Kale, peppers, carrots, cabbage, celery and broccoli chopped up with peanuts and chickpeas with a maple sweetened peanut butter sauce.",
-            "price" : "12"
+            "title" : "Shredded Root Vegetable Salad",
+            "descript" : "Turnip, Carrot, Beet, Rutabaga, cabbage, kale, walnuts and apple. Served with a whole grain mustard, balsamic, and agave dressing.",
+            "price" : "11"
            },
            {
             "title" : "garden salad",
-            "descript" : "Baby greens, kale, avocado, peppers, carrots, cucumber and tomato with a balsamic vinaigrette and pumpkin seeds.",
+            "descript" : "Baby greens, kale, red pepper, cucumber, avocado, carrot, pumpkin seeds, and tomato. Served with a balsamic dressing.",
             "price" : "10"
            }
         ]
@@ -98,24 +98,24 @@
         "class" : "end", 
         "items" : [
           {
-            "title" : "Goji berry and Lemon Curd NF",
-            "descript" : "Served with black berry pure, pumpkin seed crumble and acai berry sorbet.",
+            "title" : "Pumpkin Cheesecake",
+            "descript" : "Cashew, coconut, and pumpkin spices. Drizzled with fresh fruit and local raw honey.",
             "price" : "9"
           },
           {
-            "title" : "Carrot cake",
-            "descript" : "Cocoa butter frosting and a cinnamon and fig sauce.",
-            "price" : "9"
+            "title" : "Beet & Pumpkin Seed Custard",
+            "descript" : "Topped with fresh apples and cinnamon white chocolate. Nut Free.",
+            "price" : "8"
           },
           {
-            "title" : "Rose and Vanilla Scented Cheesecake",
-            "descript" : "Cardamon crust saffron and mango sauce and raspberry dust.",
-            "price" : "9"
+            "title" : "Ice Cream Sandwich",
+            "descript" : "Butternut squash ice cream between two almond ginger snap cookies. Along with a chai tea and cacao sauce.",
+            "price" : "10"
           },                  
           {
-            "title" : "Chocolate Brownie",
-            "descript" : "Chocolate almond toffee, fresh strawberries and strawberry sauce and vanilla poppy seed ice cream.",
-            "price" : "9"
+            "title" : "Double Chocolate Pecan Torte",
+            "descript" : "Avocado and cacao torte topped with a coconut cashew cream and salty cacao nibs.",
+            "price" : "10"
           }
         ]
       }   

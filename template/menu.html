@@ -14,8 +14,13 @@
           <p>{{item.descript}}</p>
         </li>
       </ul>
+      <aside ng-if="section.class == 'start'">
+        <h5>Gratuity will be added to parties of 5 or more.</h5>
+        <h5>Cork fee is $1 per glass</h5>
+      </aside>
       <aside ng-if="section.class == 'raw_main'">
         <h5>raw dishes only use pink himalayan salt.</h5>
+        <h5>We can split your check up to 4 separate ways.
       </aside>
       <aside ng-if="section.class == 'hot_main'">
         <h5>We only USE COLD PRESSED EXTRA VIRGIN OLIVE OIL, FRESH GROUND PEPPER, AND SEA SALT.</h5>
