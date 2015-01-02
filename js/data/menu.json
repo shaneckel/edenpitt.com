@@ -58,7 +58,7 @@
         ]
       },        
       {
-        "title" : "cooked main",
+        "title" : "100% gluten free cooked entrees",
         "class" : "hot_main", 
         "items" : [
           {
@@ -113,7 +113,7 @@
             "price" : "9"
           },                  
           {
-            "title" : "Double Chocolate Pecan Torte",
+            "title" : "Strawberry Hibiscus cheesecake",
             "descript" : "With local raw honey and grapefruit.",
             "price" : "10"
           }
