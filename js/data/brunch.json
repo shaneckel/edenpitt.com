@@ -5,11 +5,11 @@
       "title" : "Every Saturday and Sunday."
     },
     "config" : {
-      "season" : "summer"
+      "season" : "Winter"
     },
     "menulist": [
       {
-        "title" : "raw", 
+        "title" : "raw vegan", 
         "class" : "raw", 
         "items" : [
           {
@@ -18,13 +18,13 @@
             "price" : "12"
           },
           {
-            "title" : "Mango and Rose Water Chia Pudding",
-            "descript" : "Pumpkin seed milk topped with fresh fruit. Your choice between local raw honey or organic agave.",
+            "title" : "Strawberry and Cardamom Chia Pudding",
+            "descript" : "Pumpkin seed milk topped with fresh fruit. Your choice of local raw honey or organic agave.",
             "price" : "12"
           },
           {
-            "title" : "Mushroom Sandwich",
-            "descript" : "Flax and carrot bread, garlic cream, cashew cheese, spinach, and avocado. Served with a huge garden salad.",
+            "title" : "Mushroom Burger",
+            "descript" : "Flax / carrot bread, turmeric cream, cashew cheese, spinach, avocado, and tomato. Served with a huge garden salad.",
             "price" : "15"
           },
           {
@@ -49,8 +49,8 @@
             "listdescript" : "Available waffle toppings are: Fresh fruit, peanut butter, pumpkin seeds, sunﬂower seeds, goji berries, chocolate chips, coconut, bee pollen, golden berries, or almond butter."
           },
           {
-            "title" : "Strawberry Stuffed Chick Pea Pancake",
-            "descript" : "Cinnamon, ginger, and strawberries. Served with cashew butter and maple syrup.",
+            "title" : "Apple Stuffed Chick Pea Pancake",
+            "descript" : "Seasoned with cinnamon, ginger and topped with applesauce. Served with cashew butter and maple syrup",
             "price" : "10"
           }
         ]
@@ -66,8 +66,8 @@
             "price" : "11"
           },
           {
-            "title" : "Coconut Chickpea Burger",
-            "descript" : "Mango cashew cream and spinach. Served on a gluten free bun. Choose between cashew cheese or goat cheese. ",
+            "title" : "Mushroom and Butterbean Burger",
+            "descript" : "Served on a gluten free bun, with cashew cheese or goat cheese, cashew mayo, spinach, avocado and tomato.",
             "price" : "12"
           },
           {
@@ -83,8 +83,8 @@
             "listdescript" : "add cashew cheese or goat cheese for an extra $1"
           },
           {
-            "title" : "Cauliflower and Collard Green Tacos",
-            "descript" : "Chili spiced tomato sauce, pickled onions, cashew cheese, and avocado. Served with cashew sour cream.",
+            "title" : "Mushroom Chorizo Tacos",
+            "descript" : "Vegan chorizo sausage made of almond meal, spices and mushrooms. Along with cabbage slaw, cashew cream, and avocado.",
             "price" : "11"
           },
           {
@@ -112,7 +112,7 @@
         "class" : "sides", 
         "items" : [
           {
-            "title" : "Fruit Salad or soup",
+            "title" : "Fruit, salad, or soup",
             "descript" : "",
             "price" : "3.5"
           },

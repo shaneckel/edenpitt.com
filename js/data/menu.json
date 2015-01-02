@@ -2,7 +2,7 @@
   "menu" : {
     "meta" : { 
       "header" : " Dinner Menu.",
-      "title" : "Fall Season 2014"
+      "title" : "Winter Season 2015"
     },
     "config" : {
       "season" : "",
@@ -10,80 +10,80 @@
     },
     "menulist": [
       {
-        "title" : "start", 
+        "title" : "raw vegan appetizers", 
         "class" : "start", 
-        "descript" : "our raw starters", 
+        "descript" : "our raw vegan starters", 
          "items" : [
           {
-            "title" : "Turnip & Saffron Risotto",
-            "descript" : "Red palm, pumpkin seed, and butternut squash. Topped with sunflower seed crusted portobello and fresh thyme.",
-            "price" : "8"
+            "title" : "Parsnip Bites",
+            "descript" : "Sunflower seed, parsnip, sesame, and turmeric. Served with a spicy, ginger, sun dried tomato, and chili sauce",
+            "price" : "7"
           },
           {
-            "title" : "Cheese & Paté",
-            "descript" : "Apple white-pepper almond cheese with a pumpkin walnut paté. Served with fresh fruit and pecan crisps.",
-            "price" : "11"
+            "title" : "Beet Tartare",
+            "descript" : "Walnut, portobello, beet, coconut chips, cashew cream, and paprika oil.",
+            "price" : "10"
           },                  
           {
-            "title" : "Brussel Sprout Salad",
-            "descript" : "Shaved brussel sprouts, shredded pumpkin, apples, and pistachios. Served with dehydrated carrots and date sweetened garam masala dressing.",
-            "price" : "7"
+            "title" : "Lettuce Wraps",
+            "descript" : "Crisp romaine leaves with a mediterranean spiced, coconut, carrot and almond filling. Topped with pickled radish and fresh green onions.",
+            "price" : "8"
            },                  
            {
-            "title" : "Spicy Kohlrabi Noodles",
-            "descript" : "Noodles in an avocado cream. Accompanied with Thai chili sauce. Topped with sesame seeds and virgin peanuts.",
-            "price" : "9"
+            "title" : "Cinnamon Apple Bread",
+            "descript" : "Served with vanilla, cashew butter, fresh apples, and apricot preserves.",
+            "price" : "7"
             }
         ]
       }, 
       {
-        "title" : "raw main", 
+        "title" : "raw vegan entrees", 
         "class" : "raw_main", 
         "items" : [
           {
-            "title" : "Pizza",
-            "descript" : "Sweet potato and golden flax crust. A sun-dried tomato sauce. Mushroom and almond sausage. With spinach, cashew cheese, and wilted yellow onions.",
+            "title" : "Kimchi Stuffed Nori",
+            "descript" : "Marinated Chinese mushrooms, lime cream, diakon noodles, avocado, and spinach.",
             "price" : "15"
           },
           {
-            "title" : "Ravioli",
-            "descript" : "Rutabaga, chia, and coconut pasta filled with a butternut squash and pine nut cheese. With coconut sage cream sauce, cashew parmesan, and baby kale.",
+            "title" : "Moroccan Spiced Root Fritters",
+            "descript" : "Coconut and cauliflower mash, chopped kale, sweet pepper cream, and cilantro chimichurri.",
             "price" : "15"
           },                
           {
-            "title" : "Falafel",
-            "descript" : "Sunflower and carrot falafel wrapped with a pumpkin seed, chia, and flax pita. With cucumber cream, parsley pesto, tomato, and lettuce.",
+            "title" : "Butternut and Rutabaga Spaghetti",
+            "descript" : "With a chunky tomato marinara, walnut and beet “meat” balls, fresh spinach, and cashew parmesan.",
             "price" : "15"
           }
         ]
       },        
       {
-        "title" : "hot main",
+        "title" : "cooked main",
         "class" : "hot_main", 
         "items" : [
           {
-            "title" : "Pumpkin Curry",
-            "descript" : "Potato, sweet potato, pumpkin, butter beans, and kale in a pumpkin seed and tomato curry sauce. Served with brown rice.",
+            "title" : "Perogies",
+            "descript" : "Pittsburgh classic. Filled with potato and cashew cheese. Pan fried with red onion and garlic. Served with a kale and cabbage slaw.",
             "price" : "13"
            },         
            {
-            "title" : "Truffle Mac and Cheese",
-            "descript" : "Brown rice pasta, cashew and coconut cheese sauce, spinach, crimini mushrooms, and green peas. Topped with black truffle infused olive oil.",
+            "title" : "Cheesy Penne",
+            "descript" : "Brown rice penne with broccoli, red pepper and shredded carrots. Cooked in a cheddar style cashew cheese sauce.",
             "price" : "13"
            },
            {
-            "title" : "Peanut Butter Squash",
-            "descript" : "Butternut squash, collard greens, black-eyed peas, cabbage, and red quinoa. A maple peanut sauce. Topped with crushed peanuts and fresh thyme.",
+            "title" : "Mushroom Noodle Bowl",
+            "descript" : "Miso and mushroom broth. Noodles made of green bean flour and thinly sliced portobello mushrooms. Topped with fresh vegetables, herbs, and side of sweet chili paste.",
             "price" : "13"
            },
            {
-            "title" : "Rice and Sea Greens",
-            "descript" : "A warm bowl of brown rice topped with a chilled salad of seaweed, spinach, kale, carrots, sesame, sunflower seeds, and avocado. Served with a spinach, lemon, and coconut amino dressing.",
+            "title" : "Cajun Stew",
+            "descript" : "Oyster mushrooms, okra, red and green peppers, collard greens, and kidney beans. Spicy tomato based sauce and brown rice. Topped with an arugula salad, green onion, and black salt.",
             "price" : "13"
            },
            {
-            "title" : "Shredded Root Vegetable Salad",
-            "descript" : "Turnip, Carrot, Beet, Rutabaga, cabbage, kale, walnuts and apple. Served with a whole grain mustard, balsamic, and agave dressing.",
+            "title" : "Peanut Butter Salad",
+            "descript" : "Sweet potato, kale, red onion, spinach, broccoli, green lentils, and red cabbage. Served with a peanut butter and balsamic dressing.",
             "price" : "11"
            },
            {
@@ -94,27 +94,27 @@
         ]
       },         
       {
-        "title" : "end", 
+        "title" : "raw vegan deserts", 
         "class" : "end", 
         "items" : [
           {
-            "title" : "Pumpkin Cheesecake",
-            "descript" : "Cashew, coconut, and pumpkin spices. Drizzled with fresh fruit and local raw honey.",
-            "price" : "9"
-          },
-          {
-            "title" : "Beet & Pumpkin Seed Custard",
-            "descript" : "Topped with fresh apples and cinnamon white chocolate. Nut Free.",
-            "price" : "8"
-          },
-          {
-            "title" : "Ice Cream Sandwich",
-            "descript" : "Butternut squash ice cream between two almond ginger snap cookies. Along with a chai tea and cacao sauce.",
+            "title" : "Chocolate Mint Layer Cake",
+            "descript" : "Fresh mint served with a raspberry cream.",
             "price" : "10"
+          },
+          {
+            "title" : "Banana Split",
+            "descript" : "With two kinds of ice cream, cherry, pistachio, cinnamon, and white chocolate. As well as chocolate fudge, candied walnuts, and vanilla whip cream.",
+            "price" : "11"
+          },
+          {
+            "title" : "Lime Pomegranate Pie",
+            "descript" : "Served with fresh pomegranate jewels. An entirely nut free dessert.",
+            "price" : "9"
           },                  
           {
             "title" : "Double Chocolate Pecan Torte",
-            "descript" : "Avocado and cacao torte topped with a coconut cashew cream and salty cacao nibs.",
+            "descript" : "With local raw honey and grapefruit.",
             "price" : "10"
           }
         ]
