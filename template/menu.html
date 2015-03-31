@@ -11,7 +11,7 @@
         <li ng-repeat="item in section.items">
           <h3>{{item.title}}</h3>
           <span class="price" ng-if="item.price">${{item.price}}</span>
-          <span class="price" ng-if="item.pricelist">sml ${{item.pricelist.small}} / lrg ${{item.pricelist.large}}</span>
+          <span class="price pricelist" ng-if="item.pricelist">sml ${{item.pricelist.small}} / lrg ${{item.pricelist.large}}</span>
           <p>{{item.descript}}</p>
         </li>
       </ul>

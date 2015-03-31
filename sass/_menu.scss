@@ -142,6 +142,13 @@ header.hero.brunch{
         top: .6em;
         font-size: 1.8em;
       }
+      .pricelist{
+        @media #{$phone} {
+          width: 4em;
+          font-size: 1.2em; 
+          right: -.4em;
+        }
+      }
       p{
         font-weight: 300;
         line-height: 1.6em;
