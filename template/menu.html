@@ -10,7 +10,8 @@
       <ul>
         <li ng-repeat="item in section.items">
           <h3>{{item.title}}</h3>
-          <span class="price">${{item.price}}</span>
+          <span class="price" ng-if="item.price">${{item.price}}</span>
+          <span class="price" ng-if="item.pricelist">sml ${{item.pricelist.small}} / lrg ${{item.pricelist.large}}</span>
           <p>{{item.descript}}</p>
         </li>
       </ul>
@@ -23,7 +24,8 @@
         <h5>We can split your check up to 4 separate ways.
       </aside>
       <aside ng-if="section.class == 'hot_main'">
-        <h5>We only USE COLD PRESSED EXTRA VIRGIN OLIVE OIL, FRESH GROUND PEPPER, AND SEA SALT.</h5>
+        <h5>Add organic tempeh or tofu $2  / Add organic chicken $3.5</h5>
+        <h5>WE ONLY USE COLD PRESSED EXTRA VIRGIN OLIVE OIL, FRESH GROUND PEPPER, AND SEA SALT.</h5>
         <h5>WE ARE VERY SENSITIVE TO YOUR ALLERGIES. LET US KNOW AND WE WILL DO OUR VERY BEST TO ACCOMMODATE.</h5>
       </aside>
       <aside ng-if="section.class == 'end'">
