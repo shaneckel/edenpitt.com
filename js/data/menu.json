@@ -2,7 +2,7 @@
   "menu" : {
     "meta" : { 
       "header" : " Dinner Menu.",
-      "title" : "Winter Season 2015"
+      "title" : "Spring Season 2015"
     },
     "config" : {
       "season" : "",
@@ -15,24 +15,24 @@
         "descript" : "our raw vegan starters", 
          "items" : [
           {
-            "title" : "Parsnip Bites",
-            "descript" : "Sunflower seed, parsnip, sesame, and turmeric. Served with a spicy, ginger, sun dried tomato, and chili sauce",
+            "title" : "Seaweed Salad",
+            "descript" : "Assorted sea greens, cucumber, green onions, sesame seeds, pea shoots, coconut aminos, and red chili.",
             "price" : "7"
           },
           {
-            "title" : "Beet Tartare",
-            "descript" : "Walnut, portobello, beet, coconut chips, cashew cream, and paprika oil.",
-            "price" : "10"
+            "title" : "Mediterranean Platter",
+            "descript" : "Pumpkin seed and spinach hummus, carrot falafel, cucumber and tomato salad, flax pita, and almond cheese-stuffed dates with local honey.",
+            "price" : "14"
           },                  
           {
-            "title" : "Lettuce Wraps",
-            "descript" : "Crisp romaine leaves with a mediterranean spiced, coconut, carrot and almond filling. Topped with pickled radish and fresh green onions.",
-            "price" : "8"
+            "title" : "Crostinis with Carrot Caviar",
+            "descript" : "Flax and walnut crostinis, sage-infused almond and cashew cheese, and carrot caviar with red sea salt.",
+            "price" : "10"
            },                  
            {
-            "title" : "Cinnamon Apple Bread",
-            "descript" : "Served with vanilla, cashew butter, fresh apples, and apricot preserves.",
-            "price" : "7"
+            "title" : "Pistachio Thyme Cheese",
+            "descript" : "Served with fresh berries, coconut butter crackers, and local honey.",
+            "price" : "9"
             }
         ]
       }, 
@@ -41,19 +41,19 @@
         "class" : "raw_main", 
         "items" : [
           {
-            "title" : "Kimchi Stuffed Nori",
-            "descript" : "Marinated Chinese mushrooms, lime cream, diakon noodles, avocado, and spinach.",
-            "price" : "15"
+            "title" : "Pad Thai",
+            "descript" : "Zucchini, red cabbage, carrot, green onions, bean sprouts, basil, mint, and kelp noodles with a tamarind and coconut sauce. Topped with crispy, lime-soaked almonds.",
+            "price" : "16"
           },
           {
-            "title" : "Moroccan Spiced Root Fritters",
-            "descript" : "Coconut and cauliflower mash, chopped kale, sweet pepper cream, and cilantro chimichurri.",
-            "price" : "15"
+            "title" : "Tacos",
+            "descript" : "Chia and flax tortillas stuffed with mushroom, beet, and pumpkin seed meat, sunflower seed cheese, avocado, romaine lettuce, pea sprouts, and salsa verde. Nut-free.",
+            "price" : "16"
           },                
           {
-            "title" : "Butternut and Rutabaga Spaghetti",
-            "descript" : "With a chunky tomato marinara, walnut and beet “meat” balls, fresh spinach, and cashew parmesan.",
-            "price" : "15"
+            "title" : "Manicotti",
+            "descript" : "Coconut noodles filled with almond ricotta, fresh spinach, and basil. Topped with sun-dried tomato marinara and cashew parmesan.",
+            "price" : "16"
           }
         ]
       },        
@@ -62,35 +62,41 @@
         "class" : "hot_main", 
         "items" : [
           {
-            "title" : "Perogies",
-            "descript" : "Pittsburgh classic. Filled with potato and cashew cheese. Pan fried with red onion and garlic. Served with a kale and cabbage slaw.",
+            "title" : "Jackfruit Molé",
+            "descript" : "Savory jackfruit with tomato, onion, and green pepper. Served with house-made molé sauce, brown rice, avocado, coconut sour cream, and fresh salsa verde.",
             "price" : "13"
            },         
            {
-            "title" : "Cheesy Penne",
-            "descript" : "Brown rice penne with broccoli, red pepper and shredded carrots. Cooked in a cheddar style cashew cheese sauce.",
+            "title" : "Mushroom Dumplings",
+            "descript" : "Stuffed with cashews, mushrooms, and spices. Steamed with assorted vegetables and wilted greens and served in a coconut, ginger, and turmeric broth. Topped with pea shoots and fresh herbs.",
             "price" : "13"
            },
            {
-            "title" : "Mushroom Noodle Bowl",
-            "descript" : "Miso and mushroom broth. Noodles made of green bean flour and thinly sliced portobello mushrooms. Topped with fresh vegetables, herbs, and side of sweet chili paste.",
+            "title" : "Zongzi",
+            "descript" : "Bamboo leaves stuffed with red rice, zucchini, cauliflower, carrots, and chickpeas. Steamed and served with avocado, fresh cucumber, and a black garlic and peanut sauce.  (Bamboo leaves are an aromatic and natural cooking device but are not meant to be eaten.)",
             "price" : "13"
            },
            {
-            "title" : "Cajun Stew",
-            "descript" : "Oyster mushrooms, okra, red and green peppers, collard greens, and kidney beans. Spicy tomato based sauce and brown rice. Topped with an arugula salad, green onion, and black salt.",
+            "title" : "Broccoli and Coriander Soup",
+            "descript" : "A thick and creamy soup served with sauteed spinach, cauliflower, green peas, brown rice, and almond cheese.",
             "price" : "13"
            },
            {
-            "title" : "Peanut Butter Salad",
-            "descript" : "Sweet potato, kale, red onion, spinach, broccoli, green lentils, and red cabbage. Served with a peanut butter and balsamic dressing.",
-            "price" : "11"
+            "title" : "Creamy Pasta Salad",
+            "descript" : "Brown rice and quinoa pasta tossed with avocado, cucumber, tomato, chopped kale, spinach, and carrots. Served with a creamy coconut, parsley, and lemon dressing.",
+            "pricelist" : {
+              "large" : "11",
+              "small" : "8"
+            }
            },
            {
-            "title" : "garden salad",
-            "descript" : "Baby greens, kale, red pepper, cucumber, avocado, carrot, pumpkin seeds, and tomato. Served with a balsamic dressing.",
-            "price" : "10"
-           }
+            "title" : "Chopped Kale Salad",
+            "descript" : "Finely chopped kale with broccoli, carrot, cabbage, water chestnuts, and chickpeas. Served with fresh basil, mint, and a sesame and ginger vinaigrette. Topped with crushed peanuts.",
+            "pricelist" : {
+              "large" : "11",
+              "small" : "8"
+            }
+          }
         ]
       },         
       {
@@ -98,24 +104,24 @@
         "class" : "end", 
         "items" : [
           {
-            "title" : "Chocolate Mint Layer Cake",
-            "descript" : "Fresh mint served with a raspberry cream.",
-            "price" : "10"
-          },
-          {
-            "title" : "Banana Split",
-            "descript" : "With two kinds of ice cream, cherry, pistachio, cinnamon, and white chocolate. As well as chocolate fudge, candied walnuts, and vanilla whip cream.",
-            "price" : "11"
-          },
-          {
-            "title" : "Lime Pomegranate Pie",
-            "descript" : "Served with fresh pomegranate jewels. An entirely nut free dessert.",
+            "title" : "Orange Creamsicle Ice Cream Cake",
+            "descript" : "Served with tangerine coulis and whipped cashew cream.",
             "price" : "9"
+          },
+          {
+            "title" : "Coconut Cream Cake",
+            "descript" : "Seasoned with vanilla and ginger. Topped with fresh strawberries and a strawberry sauce.",
+            "price" : "9"
+          },
+          {
+            "title" : "Chocolate Filled Chocolate",
+            "descript" : "Chocolate walnut cake filled with a rich chocolate cream.Topped with spicy cacao nibs and a raspberry, beet, and cinnamon sauce.",
+            "price" : "10"
           },                  
           {
-            "title" : "Strawberry Hibiscus cheesecake",
-            "descript" : "With local raw honey and grapefruit.",
-            "price" : "10"
+            "title" : "Lemon and Saffron Chia Pudding",
+            "descript" : "Served with fresh bananas, mango, and local honey. Nut-free.",
+            "price" : "8"
           }
         ]
       }   
