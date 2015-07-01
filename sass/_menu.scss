@@ -48,13 +48,49 @@ header.hero.brunch{
     font-weight: 300; 
     font-style: normal;
     text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+    padding-bottom: .2em;
     @media #{$phone} {
       font-size: 1em;
       line-height: 1.2em;
       font-weight: 300;
+      padding-bottom: .8em;
       text-shadow: 1px 1px 6px rgba(81, 81, 81, 0.9);
     }
   }
+  p{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: 1em;
+    font-weight: 300;
+    border-top: 1px solid;
+    padding-top: 2em;
+    &:after{
+      content: "";
+      display: inline-block;
+    }
+    a{
+      font-weight: 600;
+
+    }
+    @media #{$phone} {
+      line-height: 1.6em;
+      padding-top: 1.6em;
+      font-size: .7em;
+      span{
+        // display: none; 
+      }
+      &:after{
+        content: "";
+        display: inline-block;
+      }
+      a{
+        display: inline-block;
+        border: 2px solid;
+        padding:.4em  .9em ;
+      }
+    }
+  }  
   @media #{$phone} {
     &.brunch, &.dinner{
       h1{
