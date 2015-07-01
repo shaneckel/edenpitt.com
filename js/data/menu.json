@@ -1,8 +1,8 @@
 {
   "menu" : {
     "meta" : { 
-      "header" : " Dinner Menu.",
-      "title" : "Spring Season 2015"
+      "header" : "Dinner Menu.",
+      "title" : "Summer Season 2015"
     },
     "config" : {
       "season" : "",
@@ -15,24 +15,24 @@
         "descript" : "our raw vegan starters", 
          "items" : [
           {
-            "title" : "Seaweed Salad",
-            "descript" : "Assorted sea greens, cucumber, green onions, sesame seeds, pea shoots, coconut aminos, and red chili.",
-            "price" : "7"
+            "title" : "Watermelon Tartare",
+            "descript" : "Wakame, coconut aminos, avocado, green onion, and sesame. Served with coconut and pecan chips, endive, and crispy kale.",
+            "price" : "10"
           },
           {
-            "title" : "Mediterranean Platter",
-            "descript" : "Pumpkin seed and spinach hummus, carrot falafel, cucumber and tomato salad, flax pita, and almond cheese-stuffed dates with local honey.",
-            "price" : "14"
+            "title" : "Bruschetta",
+            "descript" : "Flax and vegetable toast, topped with fresh tomatoes, garlic, onion, and basil.",
+            "price" : "8"
           },                  
           {
-            "title" : "Crostinis with Carrot Caviar",
-            "descript" : "Flax and walnut crostinis, sage-infused almond and cashew cheese, and carrot caviar with red sea salt.",
-            "price" : "10"
+            "title" : "Cashew Brie Cheese",
+            "descript" : "Served with strawberry and walnut bread, fig jam, and fresh fruit, drizzled with local honey*.",
+            "price" : "13"
            },                  
            {
-            "title" : "Pistachio Thyme Cheese",
-            "descript" : "Served with fresh berries, coconut butter crackers, and local honey.",
-            "price" : "9"
+            "title" : "Spicy Cucumber Rolls",
+            "descript" : "Filled with carrot, avocado, spinach, and a pumpkin seed mousse. Topped with a red chili sauce.",
+            "price" : "7"
             }
         ]
       }, 
@@ -41,18 +41,18 @@
         "class" : "raw_main", 
         "items" : [
           {
-            "title" : "Pad Thai",
-            "descript" : "Zucchini, red cabbage, carrot, green onions, bean sprouts, basil, mint, and kelp noodles with a tamarind and coconut sauce. Topped with crispy, lime-soaked almonds.",
+            "title" : "Dosa",
+            "descript" : "Flax and chia crèpe lined with a salted chili paste and filled with plantain, green peas, and coconut. Accompanied with pickled onions, cucumber, mint chutney, and a mango and tamarind sauce.",
             "price" : "16"
           },
           {
-            "title" : "Tacos",
-            "descript" : "Chia and flax tortillas stuffed with mushroom, beet, and pumpkin seed meat, sunflower seed cheese, avocado, romaine lettuce, pea sprouts, and salsa verde. Nut-free.",
+            "title" : "Fettuccine Alla Vodka",
+            "descript" : "Zucchini and mung bean, edamame noodles in a sundried tomato and cashew vodka-style sauce. Served with garlic bread and crispy mushrooms.",
             "price" : "16"
           },                
           {
-            "title" : "Manicotti",
-            "descript" : "Coconut noodles filled with almond ricotta, fresh spinach, and basil. Topped with sun-dried tomato marinara and cashew parmesan.",
+            "title" : "Green Burger",
+            "descript" : "Hemp seed, shiitake, and spinach burger, flax and kale bun, fresh watercress, tomato, pumpkin seed and parsley pate, and cashew cheese. Served with garlic kale chips and a chopped kale salad.",
             "price" : "16"
           }
         ]
@@ -62,28 +62,28 @@
         "class" : "hot_main", 
         "items" : [
           {
-            "title" : "Jackfruit Molé",
-            "descript" : "Savory jackfruit with tomato, onion, and green pepper. Served with house-made molé sauce, brown rice, avocado, coconut sour cream, and fresh salsa verde.",
+            "title" : "Heirloom Tomato Marinara ",
+            "descript" : "Quinoa and brown rice pasta, roasted eggplant, and zucchini. Topped with cashew parmesan.",
             "price" : "13"
            },         
            {
-            "title" : "Mushroom Dumplings",
-            "descript" : "Stuffed with cashews, mushrooms, and spices. Steamed with assorted vegetables and wilted greens and served in a coconut, ginger, and turmeric broth. Topped with pea shoots and fresh herbs.",
+            "title" : "Masoor Dal with Roasted Vegetables",
+            "descript" : "Seasoned with horseradish, sunflower seed milk, and tomato. Topped with roasted cauliflower, fennel, and carrot.",
             "price" : "13"
            },
            {
-            "title" : "Zongzi",
-            "descript" : "Bamboo leaves stuffed with red rice, zucchini, cauliflower, carrots, and chickpeas. Steamed and served with avocado, fresh cucumber, and a black garlic and peanut sauce.  (Bamboo leaves are an aromatic and natural cooking device but are not meant to be eaten.)",
+            "title" : "Basil Noodles",
+            "descript" : "Mung bean noodles, crimini and oyster mushrooms, spinach, kale, and watercress. Served in a basil-infused coconut broth.",
             "price" : "13"
            },
            {
-            "title" : "Broccoli and Coriander Soup",
-            "descript" : "A thick and creamy soup served with sauteed spinach, cauliflower, green peas, brown rice, and almond cheese.",
+            "title" : "Mexico Bowl",
+            "descript" : "Warm brown rice served with a three bean salad, cashew queso, roasted tomato salsa, and toasted pepitas. Topped with fresh corn, tomatoes, red peppers, green onions, and avocado.",
             "price" : "13"
            },
            {
-            "title" : "Creamy Pasta Salad",
-            "descript" : "Brown rice and quinoa pasta tossed with avocado, cucumber, tomato, chopped kale, spinach, and carrots. Served with a creamy coconut, parsley, and lemon dressing.",
+            "title" : "Spicy Pineapple Curry",
+            "descript" : "Red peppers, carrots, zucchini, and cauliflower served in a spicy red curry sauce. Seasoned with roasted red peppers, ginger, lime, and coconut milk.",
             "pricelist" : {
               "large" : "11",
               "small" : "8"
@@ -91,7 +91,7 @@
            },
            {
             "title" : "Chopped Kale Salad",
-            "descript" : "Finely chopped kale with broccoli, carrot, cabbage, water chestnuts, and chickpeas. Served with fresh basil, mint, and a sesame and ginger vinaigrette. Topped with crushed peanuts.",
+            "descript" : "inely chopped kale, broccoli, cabbage, carrots, peppers, tomatoes, cucumbers, and spinach. Tossed in a creamy garlic vinaigrette and topped with avocado, walnuts, and sunflower seeds.",
             "pricelist" : {
               "large" : "11",
               "small" : "8"
@@ -104,24 +104,24 @@
         "class" : "end", 
         "items" : [
           {
-            "title" : "Orange Creamsicle Ice Cream Cake",
-            "descript" : "Served with tangerine coulis and whipped cashew cream.",
-            "price" : "9"
+            "title" : "Watermelon and Basil Sorbet ",
+            "descript" : "Served with local honey* and a pumpkin seed cookie. This dessert is nut free.",
+            "price" : "7"
           },
           {
-            "title" : "Coconut Cream Cake",
-            "descript" : "Seasoned with vanilla and ginger. Topped with fresh strawberries and a strawberry sauce.",
-            "price" : "9"
-          },
-          {
-            "title" : "Chocolate Filled Chocolate",
-            "descript" : "Chocolate walnut cake filled with a rich chocolate cream.Topped with spicy cacao nibs and a raspberry, beet, and cinnamon sauce.",
+            "title" : "Chocolate Cheese Cake",
+            "descript" : "Served with blackberry cream, blackberry purée, and fresh blackberries.",
             "price" : "10"
+          },
+          {
+            "title" : "Lemon Cream Pie",
+            "descript" : "Lemon curd and vanilla cream with a rosewater, mango, and grapefruit sorbet.",
+            "price" : "9"
           },                  
           {
-            "title" : "Lemon and Saffron Chia Pudding",
-            "descript" : "Served with fresh bananas, mango, and local honey. Nut-free.",
-            "price" : "8"
+            "title" : "Summer Fruit Cobbler",
+            "descript" : "Served with vanilla ice cream and and strawberry purée, topped with a pecan and coconut sap crumble.",
+            "price" : "9"
           }
         ]
       }   
