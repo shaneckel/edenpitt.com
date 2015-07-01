@@ -11,10 +11,47 @@ header.hero.home{
   padding-left: 10%;
   padding: 15% 10%;
   h1{
-    font-size: 5em;
+    font-size: 6vw;
   }
   h2{
-    font-size: 2em;
+    font-size: 1.6em;
+    padding-bottom: .8em;
+    padding-top: 1em;
+    @media #{$phone} {
+      padding-top: 0;
+    }
+  }
+  p{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: 1em;
+    font-weight: 300;
+    border-top: 1px solid;
+    padding-top: 2em;
+    &:after{
+      content: ".";
+      display: inline-block;
+    }
+    a{
+      font-weight: 600;
+
+    }
+    @media #{$phone} {
+      line-height: 1.6em;
+      span{
+        display: none; 
+      }
+      &:after{
+        content: "";
+        display: inline-block;
+      }
+      a{
+        display: inline-block;
+        border: 2px solid;
+        padding:.4em  .9em ;
+      }
+    }
   }
 }
 
@@ -48,29 +85,56 @@ section.cookies{
   background-size: 100% auto;
   background-size: cover;
   padding: 30% 10% 5%; 
+  h1{
+    font-size: 4.2vw;
+    padding-bottom: .25em;
+  }
   p{
-    font-size: 1.4em;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 1em;
-    font-weight: 300;
-    line-height: 1.4em;
-    border: 1px solid #aaa;
+    color: white;
+    font-size: 2em;
+    line-height: 1.6em;
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300; 
+    font-style: normal;
+    text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
+    a{
+      color: white;
+      font-weight: 600;
+      border-bottom: 2px solid white;
+      padding-bottom: .2em;
+      &:hover{
+        border-bottom: 2px solid  $edenred;
+        color: $edenred;
+      }
+    }
+    @media #{$phone} {
+      font-size: 1em;
+      line-height: 2.1em;
+      font-weight: 300;
+      text-shadow: 1px 1px 6px rgba(81, 81, 81, 0.9);
+      a{
+        padding-bottom: .1em;
+      }
+    }
   }
 }
 section.location{
   background: url(../img/eden-main-map.jpg) no-repeat center center;
   background-size:  100% auto;
   background-size: cover;
-  border-top: 1px solid #aaa; 
   padding: 15% 10%;
   p{
     width: 50%;
     font-size: 1.6em;
-    background: rgba(255, 255, 255, 0.9);
+    background: white;
     padding: 1em;
     font-weight: 300;
     line-height: 1.4em;
-    border: 1px solid #aaa;
+    border: .325em solid $edenred;
+    &:after{
+      content: ".";
+      display: inline-block;
+    }
     strong{
       font-weight: 600;
     }
@@ -137,8 +201,6 @@ section.about{
 section.hours{
   background-size: 100% auto;
   background-size: cover;
-  border-top: 1px solid #aaa; 
-  border-bottom: 1px solid #aaa;
   padding: 10% 10%;  
   p{
     font-size: 1.6em;
@@ -202,12 +264,12 @@ section.hours{
         background: transparent;
         display: inline-block;
         margin-top: .5em;
-        border: 1px solid #666;
+        border: 2px solid #666;
       }
       span.open{
         background: $edenred;
         display: inline-block;
-         border: 0;
+        border: 0;
       }
     }
   }
@@ -221,6 +283,10 @@ section.hours{
       width: 100%;
       font-size: 1.1em;
       line-height: 1.5em;
+      &:after{
+        content: "";
+        display: none;
+      }
       a{
         display: block;
         text-align: center;
@@ -248,6 +314,9 @@ section.hours{
 
   section.cookies{
     padding: 30% 5% 5%; 
+    h1{
+      font-size: 2.3em;
+    }
     p{
       font-size: 1em;
     }
