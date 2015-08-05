@@ -84,10 +84,7 @@
            {
             "title" : "Spicy Pineapple Curry",
             "descript" : "Red peppers, carrots, zucchini, and cauliflower served in a spicy red curry sauce. Seasoned with roasted red peppers, ginger, lime, and coconut milk.",
-            "pricelist" : {
-              "large" : "11",
-              "small" : "8"
-            }
+            "price" : "13"
            },
            {
             "title" : "Chopped Kale Salad",
