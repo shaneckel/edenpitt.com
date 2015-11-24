@@ -1,130 +1,104 @@
 {
-  "menu" : {
-    "meta" : { 
-      "header" : "Dinner Menu.",
-      "title" : "Fall Season 2015"
+  "menu": {
+    "meta": {
+      "header": "Dinner Menu.",
+      "title": "Fall Season 2015"
     },
-    "config" : {
-      "season" : "",
-      "descript" : ""
+    "config": {
+      "season": "",
+      "descript": ""
     },
-    "menulist": [
-      {
-        "title" : "raw vegan appetizers", 
-        "class" : "start", 
-        "descript" : "our raw vegan starters", 
-         "items" : [
-          {
-            "title" : "Beet Ravioli",
-            "descript" : "Thinly sliced beets stuffed with cashew and butternut squash cheese. Served with a rosemary cream.",
-            "price" : "9"
-          },
-          {
-            "title" : "Stuffed Avocado",
-            "descript" : "Avocado filled with shaved green cabbage and dressed in a tangy cilantro vinaigrette.",
-            "price" : "8"
-          },                  
-          {
-            "title" : "Herbed Ricotta and Cucumber Napoleon",
-            "descript" : "Dill almond ricotta layered between hothouse cucumber. With an apple and lemon sauce.",
-            "price" : "7"
-           },                  
-           {
-            "title" : "Pumpkin Hummus",
-            "descript" : "A pepita and pumpkin flesh hummus seasoned with cumin and smoked paprika. Served with sunflower seed chips and marinated carrots.",
-            "price" : "10"
-            }
-        ]
-      }, 
-      {
-        "title" : "raw vegan entrees", 
-        "class" : "raw_main", 
-        "items" : [
-          {
-            "title" : "Pappardelle Pasta in Green Sauce",
-            "descript" : "Carrot and zucchini pappardelle. With fresh green peas, capers, asparagus, spinach, and an almond sausage. Served in a basil and wild rocket pesto sauce with pistachio cheese and white pepper included.",
-            "price" : "16"
-          },
-          {
-            "title" : "Japanese Style Vegetables",
-            "descript" : "Mushrooms, red peppers, broccoli, zucchini, snow peas, and red onions lightly dehydrated all tossed in an umeboshi plum teriyaki-style sauce. Served over pumpkin seeds and parsnip rice. Topped with sesame seeds and nori flakes.",
-            "price" : "16"
-          },                
-          {
-            "title" : "White Pizza",
-            "descript" : "Crust made from coconut, flax, and chia. Sauce made with a basil-infused olive oil and garlic cream. Topped with almond ricotta, fresh basil, spinach, thinly sliced kumato tomatoes, and cashew parmesan.",
-            "price" : "16"
-          }
-        ]
-      },        
-      {
-        "title" : "100% gluten free cooked entrees",
-        "class" : "hot_main", 
-        "items" : [
-          {
-            "title" : "Roasted Fall Vegetables",
-            "descript" : "Assorted roasted vegetables, olives, and mushrooms tossed with fresh herbs, a splash of black vinegar, and smoked sea salt. Served with a roasted tomato and garlic sauce and brown rice.",
-            "price" : "14"
-           },         
-           {
-            "title" : "Mac and Cheese",
-            "descript" : "Brown rice pasta, broccoli, spinach, green peas, and red peppers in a coconut and cashew cheese sauce. Topped with cashew parmesan and crispy shallots.",
-            "price" : "14"
-           },
-           {
-            "title" : "Pumpkin Curry",
-            "descript" : "Carrots, potatoes, chickpeas, and red peppers simmered in a red curry and coconut milk sauce. Served with fresh greens and brown rice.",
-            "price" : "13"
-           },
-           {
-            "title" : "Pierogies",
-            "descript" : "Sweet potato and cashew cheese-filled pierogies Sautéed in olive oil with onions and garlic and served with a rainbow carrot slaw and coconut sour cream.",
-            "price" : "15"
-           },
-           {
-            "title" : "Harvest Salad",
-            "descript" : "Baby kale, apples, carrots, cabbage, beets, and rutabaga. Tossed in a maple and balsamic dressing and topped with roasted walnuts.",
-            "pricelist" : {
-              "large" : "13",
-              "small" : "9"
-              }
-            },
-            {
-            "title" : "Chopped Kale Salad",
-            "descript" : "Spinach, arugula, carrots, dried cranberries, pecans, and brown rice tossed in an orange and nutmeg vinaigrette.",
-            "pricelist" : {
-              "large" : "13",
-              "small" : "9"
-            }
-          }
-        ]
-      },         
-      {
-        "title" : "raw vegan desserts", 
-        "class" : "end", 
-        "items" : [
-          {
-            "title" : "Pumpkin Pie",
-            "descript" : "Traditionally spiced pumpkin in a walnut and coconut crust. With whipped cashew cream and cranberry jam.",
-            "price" : "9"
-          },
-          {
-            "title" : "Chocolate Brownie Parfait",
-            "descript" : "Chocolate cream, fresh berries, and chocolate pecans. With a raspberry and vanilla sauce.",
-            "price" : "10"
-          },
-          {
-            "title" : "Apple Tart",
-            "descript" : "Cinnamon marinated apples, ginger cream, and vanilla ice cream",
-            "price" : "9"
-          },                  
-          {
-            "title" : "Pear Sorbet",
-            "descript" : "Pear sweetened with dates and vanilla. Matched with local honey*.",
-            "price" : "5"
-          }
-        ]
-      }   
-    ]
+    "menulist": [{
+      "title": "raw vegan appetizers",
+      "class": "start",
+      "descript": "our raw vegan starters",
+      "items": [{
+        "title": "Beet Ravioli",
+        "descript": "Thinly sliced beets stuffed with cashew and butternut squash cheese. Served with a rosemary cream.",
+        "price": "9"
+      }, {
+        "title": "Stuffed Avocado",
+        "descript": "Avocado filled with shaved green cabbage and dressed in a tangy cilantro vinaigrette.",
+        "price": "8"
+      }, {
+        "title": "Herbed Ricotta and Cucumber Napoleon",
+        "descript": "Dill almond ricotta layered between hothouse cucumber. With an apple and lemon sauce.",
+        "price": "7"
+      }, {
+        "title": "Pumpkin Hummus",
+        "descript": "A pepita and pumpkin flesh hummus seasoned with cumin and smoked paprika. Served with sunflower seed chips and marinated carrots.",
+        "price": "10"
+      }]
+    }, {
+      "title": "raw vegan entrees",
+      "class": "raw_main",
+      "items": [{
+        "title": "Pappardelle Pasta in Green Sauce",
+        "descript": "Carrot and zucchini pappardelle. With fresh green peas, capers, asparagus, spinach, and an almond sausage. Served in a basil and wild rocket pesto sauce with pistachio cheese and white pepper included.",
+        "price": "16"
+      }, {
+        "title": "Japanese Style Vegetables",
+        "descript": "Mushrooms, red peppers, broccoli, zucchini, snow peas, and red onions lightly dehydrated all tossed in an umeboshi plum teriyaki-style sauce. Served over pumpkin seeds and parsnip rice. Topped with sesame seeds and nori flakes.",
+        "price": "16"
+      }, {
+        "title": "White Pizza",
+        "descript": "Crust made from coconut, flax, and chia. Sauce made with a basil-infused olive oil and garlic cream. Topped with almond ricotta, fresh basil, spinach, thinly sliced kumato tomatoes, and cashew parmesan.",
+        "price": "16"
+      }]
+    }, {
+      "title": "100% gluten free cooked entrees",
+      "class": "hot_main",
+      "items": [{
+        "title": "Roasted Fall Vegetables",
+        "descript": "Assorted roasted vegetables, olives, and mushrooms tossed with fresh herbs, a splash of black vinegar, and smoked sea salt. Served with a roasted tomato and garlic sauce and brown rice.",
+        "price": "14"
+      }, {
+        "title": "Mac and Cheese",
+        "descript": "Brown rice pasta, broccoli, spinach, green peas, and red peppers in a coconut and cashew cheese sauce. Topped with cashew parmesan and crispy shallots.",
+        "price": "14"
+      }, {
+        "title": "Pumpkin Curry",
+        "descript": "Carrots, potatoes, chickpeas, and red peppers simmered in a red curry and coconut milk sauce. Served with fresh greens and brown rice.",
+        "price": "13"
+      }, {
+        "title": "Pierogies",
+        "descript": "Sweet potato and cashew cheese-filled pierogies Sautéed in olive oil with onions and garlic and served with a rainbow carrot slaw and coconut sour cream.",
+        "price": "15"
+      }, {
+        "title": "Harvest Salad",
+        "descript": "Baby kale, apples, carrots, cabbage, beets, and rutabaga. Tossed in a maple and balsamic dressing and topped with roasted walnuts.",
+        "pricelist": {
+          "large": "13",
+          "small": "9"
+        }
+      }, {
+        "title": "butternut Squash Salad",
+        "descript": "Spinach, arugula, carrots, dried cranberries, pecans, and brown rice tossed in an orange and nutmeg vinaigrette.",
+        "pricelist": {
+          "large": "13",
+          "small": "9"
+        }
+      }]
+    }, {
+      "title": "raw vegan desserts",
+      "class": "end",
+      "items": [{
+        "title": "Pumpkin Pie",
+        "descript": "Traditionally spiced pumpkin in a walnut and coconut crust. With whipped cashew cream and cranberry jam.",
+        "price": "9"
+      }, {
+        "title": "Chocolate Brownie Parfait",
+        "descript": "Chocolate cream, fresh berries, and chocolate pecans. With a raspberry and vanilla sauce.",
+        "price": "10"
+      }, {
+        "title": "Apple Tart",
+        "descript": "Cinnamon marinated apples, ginger cream, and vanilla ice cream",
+        "price": "9"
+      }, {
+        "title": "Pear Sorbet",
+        "descript": "Pear sweetened with dates and vanilla. Matched with local honey*.",
+        "price": "5"
+      }]
+    }]
   }
 }
