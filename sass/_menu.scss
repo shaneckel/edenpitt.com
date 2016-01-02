@@ -24,6 +24,11 @@ header.hero.brunch{
   background-position: center center;
   background-size: 100% auto;
   background-size: cover;
+  @media #{$desk} {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: top center;
+  }
   h1{
     font-size: 5.6em;
     color: white;
@@ -45,7 +50,7 @@ header.hero.brunch{
     font-size: 3em;
     line-height: 1.6em;
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 300; 
+    font-weight: 300;
     font-style: normal;
     text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
     @media #{$phone} {
@@ -127,7 +132,7 @@ header.hero.brunch{
       margin-top: 1em;
       line-height: 1.4em;
       border-bottom: 1px solid black;
-      padding-bottom: 1em; 
+      padding-bottom: 1em;
     }
     h5{
       font-size: 1.2em;
@@ -143,10 +148,10 @@ header.hero.brunch{
     }
     li{
       display: inline-block;
-      width: 100%; 
+      width: 100%;
       vertical-align: top;
       position: relative;
-      margin-top: 5%; 
+      margin-top: 5%;
       &:first-of-type{
         margin-top: 0;
         h3{
@@ -158,7 +163,7 @@ header.hero.brunch{
         font-size: 1.8em;
         line-height: 1.6em;
         font-family: 'Whitney A', 'Whitney B';
-        font-weight: 300; 
+        font-weight: 300;
         font-style: normal;
         text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
         padding-bottom: 1em;
@@ -168,7 +173,7 @@ header.hero.brunch{
         font-size: 1.4em;
         text-transform: uppercase;
         padding-right: 15%;
-        padding-top: 1em; 
+        padding-top: 1em;
         line-height: 1.2em;
         border-top: 1px dashed black;
       }
@@ -187,7 +192,7 @@ header.hero.brunch{
       .pricelist{
         @media #{$phone} {
           width: 4em;
-          font-size: 1.2em; 
+          font-size: 1.2em;
           right: -.4em;
         }
       }
@@ -210,22 +215,22 @@ header.hero.brunch{
     vertical-align: top;
     &:nth-child(even){
       padding-left: 2.5%;
-    }    
+    }
     &:nth-child(odd){
       padding-right: 2.5%;
     }
     &.hot_main, &.end{
-      width: 100%; 
+      width: 100%;
       padding: 5%;
       padding-top: 0;
 
       li{
         width: 47.5%;
-        margin-top: 2.5%; 
- 
+        margin-top: 2.5%;
+
         &:nth-child(even){
           margin-left: 2.5%;
-        }    
+        }
         &:nth-child(odd){
           margin-right: 2.5%;
         }
@@ -259,7 +264,7 @@ header.hero.brunch{
       &:nth-child(even){
         padding: 5%;
         margin-top: 0;
-      }    
+      }
       &:nth-child(odd){
         padding: 5%;
         margin-top: 0;
@@ -272,10 +277,10 @@ header.hero.brunch{
         padding-top: .5em;
       }
 
-      li{ 
+      li{
         width: 100%;
         margin-top: 5%;
-        padding-top: 0; 
+        padding-top: 0;
         h3{
           padding-top: .75em;
           &:nth-child(1), &:nth-child(2){
@@ -296,7 +301,7 @@ header.hero.brunch{
         &:nth-child(even){
           margin-top: 5%;
           margin-left: 0%;
-        }    
+        }
         &:nth-child(odd){
           margin-top: 5%;
           margin-right: 0%;
@@ -308,10 +313,9 @@ header.hero.brunch{
           }
         }
         // &:nth-child(2)  {
-        //   //margin-top: 2.5%; 
+        //   //margin-top: 2.5%;
         // }
       }
     }
   }
 }
-

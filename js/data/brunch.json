@@ -1,153 +1,144 @@
 {
-  "menu" : {
-    "meta" : { 
-      "header" : "Brunch Menu.",
-      "title" : "100% Gluten Free."
+  "menu": {
+    "meta": {
+      "header": "Brunch Menu.",
+      "title": "Featuring our 2016 menu."
     },
-    "config" : {
-      "season" : "Winter"
+    "config": {
+      "season": "Winter"
     },
-    "menulist": [
-      {
-        "title" : "raw vegan", 
-        "class" : "raw", 
-        "items" : [
-          {
-            "title" : "Coconut, Oat, and Almond Raw Cakes",
-            "descript" : "Cinnamon, banana, and strawberry. Served with maple syrup and cashew butter.",
-            "price" : "12"
-          },
-          {
-            "title" : "Strawberry and Cardamom Chia Pudding",
-            "descript" : "Pumpkin seed milk topped with fresh fruit. Your choice of local raw honey or organic agave.",
-            "price" : "12"
-          },
-          {
-            "title" : "Mushroom Burger",
-            "descript" : "Flax / carrot bread, turmeric cream, cashew cheese, spinach, avocado, and tomato. Served with a huge garden salad.",
-            "price" : "15"
-          },
-          {
-            "title" : "Collard Green Wraps",
-            "descript" : "Three collard leaves stuffed with sunflower and beet “meat” avocado, carrots and spinach topped with sunflower cream. Served with a huge garden salad.",
-            "price" : "14"
-          }
-        ]
-      },       {
-        "title" : "sweet", 
-        "class" : "sweet", 
-        "items" : [
-          {
-            "title" : "Granola",
-            "descript" : "Oats, walnuts, and maple syrup. Served with fruit. Your choice between european yogurt, goat yogurt, or almond milk.",
-            "price" : "9"
-          },
-          {
-            "title" : "Eden's Waffles",
-            "descript" : "Oat, chickpea and fava bean flour. Along with cinnamon and vanilla.",
-            "price" : "10",
-            "listdescript" : "Available waffle toppings are: Fresh fruit, peanut butter, pumpkin seeds, sunﬂower seeds, goji berries, chocolate chips, coconut, bee pollen, golden berries, or almond butter."
-          },
-          {
-            "title" : "Apple Stuffed Chick Pea Pancake",
-            "descript" : "Seasoned with cinnamon, ginger and topped with applesauce. Served with cashew butter and maple syrup",
-            "price" : "10"
-          }
-        ]
-      }, 
-      {
-        "title" : "savory", 
-        "class" : "savory",
-        "note" : "with your choice of fresh fruit, side salad, or soup of the day.", 
-        "items" : [
-          {
-            "title" : "Omelettes of the Day",
-            "descript" : "Three local organic eggs with seasonal ﬁllings. Served with gluten free & vegan toast.",
-            "price" : "11"
-          },
-          {
-            "title" : "Mushroom and Butterbean Burger",
-            "descript" : "Served on a gluten free bun, with cashew cheese or goat cheese, cashew mayo, spinach, avocado and tomato.",
-            "price" : "12"
-          },
-          {
-            "title" : "Jack Fruit Crab Salad Sandwich",
-            "descript" : "Arugula, tomato, and avocado. Served on gluten free & vegan bread.",
-            "price" : "12",
-            "listdescript" : "add a fried egg or goat cheese $1"
-          },
-          {
-            "title" : "Vegetable Scramble",
-            "descript" : "An assortment of vegetables, black eyed peas, and avocado. With either three local and organic eggs or Eden’s tofu eggs. Gluten free & vegan toast or corn tortillas are also available.",
-            "price" : "10",
-            "listdescript" : "add cashew cheese or goat cheese for an extra $1"
-          },
-          {
-            "title" : "Mushroom Chorizo Tacos",
-            "descript" : "Vegan chorizo sausage made of almond meal, spices and mushrooms. Along with cabbage slaw, cashew cream, and avocado.",
-            "price" : "11"
-          },
-          {
-            "title" : "Indian Spiced Egg",
-            "descript" : "Three eggs scrambled with indian spices, chick peas, goat cheese, and arugula. Served with gluten free & vegan toast.",
-            "price" : "11"
-          },
-          {
-            "title" : "Super Green Salad",
-            "descript" : "Kale, spinach, wakame seaweed, collards and lettuce with carrots, cucumbers, and red pepper. Served with a sesame and ginger vinaigrette, toasted peanuts, and gluten free & vegan toast.",
-            "price" : "10",
-            "listdescript" : "add tofu, tempeh, fried egg $2 -Or also add cashew cheese or goat cheese $1"
-          },
-          {
-            "title" : "Garden Salad",
-            "descript" : "Baby greens, kale, carrots, peppers, cucumber, tomato, pumpkin seeds, balsamic vinaigrette, and avocado. Served with gluten free & vegan toast.",
-            "price" : "10",
-            "listdescript" : "add tofu, tempeh, fried egg $2 -Or also add cashew cheese or goat cheese $1"
-          }
+    "menulist": [{
+      "title": "raw vegan",
+      "class": "raw",
+      "items": [{
+        "title": "Cheesy Vegetable Wrap",
+        "descript": "Flax and carrot wrap filled with shredded broccoli, carrot, spinach, tomato, avocado, and zucchini smothered in a raw vegan cheese sauce. Served with fresh fruit and a garden salad.",
+        "price": "15"
+      }, {
+        "title": "Granola Parfait Smoothie Bowl",
+        "descript": "Mango, orange, and strawberry smoothie served in a bowl and topped with crispy, dehydrated, cinnamon almond granola, fresh fruit, goji berries, chia seeds, cashew yogurt, and freeze dried berries.",
+        "price": "14"
+      }, {
+        "title": "Green Salad",
+        "descript": "Assorted field greens, spinach, arugula, chopped kale, wakame seaweed, untoasted nori and avocado. Topped with walnuts and almonds and served with flax bread and a spinach and lemon vinaigrette.",
+        "price": "12"
+      }, {
+        "title": "Garden salad",
+        "descript": "Assorted field greens, peppers, cucumbers, avocado, tomato, spinach, and pumpkin seeds. Topped with cashew cheese and served with flax bread and an apple cider vinegar and olive oil vinaigrette.",
+        "price": "12"
+      }]
+    }, {
+      "title": "sweet",
+      "class": "sweet",
+      "items": [{
+        "title": "Eden’s Waffles",
+        "descript": "Made with a special gluten free and vegan batter recipe and topped with your choice of: chocolate chips, bananas, strawberries, peanut butter, almond butter, bee pollen, raw honey, walnuts, coconut, and pumpkin seeds. Served with cashew and coconut butter and maple syrup.",
+        "price": "11"
+      }, {
+        "title": "Brie-Stuffed Strawberry French Toast ",
+        "descript": "Made with gluten free bread and spiced with nutmeg, cardamom, and orange zest. Served with cashew and coconut butter, strawberry preserves, and fresh strawberries.",
+        "price": "13"
 
-        ]
-      },
-      {
-        "title" : "small plates & sides", 
-        "class" : "sides", 
-        "items" : [
-          {
-            "title" : "Fruit, salad, or soup",
-            "descript" : "",
-            "price" : "3.5"
-          },
-          {
-            "title" : "Extra egg (fried or scrambled)",
-            "descript" : "",
-            "price" : "2"
-          } ,
-          {
-            "title" : "Gluten free & vegan toast",
-            "descript" : "",
-            "price" : "2"
-          } ,
-          {
-            "title" : "tempeh bacon",
-            "descript" : "",
-            "price" : "4"
-          } ,
-          {
-            "title" : "Mushroom and almond sausage ",
-            "descript" : "",
-            "price" : "4"
-          } ,
-          {
-            "title" : "Yogurt side (european, goat, coconut)",
-            "descript" : "",
-            "price" : "3"
-          } ,
-          {
-            "title" : "Muffin of the day",
-            "descript" : "",
-            "price" : "3"
-          } 
-        ]
-      }   
-    ]
+      }, {
+        "title": "Blueberry Filled Chickpea Pancake",
+        "descript": "A fluffy gluten free and vegan chickpea flour pancake, spiced with cinnamon and ginger, and stuffed with blueberries. Served with cashew and coconut butter, maple syrup, and blueberry jam.",
+        "price": "12"
+      }]
+    }, {
+      "title": "savory",
+      "class": "savory",
+      "note": "All savory dishes come with your choice of soup, salad, or a fresh fruit cup.",
+      "items": [{
+          "title": "Tempeh Salad with Curry Spice",
+          "descript": "Orange zest, red onion, carrots, and red peppers mixed with tempeh and coconut cream. Served on a gluten free and vegan English muffin with avocado and arugula.",
+          "price": "11",
+          "listdescript": "add a egg $1.5"
+        }, {
+          "title": "Quinoa Super Bowl",
+          "descript": "Pickled carrots, spicy mushrooms, tomato, cucumber, wakame seaweed, slivered almonds, and avocado with a tahini and lemon dressing.",
+          "price": "11",
+          "listdescript": "add a egg $1.5"
+        }, {
+          "title": "Falafel Lettuce Wraps",
+          "descript": "Pan-fried falafel, pumpkin seed hummus, pickled vegetables, and cashew cucumber tzatziki sauce.",
+          "price": "12"
+        }, {
+          "title": "Coconut and Chickpea Burger",
+          "descript": "Served on a gluten free and vegan bun with cashew sriracha aioli, spinach, avocado, and red onion. Served with your choice of cashew or goat cheese.",
+          "price": "13",
+          "listdescript": "add a egg $1.5"
+        }, {
+          "title": "BBQ Portobello and Green Pepper Tacos",
+          "descript": "Three soft corn tortilla tacos, topped with fresh arugula, avocado, chili pepper cream, and almond cheese.",
+          "price": "13"
+        }, {
+          "title": "Omelette of the day",
+          "descript": "Three eggs filled with the chef's selection of daily vegetables and cheese. Comes with gluten free toast.",
+          "price": "12"
+        }, {
+          "title": "Vegetable Scramble",
+          "descript": "Assorted vegetables and black-eyed peas lightly sauteed with your choice of three eggs or tofu eggs. Topped with fresh avocado and your choice of cashew or goat cheese. Comes with gluten free toast or corn tortillas.",
+          "price": "12"
+        }, {
+          "title": "Egg Sandwich ",
+          "descript": "cashew cream, and goat cheese.",
+          "price": "11"
+        }
+
+      ]
+    }, {
+      "title": "small",
+      "class": "sides",
+      "items": [{
+        "title": "Vanilla Chia Seed Pudding",
+        "descript": "Made with coconut and almond milk, served with fresh strawberries.",
+        "price": "6"
+      }, {
+        "title": "Muffin of the Day",
+        "descript": "Gluten free and vegan muffin served with coconut and cashew butter.",
+        "price": "3.5"
+      }, {
+        "title": "House made Pecan Granola ",
+        "descript": "Made with maple syrup, pecans, olive oil and gluten free oats. Topped with fresh strawberries and bananas and served on your choice of Greek yogurt, coconut yogurt, or almond milk.",
+        "pricelist": {
+          "large": "13",
+          "small": "9"
+        }
+      }]
+    }, {
+      "title": "add-ons",
+      "class": "addons",
+      "items": [{
+        "title": "cheese",
+        "price": "1.5"
+      }, {
+        "title": "egg",
+        "price": "1.5"
+      }, {
+        "title": "tempeh bacon ",
+        "price": "4"
+      }, {
+        "title": "mushroom and almond sausage",
+        "price": "4"
+      }, {
+        "title": "toast",
+        "price": "1.5"
+      }, {
+        "title": "greek yogurt",
+        "price": "3.5"
+      }, {
+        "title": "coconut yogurt",
+        "price": "3.5"
+      }, {
+        "title": "fruit",
+        "price": "3.5"
+      }, {
+        "title": "salad",
+        "price": "3.5"
+      }, {
+        "title": "soup",
+        "price": "3.5"
+      }]
+    }]
   }
 }

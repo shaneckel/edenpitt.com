@@ -2,7 +2,7 @@
   "menu": {
     "meta": {
       "header": "Dinner Menu.",
-      "title": "Fall Season 2015"
+      "title": "Winter Season 2016"
     },
     "config": {
       "season": "",
@@ -13,67 +13,67 @@
       "class": "start",
       "descript": "our raw vegan starters",
       "items": [{
-        "title": "Beet Ravioli",
-        "descript": "Thinly sliced beets stuffed with cashew and butternut squash cheese. Served with a rosemary cream.",
+        "title": "Nut Cheese Sampler ",
+        "descript": "Cashew brie, smoked pecan asiago, and walnut cheddar. Served with assorted sliced vegetables, pumpkin seed crackers, mustard cream, and apricot chutney with dates and sage.",
+        "price": "16"
+      }, {
+        "title": "Oyster Mushroom and Avocado Nori Rolls",
+        "descript": "With coconut, cashew, and cauliflower rice, wrapped in untoasted nori paper. Served with a horseradish cream and coconut amino dipping sauce.",
         "price": "9"
       }, {
-        "title": "Stuffed Avocado",
-        "descript": "Avocado filled with shaved green cabbage and dressed in a tangy cilantro vinaigrette.",
+        "title": "Zucchini Summer Rolls",
+        "descript": "Thinly sliced zucchini filled with carrot, cucumber, kelp noodles, basil, and shiitake mushrooms. Served with a sweet and sour dipping sauce.",
         "price": "8"
       }, {
-        "title": "Herbed Ricotta and Cucumber Napoleon",
-        "descript": "Dill almond ricotta layered between hothouse cucumber. With an apple and lemon sauce.",
+        "title": "Smoked Beet and Walnut Pate",
+        "descript": "Served on sliced carrots and topped with red grapes and local honey.*",
         "price": "7"
-      }, {
-        "title": "Pumpkin Hummus",
-        "descript": "A pepita and pumpkin flesh hummus seasoned with cumin and smoked paprika. Served with sunflower seed chips and marinated carrots.",
-        "price": "10"
       }]
     }, {
       "title": "raw vegan entrees",
       "class": "raw_main",
       "items": [{
-        "title": "Pappardelle Pasta in Green Sauce",
-        "descript": "Carrot and zucchini pappardelle. With fresh green peas, capers, asparagus, spinach, and an almond sausage. Served in a basil and wild rocket pesto sauce with pistachio cheese and white pepper included.",
+        "title": "Enchiladas",
+        "descript": "Red pepper and flax tortillas filled with spiced walnut “meat”, avocado, spinach, chopped tomato, and almond cheese. Topped with a cacao and ancho chile sauce.",
         "price": "16"
       }, {
-        "title": "Japanese Style Vegetables",
-        "descript": "Mushrooms, red peppers, broccoli, zucchini, snow peas, and red onions lightly dehydrated all tossed in an umeboshi plum teriyaki-style sauce. Served over pumpkin seeds and parsnip rice. Topped with sesame seeds and nori flakes.",
+        "title": "Zucchini Parsnip and Turnip Fettuccine",
+        "descript": "Served in a sundried tomato marinara sauce with pumpkin seed and portobello mushroom meatballs. Topped with cashew parmesan and black pepper.",
         "price": "16"
       }, {
-        "title": "White Pizza",
-        "descript": "Crust made from coconut, flax, and chia. Sauce made with a basil-infused olive oil and garlic cream. Topped with almond ricotta, fresh basil, spinach, thinly sliced kumato tomatoes, and cashew parmesan.",
+        "title": "Avocado Curry",
+        "descript": "Avocado, cucumber, red pepper, and chopped spinach in a cashew curry sauce. Served with beet, carrot, and coconut rice seasoned with paprika and Jamaican allspice. Topped with a cilantro and green pea chutney.",
         "price": "16"
       }]
     }, {
       "title": "100% gluten free cooked entrees",
       "class": "hot_main",
       "items": [{
-        "title": "Roasted Fall Vegetables",
-        "descript": "Assorted roasted vegetables, olives, and mushrooms tossed with fresh herbs, a splash of black vinegar, and smoked sea salt. Served with a roasted tomato and garlic sauce and brown rice.",
-        "price": "14"
-      }, {
-        "title": "Mac and Cheese",
-        "descript": "Brown rice pasta, broccoli, spinach, green peas, and red peppers in a coconut and cashew cheese sauce. Topped with cashew parmesan and crispy shallots.",
-        "price": "14"
-      }, {
-        "title": "Pumpkin Curry",
-        "descript": "Carrots, potatoes, chickpeas, and red peppers simmered in a red curry and coconut milk sauce. Served with fresh greens and brown rice.",
+        "title": "Peanut Butter Broccoli ",
+        "descript": "Broccoli, brussel sprouts, kale, and thinly sliced jalapenos simmered in a savory ginger peanut sauce. Served with brown rice and topped with toasted peanuts.",
         "price": "13"
       }, {
-        "title": "Pierogies",
-        "descript": "Sweet potato and cashew cheese-filled pierogies Sautéed in olive oil with onions and garlic and served with a rainbow carrot slaw and coconut sour cream.",
-        "price": "15"
+        "title": "Vermicelli Mushroom Bowl",
+        "descript": "Rice noodles cooked in a ginger and miso broth with assorted mushrooms, potatoes, carrots, green onions, and seaweed. Topped with fresh greens.",
+        "price": "13"
       }, {
-        "title": "Harvest Salad",
-        "descript": "Baby kale, apples, carrots, cabbage, beets, and rutabaga. Tossed in a maple and balsamic dressing and topped with roasted walnuts.",
+        "title": "Cashew Dumplings",
+        "descript": "Gluten free dumplings stuffed with cashew, turnip, and red cabbage. Simmered in a red pepper and coconut broth and served over thinly sliced zucchini and spinach.",
+        "price": "14"
+      }, {
+        "title": "Three Potato Stew",
+        "descript": "Golden, red, and blue potatoes, kale, carrots, and butternut squash simmered in a carrot-infused pumpkin seed milk with fresh rosemary and thyme. Served with brown rice.",
+        "price": "14"
+      }, {
+        "title": "Chopped Kale Salad",
+        "descript": "With sliced brussel sprouts, avocado, cucumber, pumpkin seeds, and arugula. Tossed in a spinach and lemon vinaigrette.",
         "pricelist": {
           "large": "13",
           "small": "9"
         }
       }, {
-        "title": "butternut Squash Salad",
-        "descript": "Spinach, arugula, carrots, dried cranberries, pecans, and brown rice tossed in an orange and nutmeg vinaigrette.",
+        "title": "Green Lentil And Spinach Salad",
+        "descript": "With cherry tomatoes, red pepper, carrots, raw walnuts and brown rice. Tossed in a balsamic and roasted garlic dressing.",
         "pricelist": {
           "large": "13",
           "small": "9"
@@ -83,21 +83,21 @@
       "title": "raw vegan desserts",
       "class": "end",
       "items": [{
-        "title": "Pumpkin Pie",
-        "descript": "Traditionally spiced pumpkin in a walnut and coconut crust. With whipped cashew cream and cranberry jam.",
-        "price": "9"
+        "title": "Sorbet",
+        "descript": "Strawberry, grapefruit, and hibiscus sorbet topped with local honey.*",
+        "price": "5"
       }, {
-        "title": "Chocolate Brownie Parfait",
-        "descript": "Chocolate cream, fresh berries, and chocolate pecans. With a raspberry and vanilla sauce.",
+        "title": "Tiramisu",
+        "descript": "A raw version of the traditional dessert with almond ladyfingers, chocolate cream, cold pressed coffee, coconut cream, and vanilla-infused coffee sauce.",
         "price": "10"
       }, {
-        "title": "Apple Tart",
-        "descript": "Cinnamon marinated apples, ginger cream, and vanilla ice cream",
-        "price": "9"
+        "title": "Banana Cream Cake",
+        "descript": "Cinnamon and hazelnut spice cake filled with banana cream, topped with fresh bananas and mango sauce. Served with persimmon ice cream.",
+        "price": "10"
       }, {
-        "title": "Pear Sorbet",
-        "descript": "Pear sweetened with dates and vanilla. Matched with local honey*.",
-        "price": "5"
+        "title": "Black Cherry Mousse",
+        "descript": "With lemon shortbread, vanilla cream, and fresh blackberries.",
+        "price": "8"
       }]
     }]
   }
