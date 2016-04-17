@@ -1,26 +1,26 @@
 
-   
+
   <header class="hero contact">
     <h1> </h1>
   </header>
 
   <section class="contact">
- 
+
     <article class="email">
       <h3>Email us below or call us at <a href="tel:4128027070">412 802 7070</a> if you want more information on getting our raw cookies in your business, special dinners, or just curious about how we do things. </h3>
     </article>
 
     <form name="cform" ng-controller="formController" ng-submit="processForm()" novalidate >
-  
+
       <div class="half" ng-class="{ 'error' : errorName }">
         <span ng-show="cform.name.$error.required && !cform.name.$pristine">+ please enter your name here. </span>
         <span ng-show="errorName">+ {{ errorName }}</span>
-        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name" ng-minlength=2 required> 
+        <input type="text" name="name" class="form-control" placeholder="Name" ng-model="formData.name" ng-minlength=2 required>
 
       </div><!--
-   
+
    --><div class="half" ng-class="{ 'error' : errorEmail } " >
-        <span ng-show="cform.email.$error.required && !cform.email.$pristine">+ please enter your email here. </span>        
+        <span ng-show="cform.email.$error.required && !cform.email.$pristine">+ please enter your email here. </span>
         <span ng-show="cform.email.$error.email">+ check your email to see if it's right. </span>
         <span ng-show="errorEmail">+ {{ errorEmail }}</span>
         <input type="email" name="email" class="form-control" placeholder="Email"  ng-model="formData.email" required>
@@ -28,7 +28,7 @@
       </div>
 
       <div class="full" ng-class="{ 'error' : errorMessage }">
-        <textarea type="text" name="message" class="form-control" placeholder="Message"  ng-model="formData.message" ng-minlength=5 required></textarea> 
+        <textarea type="text" name="message" class="form-control" placeholder="Message"  ng-model="formData.message" ng-minlength=5 required></textarea>
         <span ng-show="cform.message.$error.required && !cform.message.$pristine">+ you forgot to write your message. </span>
         <span ng-show="cform.message.$error.minlength && !cform.message.$pristine">+ A bit more. </span>
         <span ng-show="errorMessage">+ {{ errorMessage }}</span>
@@ -44,10 +44,10 @@
 
     </form>
     <article >
-      <h3 class="designcredit">Our design, development, and marketing is maintained by <a href="http://fystud.io/">fystud.io</a>.</h3>
+      <h3 class="designcredit">Built by <a href="http://fystud.io/">fystud.io</a>.</h3>
     </article>
   </section>
   <!--image preload-->
- 
-<!-- Our unnamed main ui-view for this template 
+
+<!-- Our unnamed main ui-view for this template
 <div ui-view class="span9" ng-animate="{enter:'fade-enter'}"></div>-->
