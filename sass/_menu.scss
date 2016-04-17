@@ -3,10 +3,10 @@
 
 header.hero.dinner{
   @media #{$desk} {
-     background-image: url(../img/eden-main-large-dinner.jpg);
+     background-image: url(../img/eden-dinner-2016.jpg);
   }
   @media #{$phone} {
-     background-image: url(../img/eden-main-small-dinner.jpg);
+     background-image: url(../img/eden-dinner-2016-small.jpg);
   }
 }
 
@@ -119,10 +119,11 @@ header.hero.brunch{
 .menu{
   section{
     h2{
-      font-size: 2em;
+      font-size: 3em;
       font-weight: 300;
       border-bottom: 1px solid black;
-      padding-bottom: .8em;
+      padding-bottom: 1em;
+      padding-top: 5%;
     }
     > h3{
       font-size: 1.2em;
@@ -132,6 +133,7 @@ header.hero.brunch{
       line-height: 1.4em;
       border-bottom: 1px solid black;
       padding-bottom: 1em;
+      padding-top: 2em
     }
     h5{
       font-size: 1.2em;
@@ -169,10 +171,10 @@ header.hero.brunch{
       }
       h3{
         font-weight: 700;
-        font-size: 1.4em;
+        font-size: 1.2em;
         text-transform: uppercase;
         padding-right: 15%;
-        padding-top: 1em;
+        padding-top: 2em;
         line-height: 1.2em;
         border-top: 1px dashed black;
       }
@@ -185,7 +187,7 @@ header.hero.brunch{
         position: absolute;
         right: 0;
         font-weight: 300;
-        top: .6em;
+        top: 1.2em;
         font-size: 1.8em;
       }
       .pricelist{
@@ -197,9 +199,10 @@ header.hero.brunch{
       }
       p{
         font-weight: 300;
-        line-height: 1.6em;
-        font-size: 1.2em;
-        padding-top: .4em;
+        line-height: 1.8em;
+        font-size: 1.1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
       }
     }
   }
@@ -209,29 +212,29 @@ header.hero.brunch{
 .menu{
   section{
     width: 50%;
-    padding: 5%;
+    padding: 10%;
     display: inline-block;
     vertical-align: top;
     &:nth-child(even){
-      padding-left: 2.5%;
+      padding-left: 5%;
     }
     &:nth-child(odd){
-      padding-right: 2.5%;
+      padding-right: 5%;
     }
     &.hot_main, &.end{
       width: 100%;
-      padding: 5%;
+      padding: 10%;
       padding-top: 0;
 
       li{
-        width: 47.5%;
-        margin-top: 2.5%;
+        width: 44%;
+        margin-top: 5%;
 
         &:nth-child(even){
-          margin-left: 2.5%;
+          margin-left: 5%;
         }
         &:nth-child(odd){
-          margin-right: 2.5%;
+          margin-right: 5%;
         }
         &:nth-child(1), &:nth-child(2) {
            margin-top: 0;

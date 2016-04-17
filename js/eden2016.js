@@ -290,7 +290,7 @@ ngEden.config(['$urlRouterProvider', '$stateProvider', '$locationProvider', func
 }]);
 
 ngEden.factory('menu', ['$http', function ($http, utils) {
-  var path = 'js/data/menu.json';
+  var path = 'js/data/menu2016.json';
   var menu = $http.get(path).then(function (resp) {
     return resp.data.menu;
   });

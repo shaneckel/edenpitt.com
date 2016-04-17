@@ -2,7 +2,7 @@
   <header class="hero dinner">
     <h1>{{menu.meta.header}}</h1>
     <h2>{{menu.meta.title}}</h2>
-    <p><span>Banana Cream Cake.</p>
+    <p><span>Sweet Pepper Ravioli & Rainbow Super Bowl.</p>
 
   </header>
 
@@ -13,22 +13,19 @@
         <li ng-repeat="item in section.items">
           <h3>{{item.title}}</h3>
           <span class="price" ng-if="item.price">${{item.price}}</span>
-          <span class="price pricelist" ng-if="item.pricelist">sml ${{item.pricelist.small}} / lrg ${{item.pricelist.large}}</span>
+          <span class="price pricelist" ng-if="item.pricelist">  $3 / $9</span>
           <p>{{item.descript}}</p>
         </li>
       </ul>
       <aside ng-if="section.class == 'start'">
-        <h5>Gratuity will be added to parties of 5 or more.</h5>
         <h5>Cork fee is $1 per glass</h5>
       </aside>
       <aside ng-if="section.class == 'raw_main'">
         <h5>raw dishes only use pink himalayan salt.</h5>
-        <h5>We can split your check up to 4 separate ways.
       </aside>
       <aside ng-if="section.class == 'hot_main'">
-        <h5>Add organic tempeh or tofu $2  / Add organic chicken $3.5</h5>
-        <h5>WE ONLY USE COLD PRESSED EXTRA VIRGIN OLIVE OIL, FRESH GROUND PEPPER, AND SEA SALT.</h5>
-        <h5>WE ARE VERY SENSITIVE TO YOUR ALLERGIES. LET US KNOW AND WE WILL DO OUR VERY BEST TO ACCOMMODATE.</h5>
+        <h5>All super bowls come with your choice of quinoa or brown rice.</h5>
+        <!-- <h5>WE ARE VERY SENSITIVE TO YOUR ALLERGIES. LET US KNOW AND WE WILL DO OUR VERY BEST TO ACCOMMODATE.</h5> -->
       </aside>
       <aside ng-if="section.class == 'end'">
         <h5>in our raw desserts we use only wild bourbon vanilla bean powder and dates.</h5>

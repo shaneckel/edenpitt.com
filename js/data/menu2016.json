@@ -2,102 +2,103 @@
   "menu": {
     "meta": {
       "header": "Dinner Menu.",
-      "title": "Winter Season 2016"
+      "title": "Summer / Spring 2016"
     },
     "config": {
       "season": "",
       "descript": ""
     },
     "menulist": [{
-      "title": "raw vegan appetizers",
+      "title": "vegan appetizers",
       "class": "start",
       "descript": "our raw vegan starters",
       "items": [{
-        "title": "Nut Cheese Sampler ",
-        "descript": "Cashew brie, smoked pecan asiago, and walnut cheddar. Served with assorted sliced vegetables, pumpkin seed crackers, mustard cream, and apricot chutney with dates and sage.",
-        "price": "16"
+        "title": "Cheese Plate",
+        "descript": "Cashew brie, smoked pecan asiago, and walnut cheddar served with assorted sliced vegetables, pumpkin seed crackers, mustard cream, and an apricot, date, and sage chutney.",
+        "price": "14"
       }, {
-        "title": "Oyster Mushroom and Avocado Nori Rolls",
-        "descript": "With coconut, cashew, and cauliflower rice, wrapped in untoasted nori paper. Served with a horseradish cream and coconut amino dipping sauce.",
-        "price": "9"
+        "title": "Fresh Tomato Flatbread",
+        "descript": "A crispy flax and carrot crust topped with a basil and walnut pesto, almond ricotta, and fresh tomato.",
+        "price": "10"
       }, {
-        "title": "Zucchini Summer Rolls",
-        "descript": "Thinly sliced zucchini filled with carrot, cucumber, kelp noodles, basil, and shiitake mushrooms. Served with a sweet and sour dipping sauce.",
-        "price": "8"
+        "title": "Snow Pea Salad",
+        "descript": "With carrots, cucumber, red cabbage, kelp noodles, and fresh basil. Tossed in a lime and sesame dressing.",
+        "price": "6"
       }, {
-        "title": "Smoked Beet and Walnut Pate",
-        "descript": "Served on sliced carrots and topped with red grapes and local honey.*",
+        "title": "Avocado Maki Roll",
+        "descript": "Nori, cashew and cauliflower rice, and fresh avocado. Served with a coconut amino and red chili sauce.",
         "price": "7"
+      }, {
+        "title": "Sweet Pepper Ravioli",
+        "descript": "Zucchini pasta filled with cashew & red pepper cheese. Topped with a sweet pepper and sundried tomato sauce.",
+        "price": "8"
       }]
     }, {
-      "title": "raw vegan entrees",
+      "title": "vegan entrees",
       "class": "raw_main",
       "items": [{
-        "title": "Enchiladas",
-        "descript": "Red pepper and flax tortillas filled with spiced walnut “meat”, avocado, spinach, chopped tomato, and almond cheese. Topped with a cacao and ancho chile sauce.",
+        "title": "Thai Style Mung Bean and Edamame Noodles",
+        "descript": "Thinly sliced carrots, zucchini, snow peas, basil, mint, spinach, and broccoli. In a sweet and spicy sauce and topped with crushed pepitas and sesame seeds.",
         "price": "16"
       }, {
-        "title": "Zucchini Parsnip and Turnip Fettuccine",
-        "descript": "Served in a sundried tomato marinara sauce with pumpkin seed and portobello mushroom meatballs. Topped with cashew parmesan and black pepper.",
+        "title": "Wild Mushroom Flatbread",
+        "descript": "Topped with an herb and pumpkin seed pesto, semi dehydrated mushrooms, white truffle-infused extra virgin olive oil, cashew and almond cheese, and fresh spinach.",
         "price": "16"
       }, {
-        "title": "Avocado Curry",
-        "descript": "Avocado, cucumber, red pepper, and chopped spinach in a cashew curry sauce. Served with beet, carrot, and coconut rice seasoned with paprika and Jamaican allspice. Topped with a cilantro and green pea chutney.",
+        "title": "Triple Layer Lasagna",
+        "descript": "Flax noodles filled with almond ricotta, thinly sliced zucchini, walnut and basil pesto, and a sundried tomato sauce. Topped with cashew parmesan.",
+        "price": "16"
+      }, {
+        "title": "Tomato Tart Trio",
+        "descript": "Three almond and chia seed crusts filled with cashew cheese and three varied tomato chutneys: Sungold tomato, carrot, and curry spices; Green zebra tomato, spinach, and white pepper; and Beefsteak/heart tomato, ancho chili, and allspice.",
         "price": "16"
       }]
     }, {
-      "title": "100% gluten free cooked entrees",
+      "title": "Super Bowls",
       "class": "hot_main",
       "items": [{
-        "title": "Peanut Butter Broccoli ",
+        "title": "Mushroom Heaven Bowl",
         "descript": "Broccoli, brussel sprouts, kale, and thinly sliced jalapenos simmered in a savory ginger peanut sauce. Served with brown rice and topped with toasted peanuts.",
         "price": "13"
       }, {
-        "title": "Vermicelli Mushroom Bowl",
+        "title": "Green Garden Bowl",
         "descript": "Rice noodles cooked in a ginger and miso broth with assorted mushrooms, potatoes, carrots, green onions, and seaweed. Topped with fresh greens.",
         "price": "13"
       }, {
-        "title": "Cashew Dumplings",
+        "title": "Health Nut Bowl",
         "descript": "Gluten free dumplings stuffed with cashew, turnip, and red cabbage. Simmered in a red pepper and coconut broth and served over thinly sliced zucchini and spinach.",
         "price": "14"
       }, {
-        "title": "Three Potato Stew",
+        "title": "Rainbow Bowl",
         "descript": "Golden, red, and blue potatoes, kale, carrots, and butternut squash simmered in a carrot-infused pumpkin seed milk with fresh rosemary and thyme. Served with brown rice.",
         "price": "14"
-      }, {
-        "title": "Chopped Kale Salad",
-        "descript": "With sliced brussel sprouts, avocado, cucumber, pumpkin seeds, and arugula. Tossed in a spinach and lemon vinaigrette.",
-        "pricelist": {
-          "large": "13",
-          "small": "9"
-        }
-      }, {
-        "title": "Green Lentil And Spinach Salad",
-        "descript": "With cherry tomatoes, red pepper, carrots, raw walnuts and brown rice. Tossed in a balsamic and roasted garlic dressing.",
-        "pricelist": {
-          "large": "13",
-          "small": "9"
-        }
       }]
     }, {
       "title": "raw vegan desserts",
       "class": "end",
       "items": [{
-        "title": "Sorbet",
-        "descript": "Strawberry, grapefruit, and hibiscus sorbet topped with local honey.*",
-        "price": "5"
+        "title": "Ginger Peach Cheesecake",
+        "descript": "Cashew-based cheesecake with a walnut and coconut crust. Topped with chai spice-infused agave.",
+        "price": "9"
       }, {
-        "title": "Tiramisu",
-        "descript": "A raw version of the traditional dessert with almond ladyfingers, chocolate cream, cold pressed coffee, coconut cream, and vanilla-infused coffee sauce.",
+        "title": "Chocolate Avocado Mousse",
+        "descript": "Served with a pecan and cacao brownie, vanilla cream, and fresh berries.",
+        "price": "9"
+      }, {
+        "title": "Matcha Tea a Coconut Layer Cake",
+        "descript": "Served with fresh pineapple chutney.",
         "price": "10"
       }, {
-        "title": "Banana Cream Cake",
-        "descript": "Cinnamon and hazelnut spice cake filled with banana cream, topped with fresh bananas and mango sauce. Served with persimmon ice cream.",
-        "price": "10"
-      }, {
-        "title": "Black Cherry Mousse",
-        "descript": "With lemon shortbread, vanilla cream, and fresh blackberries.",
+        "title": "Lemon Cream Pie",
+        "descript": "Lemony cashew cream filling on a coconut crust and garnished with lemon peel candied in coconut sugar.",
         "price": "8"
+      }, {
+        "title": "Sorbet Trio",
+        "descript": "Chocolate almond ice cream, blackberry hibiscus sorbet, and strawberry rose ice cream.",
+        "pricelist": {
+          "scoop": "3",
+          "trio": "9"
+        }
       }]
     }]
   }
