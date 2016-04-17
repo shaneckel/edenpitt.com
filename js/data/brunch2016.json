@@ -1,0 +1,105 @@
+{
+  "menu": {
+    "meta": {
+      "header": "Brunch Menu.",
+      "title": "Featuring our 2016 menu."
+    },
+    "config": {
+      "season": "Winter"
+    },
+    "menulist": [{
+      "title": "Vegan",
+      "class": "raw",
+      "items": [{
+        "title": "Eden’s Waffle",
+        "descript": "Made with a special gluten free and vegan batter recipe. Topped with your choice of: chocolate chips, bananas, strawberries, peanut butter, almond butter, bee pollen, raw honey, walnuts, coconut, and pumpkin seeds. Served with cashew & coconut butter and maple syrup.",
+        "price": "11"
+      }, {
+        "title": "Cinnamon & Blueberry Chickpea Bread",
+        "descript": "Served with blueberry preserves, house-made almond yogurt, fresh strawberries, and banana.",
+        "price": "10"
+      }, {
+        "title": "Green Salad",
+        "descript": "Assorted field greens, spinach, arugula, chopped kale, wakame seaweed, untoasted nori and avocado. Topped with walnuts and almonds and served with flax bread and a spinach and lemon vinaigrette.",
+        "price": "10"
+      }, {
+        "title": "Coconut & Chickpea Burger",
+        "descript": "Served on a gluten free and vegan bun with cashew based, garlic aioli, lettuce, avocado, and tomato. Served with a side salad or fresh pineapple.",
+        "price": "13"
+      }, {
+        "title": "Falafel Lettuce Wraps",
+        "descript": "Pan-fried falafel, pumpkin seed and chickpea hummus, pickled vegetables, and cashew cucumber tzatziki sauce. Served with a side salad or fresh pineapple.",
+        "price": "12"
+      }, {
+        "title": "Tofu Scramble",
+        "descript": "Sauteed in a tomato based bbq sauce. With black beans, spinach, green peppers, and portobello mushrooms. Topped with cashew sour cream. With corn tortillas and avocado. Served with a side salad or fresh pineapple.",
+        "price": "11"
+      }, {
+        "title": "Cheesy Vegetable Wrap",
+        "descript": "Flax and carrot wrap. Filled with shredded broccoli, carrot, spinach, tomato, avocado, and zucchini. Smothered in a raw vegan cheese sauce. Served with fresh fruit and a garden salad.",
+        "price": "15"
+      }, {
+        "title": "Garden Salad",
+        "descript": "Field greens, spinach, kale, tomato, carrots, cucumber, avocado, pumpkin seeds and cashew cheese. Comes with flax bread and a spinach lemon dressing.",
+        "price": "12"
+      }]
+    }, {
+      "title": "Eggs",
+      "class": "sweet",
+      "items": [{
+        "title": "Brie-Stuffed Strawberry French Toast",
+        "descript": "Made with gluten free bread and spiced with nutmeg, cardamom, and orange zest. Served with cashew & coconut butter, strawberry preserves, and fresh strawberries.",
+        "price": "13"
+      }, {
+        "title": "Vegetable Omelette",
+        "descript": "Three eggs filled with zucchini, broccoli, spinach and cheddar cheese. Comes with gluten free toast. Also served with a side salad or fresh pineapple.",
+        "price": "12"
+
+      }, {
+        "title": "Curry Eggs",
+        "descript": "Three eggs scrambled with goat cheese, curry spice and spinach. Comes with gluten free toast. Also served with a side salad or fresh pineapple.",
+        "price": "12"
+      }, {
+        "title": "Egg Sandwich",
+        "descript": "Served on gluten free bread, with sauteed spinach, avocado, tomato and brie cheese. Served with a side salad or fresh pineapple.",
+        "price": "11"
+      }]
+    }, {
+      "title": "Sides",
+      "class": "sides",
+      "items": [{
+        "title": "House made Pecan Granola",
+        "descript": "Made with maple syrup, pecans, olive oil and gluten free oats. Topped with fresh strawberries and bananas and served on your choice of Greek yogurt or soy yogurt.",
+        "price": "6"
+      }, {
+        "title": "Mushroom & Almond Sausage",
+        "descript": "Made with portobello mushrooms, fennel seed and almond meal.",
+        "price": "4"
+      }, {
+        "title": "Vanilla Chia Seed Pudding",
+        "descript": "Made with coconut milk, served with fresh strawberries.",
+        "price": "6"
+      }, {
+        "title": "Tempeh Bacon",
+        "descript": "Thick cut tempeh marinated in maple syrup, smoked salt and paprika.",
+        "price": "4"
+      }]
+    }, {
+      "title": "add-ons",
+      "class": "addons",
+      "items": [{
+        "title": "cheese",
+        "price": "1.5"
+      }, {
+        "title": "egg",
+        "price": "1.5"
+      }, {
+        "title": "fruit",
+        "price": "3.5"
+      }, {
+        "title": "salad",
+        "price": "3.5"
+      }]
+    }]
+  }
+}

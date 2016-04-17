@@ -11,7 +11,7 @@ header.top{
   width: 100%;
   z-index:25;
   height: 12em;
-  pointer-events: none; 
+  pointer-events: none;
 
   nav{
     transition: $normal;
@@ -24,18 +24,18 @@ header.top{
     width: 100%;
     align-items: center;
     width: 100%;
-    pointer-events: none; 
+    pointer-events: none;
     a{
-      pointer-events: auto; 
+      pointer-events: auto;
       transition: $normal;
       -webkit-transform: translateZ(0);
       display: block;
       @include flex(1);
-      font-weight: bold; 
-      text-decoration: none; 
+      font-weight: bold;
+      text-decoration: none;
       color: white;
       text-align: center;
-      font-weight: 600; 
+      font-weight: 600;
       position: relative;
       text-shadow: 0 0 1px rgba(51,51,51,0.4);
       top: 0em;
@@ -51,22 +51,22 @@ header.top{
 
       &.logo:after{
         background: url(../img/shade.png) no-repeat;
-        content: ""; 
+        content: "";
         width: 100%;
         height: 7em;
         position: absolute;
         top: -1.5em;
-        left: 0; 
+        left: 0;
         display: inline-block;
-        background-position: center center; 
+        background-position: center center;
         background-size: 100% 100%;
         z-index: -5;
         opacity: 1;
-      }      
+      }
       &.logo:before{
         transition: $normal;
         background: black;
-        content: ""; 
+        content: "";
         width: 0em;
         height: 0em;
         position: absolute;
@@ -76,7 +76,7 @@ header.top{
         opacity: .3;
         top: 1.6em;
         left: 50%;
-      }  
+      }
 
       &:after{
         transition: $normal;
@@ -139,12 +139,12 @@ header.top{
 }
 
 .deskbreak header.top .togglebutton-animation {
-  display: none; 
+  display: none;
 }
 
 .phonebreak header.top .togglebutton-animation {
   display: block;
-  pointer-events: auto; 
+  pointer-events: auto;
 }
 
 @media #{$phone} {
@@ -161,7 +161,7 @@ header.top{
         display:block;
         width: 60%;
         display: inline-block;
-        padding: .3em 0%;
+        padding: .2em 0%;
         &.logo{
           position: absolute;
           left: .5em;
@@ -179,13 +179,13 @@ header.top{
         &.logo:after{
           background: none;
           display: none;
-        }      
+        }
         &.logo:before{
           top: 2em;
-          width: 0.1em; 
+          width: 0.1em;
           height: 0.1em;
           opacity: 0;
-        }  
+        }
       }
       &.expose-animation{
         transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -215,17 +215,23 @@ header.top{
       height: 12em;
       nav{
         height: 2.2em;
+        a{
+          padding: 1.75em 0%;
+          &.logo{
+            padding: 0
+          }
+        }
       }
       &:before{
         height: 10.2em;
         margin-top: .5em;
       }
       &:after{
-        height: 10.2em;
+        height: 30.5em;
         margin-top: .5em;
         opacity: .6;
 
-      } 
+      }
     }
   }
 
@@ -265,7 +271,7 @@ header.top nav a{ // SELECT
 }
 
 @media #{$phone} {
-  header.top nav a{ 
+  header.top nav a{
     position: relative;
     &.active{
       font-style: italic;
@@ -277,9 +283,9 @@ header.top nav a{ // SELECT
   }
 }
 
-header.top.min{ // MIN FIXED 
+header.top.min{ // MIN FIXED
   height: 12em;
-  nav{  
+  nav{
     height: 2.2em;
     padding-top: 0em;
 
@@ -304,14 +310,14 @@ header.top.min{ // MIN FIXED
     a.logo:after{
       height: 6em;
       opacity: 0;
-    }    
+    }
     a.logo:before{
       opacity: 1 ;
       background: $edenred;
       top: -.3em;
       width: 3em;
       height: 3em;
-      left: -9000%; // IF no calc just get rid of this shit. 
+      left: -9000%; // IF no calc just get rid of this shit.
       left: -webkit-calc(50% - 1.5em);
       left: -moz-calc(50% - 1.5em);
       left: -ms-calc(50% - 1.3em);
@@ -319,10 +325,10 @@ header.top.min{ // MIN FIXED
       left: calc(50% - 1.5em);
     }
 
-  }    
+  }
   .togglebutton-animation {
     top: -0.1em;
-    pointer-events: auto; 
+    pointer-events: auto;
   }
   &:before{
     opacity: 0;
@@ -334,21 +340,21 @@ header.top.min{ // MIN FIXED
     background: $edenred;
     margin-top: -.2em;
     height: 3.4em;
-  }  
+  }
   &.disabled{
     height: 12em;
 
     &:after{
       height: 3.2em;
       margin-top: 0em;
-    } 
+    }
   }
 }
 
 @media #{$phone} {
-  header.top.min{ // MIN FIXED 
+  header.top.min{ // MIN FIXED
     height: 12em;
-    nav{  
+    nav{
       height: 2.1em;
       a.active{
         font-style: italic;
@@ -364,11 +370,11 @@ header.top.min{ // MIN FIXED
         width: 1.8em;
         height: 1.8em;
         top: .2em;
-      } 
+      }
       a.logo:before{
         top: -.2em;
         width: 2.6em;
-        height: 2.6em; 
+        height: 2.6em;
         left: -0.4em;
         left: -moz-calc(50% - 1.3em);
         left: -ms-calc(50% - 1.3em);
@@ -389,15 +395,15 @@ header.top.min{ // MIN FIXED
     }
     &.disabled{
       height: 12em;
-   
+
       &:after{
-        height: 9.8em;
+        height: 30em;
         margin-top: 0em;
-      }       
+      }
       &:before{
-        height: 9.8em;
+        height: 30em;
         margin-top: 0em;
-      } 
+      }
     }
   }
 }
@@ -415,7 +421,7 @@ footer.bot{
     font-weight: 300;
   }
   h1{
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 1.4em;
     border-bottom: 1px solid white;
     color: white;
@@ -487,7 +493,7 @@ footer.bot{
 
 .ie9crap{
   nav{
-    width: 100%; 
+    width: 100%;
     a{
       display: inline;
       width: 20%;

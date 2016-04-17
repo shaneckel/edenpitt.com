@@ -3,10 +3,10 @@
 
 header.hero.home{
   @media #{$desk} {
-    background-image: url(../img/eden-main-large-drinks.jpg);
+    background-image: url(../img/eden-main-large.jpg);
   }
   @media #{$phone} {
-    background-image: url(../img/eden-main-small-drinks.jpg);
+    background-image: url(../img/eden-main-small.jpg);
   }
   padding-left: 10%;
   padding: 15% 10%;
@@ -40,7 +40,7 @@ header.hero.home{
     @media #{$phone} {
       line-height: 1.6em;
       span{
-        display: none; 
+        display: none;
       }
       &:after{
         content: "";
@@ -57,16 +57,16 @@ header.hero.home{
 
 header.hero.about{
   @media #{$desk} {
-    background-image: url(../img/eden-about-large.jpg);
+    background-image: url(../img/eden-main-full-table.jpg);
   }
   @media #{$phone} {
-    background-image: url(../img/eden-about-small.jpg);
+    background-image: url(../img/eden-main-small-table.jpg);
   }
   padding: 15% 10%;
 }
 
 header.hero.contact{
-  
+
   @media #{$desk} {
     background-image: url(../img/eden-contact-large.jpg);
   }
@@ -84,7 +84,7 @@ section.cookies{
   }
   background-size: 100% auto;
   background-size: cover;
-  padding: 30% 10% 5%; 
+  padding: 30% 10% 5%;
   h1{
     font-size: 4.2vw;
     padding-bottom: .25em;
@@ -94,7 +94,7 @@ section.cookies{
     font-size: 2em;
     line-height: 1.6em;
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 300; 
+    font-weight: 300;
     font-style: normal;
     text-shadow: 1px 1px 6px rgba(41, 41, 41, 0.7);
     a{
@@ -142,9 +142,9 @@ section.location{
       color: $edenred;
     }
   }
-} 
+}
 section.about{
-  padding: 10%; 
+  padding: 10%;
   h1{
     font-size: 2.6em;
     border-bottom: 1px solid #666;
@@ -166,20 +166,20 @@ section.about{
   }
   blockquote{
     border-left: 1px solid $edenred;
-    padding: 0 5%; 
+    padding: 0 5%;
     font-weight: 300;
     font-style: italic;
     font-size: 1.6em;
     line-height: 1.8em;
-    margin-bottom: 5%; 
+    margin-bottom: 5%;
   }
   h2{
-    padding: 5% 0; 
+    padding: 5% 0;
     font-weight: 400;
     font-size: 1.6em;
     line-height: 1.5em;
   }
-  ul{ 
+  ul{
     border-left: 1px solid $edenred;
     margin-bottom: 5%;
     padding-left: 5%;
@@ -201,7 +201,7 @@ section.about{
 section.hours{
   background-size: 100% auto;
   background-size: cover;
-  padding: 10% 10%;  
+  padding: 10% 10%;
   p{
     font-size: 1.6em;
     line-height: 1.5em;
@@ -241,7 +241,7 @@ section.hours{
         font-weight: 600;
         border-bottom: 1px solid #666;
         margin-bottom: .2em;
-        padding-bottom: .2em; 
+        padding-bottom: .2em;
       }
       h3{
         font-size: 1.8em;
@@ -256,7 +256,7 @@ section.hours{
       h2{
         font-size: .6em;
         text-align: center;
-        text-transform: uppercase;        
+        text-transform: uppercase;
       }
       span{
         width: 3.5em;
@@ -274,7 +274,7 @@ section.hours{
     }
   }
 }
- 
+
 @media #{$phone} {
   section.location{
     padding-top: 20%;
@@ -296,7 +296,7 @@ section.hours{
         background: $edenred;
         padding: 5px 0;
         margin-top: 1em;
-      }    
+      }
     }
   }
   header.hero.home h1{
@@ -313,7 +313,7 @@ section.hours{
   }
 
   section.cookies{
-    padding: 30% 5% 5%; 
+    padding: 30% 5% 5%;
     h1{
       font-size: 2.3em;
     }
@@ -337,12 +337,12 @@ section.hours{
     > h2{
       font-size: 1.2em;
       white-space: normal;
-    }   
+    }
     ul{
       display: inline-block;
-      height: 100%; 
+      height: 100%;
       margin: 0 0 1em 0;
-      width: 50%; 
+      width: 50%;
 
       &:first-of-type{
         padding-right: 5%;
@@ -350,7 +350,7 @@ section.hours{
       &:last-of-type{
         padding-left: 5%;
       }
-      
+
       aside{
         border-bottom: 1px solid;
         padding-bottom: .5em;
@@ -361,7 +361,7 @@ section.hours{
           margin: 0;
           font-size: 1.5em;
           font-weight: 600;
-          border: 0; 
+          border: 0;
         }
         h3{
           font-size: 1.5em;
@@ -405,7 +405,7 @@ section.hours{
           }
         }
       }
-    } 
+    }
   }
   section.about{
     padding: 10% 5%;
@@ -433,7 +433,7 @@ section.hours{
       line-height: 1.3em;
     }
   }
-}   
+}
 
 section.thefall{
   $black: #84A0A0;
@@ -458,7 +458,7 @@ section.thefall{
   a{
     color: #EFFDFF;
     border-bottom: 1px solid #EFFDFF;
- 
+
   }
   h2{
     text-transform: uppercase;
@@ -482,11 +482,11 @@ section.thefall{
       position: relative;
       &:nth-child(3){
         margin-left: -.03em;
-        margin-right: .2em;    
-      }    
+        margin-right: .2em;
+      }
       &:nth-child(5){
         margin-left: -.1em;
-      }    
+      }
       &:nth-child(6){
         margin-left: -.01em;
       }
