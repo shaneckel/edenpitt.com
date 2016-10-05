@@ -1,0 +1,90 @@
+{
+  "menu": {
+    "meta": {
+      "header": "Dinner Menu.",
+      "title": "Fall / Winter 2017"
+    },
+    "config": {
+      "season": "",
+      "descript": ""
+    },
+    "menulist": [{
+      "title": "Appetizers",
+      "class": "start",
+      "descript": "our raw vegan starters",
+      "items": [{
+        "title": "Cashew Cheese Plate",
+        "descript": "With melon, local honey, fig jam, and seed crackers.",
+        "price": "10"
+      }, {
+        "title": "Beet and Walnut Tartare",
+        "descript": "Served with turmeric cream, lettuce, pickles, and flax crisps.",
+        "price": "9"
+      }, {
+        "title": "Stuffed Cucumber",
+        "descript": "English cucumber stuffed with almond and dill cheese, topped with an apple and lemon vinaigrette.",
+        "price": "7"
+      }, {
+        "title": "Brussel Sprout Salad",
+        "descript": "Shredded brussel sprouts, pecans, apples, and dried blueberries tossed in a creamy, Jamaican allspice dressing.",
+        "price": "7"
+      }]
+    }, {
+      "title": "Main Raw",
+      "class": "raw_main",
+      "items": [{
+        "title": "Chili Marinated Vegetable Burrito",
+        "descript": "Flax and carrot tortilla stuffed with chili marinated veggies, avocado, cashew cheese, and spinach. Served with pico de gallo, sour cream, and cauliflower/coconut rice.",
+        "price": "17"
+      }, {
+        "title": "Mushroom Burger",
+        "descript": "Coconut, flax, and sesame seed bun, mushroom and pumpkin seed burger, cashew cheese, red onion, pickles and brazil nut mayo. Served with a garden salad.",
+        "price": "17"
+      }]
+    }, {
+      "title": "Main Cooked",
+      "class": "hot_main",
+      "items": [{
+        "title": "Pumpkin Curry",
+        "descript": "Potato, chickpeas, red peppers, carrots and roasted pumpkin all cooked in a coconut based curry sauce. Served with Brown rice.",
+        "price": "16"
+      }, {
+        "title": "Peanut Noodles",
+        "descript": "Flat Rice noodles, spinach, celery and broccoli cooked in a slightly sweet and spicy peanut sauce. Topped with crushed peanuts.",
+        "price": "15"
+      }, {
+        "title": "Black Bean and Pepper Stew",
+        "descript": "Black Beans, tomatoes, and peppers cooked in a chocolate and ancho pepper sauce. Served with brown rice, cashew sour cream and fresh avocado.",
+        "price": "15"
+      }, {
+        "title": "Cheesy Penne",
+        "descript": "Brown rice penne, zucchini, spinach and broccoli simmered in a cashew and coconut sauce. Topped with cashew parmesan.",
+        "price": "16"
+      }, {
+        "title": "Kale Salad",
+        "descript": "Kale, spinach, carrots, kelp noodles, red cabbage, beets, pumpkin seeds and avocado. Tossed in a roasted red pepper and sundried tomato vinaigrette.",
+        "price": "14"
+      }]
+    }, {
+      "title": "Desserts",
+      "class": "end",
+      "items": [{
+        "title": "Pumpkin Pie",
+        "descript": "Served with cashew cream.",
+        "price": "9"
+      }, {
+        "title": "Chocolate Pecan Torte",
+        "descript": "Served with black cherry sauce.",
+        "price": "9"
+      }, {
+        "title": "Cinnamon and Apple Chia Pudding",
+        "descript": "Made with pumpkin seed milk, topped with marinated apples.",
+        "price": "8"
+      }, {
+        "title": "Gingerbread Cake",
+        "descript": "Iced with vanilla cashew cream and topped with raspberry sauce.",
+        "price": "9"
+      }]
+    }]
+  }
+}

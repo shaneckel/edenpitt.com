@@ -34,8 +34,8 @@ header.hero.home{
       display: inline-block;
     }
     a{
+      color: white;
       font-weight: 600;
-
     }
     @media #{$phone} {
       line-height: 1.6em;
@@ -48,7 +48,8 @@ header.hero.home{
       }
       a{
         display: inline-block;
-        border: 2px solid;
+        border: 2px solid white;
+        color: white;
         padding:.4em  .9em ;
       }
     }
